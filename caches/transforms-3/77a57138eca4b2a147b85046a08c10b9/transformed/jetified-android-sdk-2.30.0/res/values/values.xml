@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amp_blue">#005488</color>
+    <color name="amp_dark_blue">#0C2A4B</color>
+    <color name="amp_gray">#60758B</color>
+    <color name="amp_light_gray">#E5E5E5</color>
+    <color name="amp_light_gray_2">#C6D0D9</color>
+    <color name="amp_transparent">#00000000</color>
+    <string name="amp_label_copied">Copied To Clipboard</string>
+    <string name="amp_label_copy">Copy</string>
+    <string name="amp_label_device_id">DEVICE ID</string>
+    <string name="amp_label_not_avail">N/A</string>
+    <string name="amp_label_user_id">USER ID</string>
+    <string name="amp_label_user_info">User Information</string>
+</resources>
