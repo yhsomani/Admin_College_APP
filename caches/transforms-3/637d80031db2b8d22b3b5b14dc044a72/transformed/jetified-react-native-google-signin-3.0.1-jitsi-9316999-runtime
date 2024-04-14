@@ -1,0 +1,16 @@
+co.apptailor.googlesignin.BuildConfig
+co.apptailor.googlesignin.PendingAuthRecovery
+co.apptailor.googlesignin.PromiseWrapper
+co.apptailor.googlesignin.RNGoogleSigninButtonViewManager
+co.apptailor.googlesignin.RNGoogleSigninButtonViewManager$1
+co.apptailor.googlesignin.RNGoogleSigninModule
+co.apptailor.googlesignin.RNGoogleSigninModule$1
+co.apptailor.googlesignin.RNGoogleSigninModule$1$1
+co.apptailor.googlesignin.RNGoogleSigninModule$2
+co.apptailor.googlesignin.RNGoogleSigninModule$3
+co.apptailor.googlesignin.RNGoogleSigninModule$4
+co.apptailor.googlesignin.RNGoogleSigninModule$AccessTokenRetrievalTask
+co.apptailor.googlesignin.RNGoogleSigninModule$RNGoogleSigninActivityEventListener
+co.apptailor.googlesignin.RNGoogleSigninModule$TokenClearingTask
+co.apptailor.googlesignin.RNGoogleSigninPackage
+co.apptailor.googlesignin.Utils

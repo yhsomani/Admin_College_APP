@@ -1,0 +1,13 @@
+com.android.vending.expansion.zipfile.APEZProvider
+com.android.vending.expansion.zipfile.APKExpansionSupport
+com.android.vending.expansion.zipfile.ZipResourceFile
+com.android.vending.expansion.zipfile.ZipResourceFile$ZipEntryRO
+com.brentvatne.react.BuildConfig
+com.brentvatne.react.ReactVideoPackage
+com.brentvatne.react.ReactVideoView
+com.brentvatne.react.ReactVideoView$1
+com.brentvatne.react.ReactVideoView$2
+com.brentvatne.react.ReactVideoView$3
+com.brentvatne.react.ReactVideoView$Events
+com.brentvatne.react.ReactVideoView$TimedMetaDataAvailableListener
+com.brentvatne.react.ReactVideoViewManager
