@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright © 2018-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/pspdf__document_info_group_margin_top"
+    android:paddingBottom="@dimen/pspdf__document_info_group_margin_bottom"
+    android:paddingStart="@dimen/pspdf__document_info_group_margin_start"
+    android:paddingEnd="@dimen/pspdf__document_info_group_margin_end">
+
+    <TextView
+        android:id="@+id/pspdf__document_info_group_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pspdf__document_info_group_title_margin_bottom"
+        android:textSize="@dimen/pspdf__document_info_group_title_text_size"
+        android:textColor="@color/pspdf__document_info_group_title_text_color"
+        android:fontFamily="serif-medium"
+        tools:text="Document title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pspdf__document_info_group_icon"
+            android:layout_width="@dimen/pspdf__document_info_group_icon_size"
+            android:layout_height="@dimen/pspdf__document_info_group_icon_size"
+            android:layout_marginStart="@dimen/pspdf__document_info_group_icon_margin_start"
+            tools:src="@drawable/pspdf__file_icon_paperclip"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/pspdf__document_info_group_content_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/pspdf__document_info_group_content_margin_start"
+            android:divider="@drawable/pspdf__document_info_item_spacing"
+            android:showDividers="middle">
+
+            <!-- This is where the info view items go, added through DocumentInfoAdapter for the given group. -->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

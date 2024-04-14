@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array for teacher categories -->
+    <string-array name="teacher_categories">
+        <item>Select Category</item>
+        <item>Computer Science</item>
+        <item>Mechanical Engineering</item>
+        <item>Information Technology Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>Aerospace Engineering</item>
+        <item>Biomedical Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Industrial Engineering</item>
+        <item>Materials Science</item>
+        <item>Nuclear Engineering</item>
+        <item>Software Engineering</item>
+        <item>Telecommunication Engineering</item>
+    </string-array>
+</resources>
+

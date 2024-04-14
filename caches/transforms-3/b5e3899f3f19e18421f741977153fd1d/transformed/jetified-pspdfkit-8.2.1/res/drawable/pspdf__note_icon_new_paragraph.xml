@@ -1,0 +1,24 @@
+<!--
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportHeight="24.0"
+        android:viewportWidth="24.0">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M14.14,18.73l-2.62,-3.73l-1.52,0l0,7l1.86,0l0,-3.73l2.63,3.73l1.51,0l0,-7l-1.86,0l0,3.73z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M19.86,15L17,15v7h2L19,20.32h0.87c1.84,0 2.92,-1 2.92,-2.68S21.7,15 19.86,15ZM19.43,18.88L19,18.88L19,16.44h0.43c0.88,0 1.29,0.33 1.29,1.2S20.29,18.88 19.42,18.88Z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M4.41,12H14a7,7 0,0 0,7 -7V1.5a0.5,0.5 0,0 0,-0.5 -0.5h-1a0.5,0.5 0,0 0,-0.5 0.5V5a5,5 0,0 1,-5 5H4.41L8.35,6.06a0.5,0.5 0,0 0,0 -0.71l-0.71,-0.71a0.5,0.5 0,0 0,-0.71 0L1.29,10.29a1,1 0,0 0,0 1.41l5.65,5.65a0.5,0.5 0,0 0,0.71 0l0.71,-0.71a0.5,0.5 0,0 0,0 -0.71Z"/>
+</vector>

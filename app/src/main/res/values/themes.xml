@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AdminCollege" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#0277bd</item>
+        <item name="colorPrimaryDark">#004c8c</item>
+        <item name="colorAccent">#0277bd</item>
+    </style>
+
+    <style name="Theme.AdminCollege" parent="Base.Theme.AdminCollege" />
+</resources>
