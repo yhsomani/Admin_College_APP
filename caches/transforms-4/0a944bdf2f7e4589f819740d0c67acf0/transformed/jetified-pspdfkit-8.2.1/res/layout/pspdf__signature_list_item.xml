@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="72dp"
+       tools:gravity="center_vertical"
+       tools:orientation="horizontal"
+       tools:parentTag="android.widget.LinearLayout"
+       tools:weightSum="2">
+
+    <com.pspdfkit.internal.ui.dialog.signatures.SignatureView
+        android:id="@+id/pspdf__signature_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        tools:layout_weight="1"/>
+
+    <!-- We keep a FrameLayout here to allow the chip a max width of 50% while being able to shrink smaller -->
+    <FrameLayout
+        android:id="@+id/pspdf__signer_chip_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="0dp"
+        tools:layout_weight="1">
+
+        <com.pspdfkit.internal.ui.dialog.signatures.SignerChip
+            android:id="@+id/pspdf__signer_chip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|start"
+            android:checked="true"
+            tools:text="Johnny Appleseed"/>
+    </FrameLayout>
+
+</merge>

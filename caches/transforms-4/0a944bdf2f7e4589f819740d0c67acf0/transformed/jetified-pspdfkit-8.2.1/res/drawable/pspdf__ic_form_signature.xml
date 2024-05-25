@@ -1,0 +1,34 @@
+<!--
+  ~   Copyright © 2019-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:pathData="M1.75,7L22.25,7A0.75,0.75 0,0 1,23 7.75L23,16.25A0.75,0.75 0,0 1,22.25 17L1.75,17A0.75,0.75 0,0 1,1 16.25L1,7.75A0.75,0.75 0,0 1,1.75 7z"
+      android:strokeAlpha="0.5"
+      android:fillColor="#000000"
+      android:fillAlpha="0.025"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M1.75,6.5L22.25,6.5A1.25,1.25 0,0 1,23.5 7.75L23.5,16.25A1.25,1.25 0,0 1,22.25 17.5L1.75,17.5A1.25,1.25 0,0 1,0.5 16.25L0.5,7.75A1.25,1.25 0,0 1,1.75 6.5z"
+      android:strokeAlpha="0.25"
+      android:fillColor="#00000000"
+      android:strokeColor="#000000"
+      android:fillAlpha="0.5"/>
+  <path
+      android:pathData="M3,9.9508C5.6063,8.361 8.3695,7.1336 11.24,6.0708C11.3314,6.0243 11.4325,6 11.535,6C11.6375,6 11.7386,6.0243 11.83,6.0708C12.17,6.2708 12.28,6.8908 12.32,7.4208C12.6261,11.4861 11.9575,15.5658 10.37,19.3208C10.1989,19.7961 9.9487,20.239 9.63,20.6308C9.5008,20.7982 9.3217,20.9204 9.1187,20.9797C8.9157,21.039 8.699,21.0324 8.5,20.9608C7.9,20.6808 7.56,19.6808 7.4,18.7708C7.181,17.7788 7.2119,16.7479 7.49,15.7708C7.6914,15.2877 7.9719,14.8416 8.32,14.4508C10.082,12.3101 12.2591,10.548 14.72,9.2708L15.67,12.4408C15.74,12.6808 15.86,12.9608 16.02,12.9408C16.18,12.9208 16.18,12.8108 16.24,12.7108C17.0409,11.1822 17.6585,9.5643 18.08,7.8908"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.25"
+      android:fillColor="#00000000"
+      android:strokeColor="#000000"
+      android:strokeLineCap="round"/>
+</vector>

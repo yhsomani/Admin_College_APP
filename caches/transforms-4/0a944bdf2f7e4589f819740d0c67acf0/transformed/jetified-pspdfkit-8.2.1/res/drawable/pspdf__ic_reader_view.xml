@@ -1,0 +1,31 @@
+<!--
+  ~   Copyright © 2019-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:pathData="M20.5,18.5H3.5C3.2239,18.5 3,18.7239 3,19V20C3,20.2761 3.2239,20.5 3.5,20.5H20.5C20.7761,20.5 21,20.2761 21,20V19C21,18.7239 20.7761,18.5 20.5,18.5Z"
+      android:fillColor="#000000"/>
+  <path
+      android:pathData="M20.5,13.5H3.5C3.2239,13.5 3,13.7239 3,14V15C3,15.2761 3.2239,15.5 3.5,15.5H20.5C20.7761,15.5 21,15.2761 21,15V14C21,13.7239 20.7761,13.5 20.5,13.5Z"
+      android:fillColor="#000000"/>
+  <path
+      android:pathData="M20.5,8.5H12.5C12.2239,8.5 12,8.7239 12,9V10C12,10.2761 12.2239,10.5 12.5,10.5H20.5C20.7761,10.5 21,10.2761 21,10V9C21,8.7239 20.7761,8.5 20.5,8.5Z"
+      android:fillColor="#000000"/>
+  <path
+      android:pathData="M20.5,3.5H12.5C12.2239,3.5 12,3.7239 12,4V5C12,5.2761 12.2239,5.5 12.5,5.5H20.5C20.7761,5.5 21,5.2761 21,5V4C21,3.7239 20.7761,3.5 20.5,3.5Z"
+      android:fillColor="#000000"/>
+  <path
+      android:pathData="M8.0285,9.1923H5.4554L5.0061,10.5H3L5.8566,3.5H7.622L10.5,10.5H8.4832L8.0285,9.1923ZM5.9048,7.8894H7.5792L6.7393,5.4615L5.9048,7.8894Z"
+      android:strokeAlpha="0.75"
+      android:fillColor="#000000"
+      android:fillAlpha="0.75"/>
+</vector>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pspdf__note_item_style_box_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/pspdf__note_editor_style_box_card_layout">
+
+    <ImageView
+        android:id="@+id/pspdf__note_item_style_box_preview_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="12dp"
+        app:tint="@color/pspdf__note_editor_style_box_icon_tint"
+        tools:background="#F9D757"
+        tools:src="@drawable/pspdf__note_icon_right_arrow"
+        tools:ignore="ContentDescription"/>
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:id="@+id/pspdf__note_item_style_box_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@id/pspdf__note_item_style_box_preview_image"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/pspdf__note_editor_style"
+        android:textColor="@color/pspdf__note_editor_style_box_title_text_color"
+        android:textSize="18sp"
+        tools:textColor="#5F5221"/>
+
+    <ImageView
+        android:id="@+id/pspdf__note_item_style_box_chevron"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="12dp"
+        android:src="@drawable/pspdf__ic_chevron_up"
+        android:contentDescription="@string/pspdf__note_editor_style"
+        app:tint="@color/pspdf__note_editor_style_box_chevron_tint"/>
+
+    <TextView
+        android:id="@+id/pspdf__note_item_style_box_current_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/pspdf__note_item_style_box_chevron"
+        tools:text="Right Arrow, Red"
+        tools:textColor="#534E2E"/>
+
+</RelativeLayout>

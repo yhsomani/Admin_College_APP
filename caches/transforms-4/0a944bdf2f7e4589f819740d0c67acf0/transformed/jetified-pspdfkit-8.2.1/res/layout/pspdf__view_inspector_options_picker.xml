@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ pspdf__view_inspector_line_style.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2016-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:addStatesFromChildren="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pspdf__options_picker_title_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/pspdf__inspector_padding"
+        android:paddingEnd="@dimen/pspdf__inspector_padding">
+
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minWidth="100dp"
+            android:paddingBottom="@dimen/pspdf__inspector_vertical_padding"
+            android:paddingTop="@dimen/pspdf__inspector_vertical_padding"
+            android:textSize="@dimen/pspdf__inspector_text_size"
+            tools:text="@string/pspdf__picker_line_style"/>
+
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/pspdf__options_picker_detail_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/pspdf__inspector_padding"
+        android:paddingEnd="@dimen/pspdf__inspector_padding"
+        android:visibility="gone"/>
+</LinearLayout>

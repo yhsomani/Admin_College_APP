@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/pspdf__custom_stamp_creator_dialog_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/pspdf__custom_stamp_creator_dialog_image">
+
+        <LinearLayout
+            android:id="@+id/pspdf__custom_stamp_creator_dialog_linear_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingBottom="76dp">
+
+            <com.pspdfkit.ui.LocalizedEditText
+                android:id="@+id/pspdf__custom_stamp_creator_dialog_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="@string/pspdf__stamp_text"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textSize="18sp" />
+
+            <com.pspdfkit.ui.LocalizedSwitch
+                android:id="@+id/pspdf__custom_stamp_creator_dialog_color_date_switch"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_vertical"
+                android:text="@string/pspdf__date_switch"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+            <com.pspdfkit.ui.LocalizedSwitch
+                android:id="@+id/pspdf__custom_stamp_creator_dialog_color_time_switch"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_vertical"
+                android:text="@string/pspdf__time_switch"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pspdf__custom_stamp_creator_dialog_floating_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+</merge>

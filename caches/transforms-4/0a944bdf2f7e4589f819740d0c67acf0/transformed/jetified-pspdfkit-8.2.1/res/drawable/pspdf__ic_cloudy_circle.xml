@@ -1,0 +1,61 @@
+<!--
+  ~   Copyright © 2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector android:autoMirrored="true" android:height="24dp"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000"
+        android:pathData="M14.5,19.5C14.5,20.9167 13.4167,22 12,22C11,22 10.1667,21.4167 9.75,20.5833"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M6.0833,6.75C5.4166,5.5833 5.8333,4 7,3.3333C7.8333,2.8333 8.9166,2.9167 9.6666,3.4167"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M17.9167,17.25C18.5833,18.4167 18.1667,20 17,20.6667C16.1667,21.1667 15.0833,21.0833 14.3333,20.5833"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M4.25,10.4167C3.0833,9.75 2.6667,8.1667 3.3333,7C3.8333,6.0833 4.8333,5.6667 5.75,5.75"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M19.75,13.5833C20.9167,14.25 21.3333,15.8333 20.6667,17C20.1667,17.8333 19.25,18.3333 18.25,18.25"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M4.5,14.5C3.0833,14.5 2,13.4167 2,12C2,11 2.5833,10.0833 3.5,9.75"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M19.5,9.5C20.9167,9.5 22,10.5833 22,12C22,13 21.4167,13.9167 20.5,14.25"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M6.75,17.9167C5.5834,18.5833 4,18.1667 3.3333,17C2.8333,16.1667 2.9167,15.0833 3.4167,14.3333"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M17.25,6.0833C18.4167,5.4167 20,5.8333 20.6667,7C21.1667,7.8333 21.0833,8.9167 20.5,9.6667"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M10.4167,19.75C9.75,20.9167 8.1667,21.3333 7,20.6667C6.0833,20.1667 5.6667,19.1667 5.75,18.25"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M13.5833,4.25C14.25,3.0833 15.8333,2.6667 17,3.3333C17.8333,3.8333 18.3333,4.75 18.25,5.75"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M9.5,4.5C9.5,3.0833 10.5833,2 12,2C13,2 13.9167,2.5833 14.25,3.5"
+        android:strokeColor="#000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="2"/>
+</vector>

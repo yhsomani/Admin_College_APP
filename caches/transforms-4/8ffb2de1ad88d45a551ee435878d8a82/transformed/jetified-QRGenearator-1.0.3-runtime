@@ -1,0 +1,6 @@
+androidmads.library.qrgenearator.BuildConfig
+androidmads.library.qrgenearator.QRGContents
+androidmads.library.qrgenearator.QRGContents$ImageType
+androidmads.library.qrgenearator.QRGContents$Type
+androidmads.library.qrgenearator.QRGEncoder
+androidmads.library.qrgenearator.QRGSaver

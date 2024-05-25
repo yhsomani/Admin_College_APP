@@ -1,0 +1,60 @@
+<!--
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportHeight="24.0"
+        android:viewportWidth="24.0">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M18,16L18,16A3,3 0,0 1,21 19L21,19A3,3 0,0 1,18 22L18,22A3,3 0,0 1,15 19L15,19A3,3 0,0 1,18 16z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M5,9L5,9A3,3 0,0 1,8 12L8,12A3,3 0,0 1,5 15L5,15A3,3 0,0 1,2 12L2,12A3,3 0,0 1,5 9z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M18,2L18,2A3,3 0,0 1,21 5L21,5A3,3 0,0 1,18 8L18,8A3,3 0,0 1,15 5L15,5A3,3 0,0 1,18 2z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12.24,6.75l3.535,-1.872l1.17,2.209l-3.535,1.872z"/>
+    <path
+        android:fillAlpha="0.75"
+        android:fillColor="#FF000000"
+        android:pathData="M13.413,8.961l-1.768,0.936l-1.17,-2.209l1.768,-0.936z"
+        android:strokeAlpha="0.75"/>
+    <path
+        android:fillAlpha="0.5"
+        android:fillColor="#FF000000"
+        android:pathData="M11.648,9.892l-1.768,0.936l-1.17,-2.209l1.768,-0.936z"
+        android:strokeAlpha="0.5"/>
+    <path
+        android:fillAlpha="0.25"
+        android:fillColor="#FF000000"
+        android:pathData="M9.875,10.83l-2.651,1.404l-1.17,-2.209l2.651,-1.404z"
+        android:strokeAlpha="0.25"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M6.064,13.99l1.185,-2.201l3.522,1.896l-1.185,2.201z"/>
+    <path
+        android:fillAlpha="0.75"
+        android:fillColor="#FF000000"
+        android:pathData="M10.776,13.685l1.761,0.948l-1.185,2.201l-1.761,-0.948z"
+        android:strokeAlpha="0.75"/>
+    <path
+        android:fillAlpha="0.5"
+        android:fillColor="#FF000000"
+        android:pathData="M12.535,14.636l1.761,0.948l-1.185,2.201l-1.761,-0.948z"
+        android:strokeAlpha="0.5"/>
+    <path
+        android:fillAlpha="0.25"
+        android:fillColor="#FF000000"
+        android:pathData="M14.288,15.589l2.641,1.422l-1.185,2.201l-2.641,-1.422z"
+        android:strokeAlpha="0.25"/>
+</vector>

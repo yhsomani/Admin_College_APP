@@ -1,0 +1,50 @@
+<!--
+  ~   Copyright © 2019-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:pathData="M21,17.5L22.6422,18.3211C22.7896,18.3948 22.7896,18.6052 22.6422,18.6789L16.8944,21.5528C16.3314,21.8343 15.6686,21.8343 15.1056,21.5528L9.3578,18.6789C9.2104,18.6052 9.2104,18.3948 9.3578,18.3211L11,17.5"
+      android:strokeAlpha="0.25"
+      android:strokeWidth="1.5"
+      android:fillColor="#00000000"
+      android:strokeColor="#000000"
+      android:fillAlpha="0.25"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M9.3578,14.6789C9.2104,14.6052 9.2104,14.3948 9.3578,14.3211L15.1056,11.4472C15.6686,11.1657 16.3314,11.1657 16.8944,11.4472L22.6422,14.3211C22.7896,14.3948 22.7896,14.6052 22.6422,14.6789L16.8944,17.5528C16.3314,17.8343 15.6686,17.8343 15.1056,17.5528L9.3578,14.6789Z"
+      android:strokeAlpha="0.25"
+      android:strokeWidth="1.5"
+      android:fillColor="#000000"
+      android:strokeColor="#000000"
+      android:fillAlpha="0.25"/>
+  <path
+      android:pathData="M9.3578,9.6789C9.2104,9.6052 9.2104,9.3948 9.3578,9.3211L15.1056,6.4472C15.6686,6.1657 16.3314,6.1657 16.8944,6.4472L22.6422,9.3211C22.7896,9.3948 22.7896,9.6052 22.6422,9.6789L16.8944,12.5528C16.3314,12.8343 15.6686,12.8343 15.1056,12.5528L9.3578,9.6789Z"
+      android:strokeWidth="1.5"
+      android:fillColor="#000000"
+      android:strokeColor="#000000"/>
+  <path
+      android:pathData="M9.3578,5.6789C9.2104,5.6052 9.2104,5.3948 9.3578,5.3211L15.1056,2.4472C15.6686,2.1657 16.3314,2.1657 16.8944,2.4472L22.6422,5.3211C22.7896,5.3948 22.7896,5.6052 22.6422,5.6789L16.8944,8.5528C16.3314,8.8343 15.6686,8.8343 15.1056,8.5528L9.3578,5.6789Z"
+      android:strokeAlpha="0.25"
+      android:strokeWidth="1.5"
+      android:fillColor="#00000000"
+      android:strokeColor="#000000"
+      android:fillAlpha="0.25"/>
+  <path
+      android:pathData="M4,13V17"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#000000"/>
+  <path
+      android:pathData="M4,8.5L7.5,13H0.5L4,8.5Z"
+      android:fillColor="#000000"/>
+</vector>

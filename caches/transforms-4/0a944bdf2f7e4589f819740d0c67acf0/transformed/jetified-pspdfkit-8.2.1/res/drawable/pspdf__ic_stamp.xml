@@ -1,0 +1,35 @@
+<!--
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportHeight="24.0"
+        android:viewportWidth="24.0">
+    <path
+        android:fillAlpha="0.5"
+        android:fillColor="#FF000000"
+        android:pathData="M4,20H20a0,0 0,0 1,0 0v1.25a0.75,0.75 0,0 1,-0.75 0.75H4.75A0.75,0.75 0,0 1,4 21.25V20A0,0 0,0 1,4 20Z"
+        android:strokeAlpha="0.5"/>
+    <path
+        android:fillAlpha="0.66"
+        android:fillColor="#FF000000"
+        android:pathData="M14,10H10c1.83,3.94 -3,5.27 -3,5.27V16H17v-0.73S12.17,13.94 14,10Z"
+        android:strokeAlpha="0.66"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19.93,17.18l-0.1,0A27.25,27.25 0,0 0,12 16h0a27.25,27.25 0,0 0,-7.83 1.15l-0.1,0A1.5,1.5 0,0 0,3 18.62v1.13a0.25,0.25 0,0 0,0.25 0.25h17.5a0.25,0.25 0,0 0,0.25 -0.25V18.62A1.5,1.5 0,0 0,19.93 17.18Z"
+        android:strokeColor="#000"
+        android:strokeWidth="2"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M12,3C7.5,3 7.5,5.57 7.5,7.5S10.07,10 12,10s4.5,-0.57 4.5,-2.5S16.5,3 12,3Z"
+        android:strokeColor="#000"
+        android:strokeWidth="2"/>
+</vector>

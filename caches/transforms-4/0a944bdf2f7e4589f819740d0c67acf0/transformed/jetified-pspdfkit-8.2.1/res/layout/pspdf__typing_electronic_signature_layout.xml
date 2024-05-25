@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright © 2021-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:pspdfkit="http://schemas.android.com/apk/res-auto"
+    tools:layout_height="match_parent"
+    tools:layout_width="match_parent"
+    tools:parentTag="com.pspdfkit.internal.ui.dialog.signatures.TypingElectronicSignatureLayout">
+
+    <FrameLayout
+        android:id="@+id/pspdf__signature_canvas_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/pspdf__signature_fab_accept_edited_signature"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" >
+
+        <com.pspdfkit.internal.ui.dialog.signatures.TypingElectronicSignatureCanvasView
+            android:id="@+id/pspdf__signature_canvas_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:background="@color/pspdf__color_white" >
+
+            <TextView
+                android:id="@+id/pspdf__electronic_signature_type_signature_measure_helper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLines="1"
+                android:visibility="invisible"
+                tools:text="helper" />
+
+            <TextView
+                android:id="@+id/pspdf__electronic_signature_type_signature_hint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="@string/pspdf__signature"
+                android:singleLine="true"
+                android:textColorHint="@color/pspdf__electronic_signature_typing_color_hint"
+                android:textSize="40sp" />
+
+            <EditText
+                android:id="@+id/pspdf__electronic_signature_type_signature"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:autofillHints="signature"
+                android:background="@android:color/transparent"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="40sp" />
+
+        </com.pspdfkit.internal.ui.dialog.signatures.TypingElectronicSignatureCanvasView>
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pspdf__electronic_signature_typing_font_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pspdf__signature_fab_accept_edited_signature"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+
+        tools:layout_height="300dp"
+        tools:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        tools:listitem="@layout/pspdf__electronic_signature_typing_font_view_holder"
+        tools:itemCount="6"
+        tools:orientation="vertical"
+        tools:scrollbars="vertical"/>
+
+    <RelativeLayout
+        android:id="@+id/pspdf__signature_controller_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <com.pspdfkit.internal.ui.dialog.signatures.ElectronicSignatureControllerView
+            android:id="@+id/pspdf__signature_controller_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            pspdfkit:pspdf__fontSelectionVisible="false" />
+
+        <com.pspdfkit.internal.ui.dialog.signatures.SaveSignatureChip
+            android:id="@+id/pspdf__electronic_signature_save_chip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="24dp"
+            android:layout_toEndOf="@+id/pspdf__signature_controller_view"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/pspdf__electronic_signature_save_signature"
+            tools:layout_width="110dp" />
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pspdf__signature_fab_accept_edited_signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:elevation="4dp"
+        app:fabSize="normal"
+        app:useCompatPadding="true" />
+</merge>

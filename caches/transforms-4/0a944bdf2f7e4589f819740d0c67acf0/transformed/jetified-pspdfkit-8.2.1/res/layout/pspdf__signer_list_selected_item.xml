@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:background="@color/pspdf__color"
+       android:orientation="horizontal"
+       tools:layout_height="@dimen/pspdf__signature_signer_list_selected_item_height"
+       tools:layout_width="match_parent"
+       tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:id="@+id/pspdf__signature_list_signer_item_textview"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:drawablePadding="16dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical|start"
+        android:padding="16dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        tools:text="Johny Appleseed The Creator of Everything, The Multiverse and more."/>
+
+    <ImageView
+        android:id="@+id/pspdf__signature_list_signer_item_deletebutton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:padding="4dp"
+        android:src="@drawable/pspdf__ic_cancel"
+        app:tint="@color/pspdf__color_white" />
+</merge>

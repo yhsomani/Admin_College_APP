@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pspdf__display_document_title_in_actionbar">true</bool>
+</resources>

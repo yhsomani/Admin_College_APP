@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  pspdf__outline_item.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2014-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?selectableItemBackground"
+              android:minHeight="48dp"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/pspdf__outline_expand_group"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="?selectableItemBackgroundBorderless"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:src="@drawable/pspdf__ic_chevron_up"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/pspdf__outline_bookmark_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingStart="0dp"
+        android:paddingEnd="24dp">
+
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__outline_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            tools:text="Bookmark item\nSecond line. This is essentially longer than the short first line."/>
+
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__outline_page_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:gravity="center_vertical"
+            tools:text="22"/>
+
+    </LinearLayout>
+
+</LinearLayout>

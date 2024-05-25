@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="com.pspdfkit.ui.EmptyPdfActivityView"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pspdf__ic_activity_empty"
+        android:layout_marginBottom="16dp"/>
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pspdf__activity_empty_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</merge>

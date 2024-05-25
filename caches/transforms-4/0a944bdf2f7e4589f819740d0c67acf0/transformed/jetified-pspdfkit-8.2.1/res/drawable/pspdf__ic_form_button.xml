@@ -1,0 +1,24 @@
+<!--
+  ~   Copyright © 2019-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:strokeWidth="1"
+      android:pathData="M1.75,6.5L22.25,6.5A1.25,1.25 0,0 1,23.5 7.75L23.5,16.25A1.25,1.25 0,0 1,22.25 17.5L1.75,17.5A1.25,1.25 0,0 1,0.5 16.25L0.5,7.75A1.25,1.25 0,0 1,1.75 6.5z"
+      android:fillColor="#000000"
+      android:fillAlpha="0.05"
+      android:strokeColor="#000000"/>
+  <path
+      android:pathData="M5.8943,12.08C5.8943,13.83 6.9843,15.12 8.8243,15.12C10.6643,15.12 11.7643,13.83 11.7643,12.08C11.7643,10.35 10.6643,9.07 8.8243,9.07C6.9843,9.07 5.8943,10.35 5.8943,12.08ZM7.0443,12.08C7.0443,10.81 7.7343,10 8.8243,10C9.9243,10 10.6143,10.81 10.6143,12.08C10.6143,13.38 9.9143,14.19 8.8243,14.19C7.7343,14.19 7.0443,13.38 7.0443,12.08ZM18.5679,15L15.7479,12.09L18.3579,9.19H17.0479L14.4479,12.14L17.0979,15H18.5679ZM13.3279,15H14.4479V9.19H13.3279V15Z"
+      android:fillColor="#000000"/>
+</vector>

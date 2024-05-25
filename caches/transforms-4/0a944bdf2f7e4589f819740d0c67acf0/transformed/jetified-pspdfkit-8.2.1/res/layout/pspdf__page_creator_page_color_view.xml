@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ pspdf__page_creator_page_color_item.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2014-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp">
+
+    <com.pspdfkit.internal.views.utils.CircleImageView
+        android:id="@+id/pspdf__page_creator_color_item"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+
+    <ImageView
+        android:id="@+id/pspdf__page_creator_color_checkmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:src="@drawable/pspdf__ic_done"
+        android:visibility="gone"
+        app:tint="@color/pspdf__color_gray_light"
+        tools:visibility="visible"/>
+</RelativeLayout>

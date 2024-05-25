@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright © 2018-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   xmlns:tools="http://schemas.android.com/tools"
+                                   android:id="@+id/card_view"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_gravity="center"
+                                   android:layout_marginBottom="@dimen/pspdf__note_editor_item_card_margin_vertical"
+                                   app:cardCornerRadius="@dimen/pspdf__note_editor_item_card_corner_radius"
+                                   app:cardElevation="@dimen/pspdf__note_editor_item_card_elevation"
+                                   tools:layout_margin="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/pspdf__note_editor_item_card_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pspdf__note_editor_item_card_padding">
+
+            <ImageView
+                android:id="@+id/pspdf__note_editor_item_options_item"
+                android:layout_width="@dimen/pspdf__note_editor_item_options_item_width"
+                android:layout_height="@dimen/pspdf__note_editor_item_options_item_height"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/pspdf__note_editor_item_card_padding"
+                android:contentDescription="@string/pspdf__more_options"
+                android:src="@drawable/pspdf__ic_more"
+                app:tint="@color/pspdf__note_editor_options_item_tint" />
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__note_editor_item_author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/pspdf__note_editor_item_card_padding"
+                android:layout_toStartOf="@id/pspdf__note_editor_item_options_item"
+                android:textSize="@dimen/pspdf__note_editor_item_card_author_name_text_size"
+                tools:text="skoric" />
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__note_editor_item_created_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pspdf__note_editor_item_author_name"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/pspdf__note_editor_item_card_padding"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/pspdf__note_editor_created_date_text_color"
+                android:textSize="@dimen/pspdf__note_editor_item_created_date"
+                tools:text="2days ago" />
+
+        </RelativeLayout>
+
+        <com.pspdfkit.ui.LocalizedEditText
+            android:id="@+id/pspdf__note_editor_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/pspdf__note_editor_item_card_header"
+            android:layout_marginStart="@dimen/pspdf__note_editor_item_card_padding"
+            android:layout_marginEnd="@dimen/pspdf__note_editor_item_card_padding"
+            android:background="@android:color/transparent"
+            android:lineSpacingMultiplier="1.5"
+            android:textColor="@color/pspdf__note_editor_content_text_color"
+            android:textSize="@dimen/pspdf__note_editor_item_card_content_text_size"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+
+        <LinearLayout
+            android:id="@+id/pspdf__note_item_explicit_editing_controls_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginBottom="@dimen/pspdf__thumbnail_bar_content_padding"
+            android:layout_marginTop="@dimen/pspdf__note_editor_status_box_item_margin"
+            android:layout_below="@id/pspdf__note_editor_item_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pspdf__note_editor_item_cancel_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/pspdf__thumbnail_bar_content_padding"
+                android:text="@string/pspdf__cancel" />
+
+            <Button
+                android:id="@+id/pspdf__note_editor_item_save_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/pspdf__thumbnail_bar_content_padding"
+                android:text="@string/pspdf__save" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pspdf__note_item_reviews_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pspdf__note_item_explicit_editing_controls_layout"
+            android:layout_marginTop="@dimen/pspdf__note_editor_item_card_content_vertical_padding"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/pspdf__color_gray_light"/>
+
+            <LinearLayout
+                android:id="@+id/pspdf__note_item_review_state_list_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/pspdf__note_editor_item_card_padding"
+                android:layout_marginStart="@dimen/pspdf__note_editor_item_card_padding"
+                android:layout_marginTop="@dimen/pspdf__note_editor_item_card_content_vertical_padding"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__note_status_accepted_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/pspdf__note_editor_status_box_item_margin"
+                    android:alpha="0.7"
+                    android:background="@drawable/pspdf__note_editor_status_count_background"
+                    android:clickable="false"
+                    android:drawablePadding="4dp"
+                    android:drawableStart="@drawable/pspdf__ic_status_accepted"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    tools:background="@drawable/pspdf__rounded_rect_note_editor_selected_status"
+                    tools:backgroundTint="@color/pspdf__color_signature_yellow"
+                    tools:text="2"/>
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__note_status_completed_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/pspdf__note_editor_status_box_item_margin"
+                    android:alpha="0.7"
+                    android:background="@drawable/pspdf__note_editor_status_count_background"
+                    android:clickable="false"
+                    android:drawablePadding="4dp"
+                    android:drawableStart="@drawable/pspdf__ic_status_completed"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    tools:background="@drawable/pspdf__rounded_rect_note_editor_selected_status"
+                    tools:backgroundTint="@color/pspdf__color_signature_yellow"
+                    tools:text="1"/>
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__note_status_cancelled_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/pspdf__note_editor_status_box_item_margin"
+                    android:alpha="0.7"
+                    android:background="@drawable/pspdf__note_editor_status_count_background"
+                    android:clickable="false"
+                    android:drawablePadding="4dp"
+                    android:drawableStart="@drawable/pspdf__ic_status_cancelled"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    tools:text="3"/>
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__note_status_rejected_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/pspdf__note_editor_status_box_item_margin"
+                    android:alpha="0.7"
+                    android:background="@drawable/pspdf__note_editor_status_count_background"
+                    android:clickable="false"
+                    android:drawablePadding="4dp"
+                    android:drawableStart="@drawable/pspdf__ic_status_rejected"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    tools:text="4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pspdf__note_item_status_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/pspdf__note_editor_item_card_padding"
+                android:layout_marginStart="@dimen/pspdf__note_editor_item_card_padding"
+                android:orientation="vertical"
+                tools:visibility="visible">
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__accepted_authors_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pspdf__note_editor_item_card_padding"
+                    android:text="@string/pspdf__reply_accepted_by"
+                    android:textSize="@dimen/pspdf__note_editor_status_box_authors_list_label_size"
+                    />
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__accepted_authors_text_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/pspdf__note_editor_status_box_authors_list_text_size"
+                    android:fontFamily="sans-serif-medium"
+                    tools:text="Ivan, David"/>
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__completed_authors_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pspdf__note_editor_item_card_padding"
+                    android:text="@string/pspdf__reply_completed_by"
+                    android:textSize="@dimen/pspdf__note_editor_status_box_authors_list_label_size"/>
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__completed_authors_text_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/pspdf__note_editor_status_box_authors_list_text_size"
+                    android:fontFamily="sans-serif-medium"
+                    tools:text="Samo"/>
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__cancelled_authors_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pspdf__note_editor_item_card_padding"
+                    android:text="@string/pspdf__reply_cancelled_by"
+                    android:textSize="@dimen/pspdf__note_editor_status_box_authors_list_label_size"/>
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__cancelled_authors_text_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/pspdf__note_editor_status_box_authors_list_text_size"
+                    android:fontFamily="sans-serif-medium"
+                    tools:text="Matej"/>
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__rejected_authors_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pspdf__note_editor_item_card_padding"
+                    android:text="@string/pspdf__reply_rejected_by"
+                    android:textSize="@dimen/pspdf__note_editor_status_box_authors_list_label_size"/>
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__rejected_authors_text_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/pspdf__note_editor_status_box_authors_list_text_size"
+                    android:fontFamily="sans-serif-medium"
+                    tools:text="Douglas, Tomas"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/pspdf__note_item_bottom_padding"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pspdf__note_editor_item_card_padding"
+            android:layout_below="@id/pspdf__note_item_reviews_layout"
+            tools:visibility="gone" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

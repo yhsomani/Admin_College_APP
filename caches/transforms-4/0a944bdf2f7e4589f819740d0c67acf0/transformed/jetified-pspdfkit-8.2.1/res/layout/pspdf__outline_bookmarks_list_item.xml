@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ pspdf__outline_bookmarks_list_item.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2016-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?selectableItemBackground"
+    android:minHeight="60dp">
+
+    <!-- We use 5dp top padding here since that is the padding for the page number. -->
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="16dp"
+        android:clipChildren="false"
+        android:paddingEnd="16dp"
+        android:clipToPadding="false"
+        android:paddingTop="5dp"
+        android:paddingBottom="8dp"
+        app:columnCount="3"
+        app:rowCount="2">
+
+        <!-- We use this frame layout to ensure that the width is the same even for really tall pages. -->
+        <FrameLayout
+            android:layout_width="@dimen/pspdf__bookmark_page_image_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_column="0"
+            app:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="8dp"
+            app:layout_row="0"
+            app:layout_rowSpan="2">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pspdf__bookmark_list_page_image_container"
+                android:layout_width="@dimen/pspdf__bookmark_page_image_width"
+                android:layout_height="@dimen/pspdf__bookmark_page_image_height"
+                android:layout_gravity="center"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/pspdf__bookmark_list_page_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+        <!-- We add another 3dp of top padding here since we want the title to have 8dp padding. -->
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__bookmark_list_item_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minLines="1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            tools:text="My favorite bookmark"
+            android:paddingTop="3dp"/>
+
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__bookmark_list_item_page_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.Button"
+            app:layout_column="2"
+            app:layout_row="0"
+            android:gravity="top"
+            app:layout_gravity="top"
+            tools:text="Page 12" />
+
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__bookmark_list_item_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            app:layout_column="1"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            tools:text="This is the text that is found on the page." />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <ImageView
+        android:id="@+id/pspdf__bookmark_list_drag_handle"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@null"
+        android:scaleType="center"
+        tools:tint="?android:attr/textColorSecondary"
+        tools:src="@drawable/pspdf__ic_drag_handle"
+        />
+
+    <!-- The divider is added to the layout so it moves together with dragged items. -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/listDivider"/>
+
+</FrameLayout>

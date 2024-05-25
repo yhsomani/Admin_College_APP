@@ -1,0 +1,32 @@
+<!--
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportHeight="24.0"
+        android:viewportWidth="24.0">
+    <path
+        android:fillAlpha="0.5"
+        android:fillColor="#FF000000"
+        android:pathData="M9.11,20.52a9,9 0,0 1,-5.63 -5.63A3.2,3.2 0,0 1,2 15.25a2.33,2.33 0,0 1,-0.53 0A11.07,11.07 0,0 0,8.8 22.53a2.33,2.33 0,0 1,0 -0.53A3.21,3.21 0,0 1,9.11 20.52ZM8.75,2a2.33,2.33 0,0 1,0 -0.53A11.07,11.07 0,0 0,1.47 8.8a2.33,2.33 0,0 1,0.53 0,3.2 3.2,0 0,1 1.48,0.36A9,9 0,0 1,9.11 3.48,3.2 3.2,0 0,1 8.75,2ZM22,15.25a3.2,3.2 0,0 1,-1.48 -0.36,9 9,0 0,1 -5.63,5.63A3.21,3.21 0,0 1,15.25 22a2.33,2.33 0,0 1,0 0.53,11.07 11.07,0 0,0 7.33,-7.33A2.33,2.33 0,0 1,22 15.25ZM15.2,1.47a2.33,2.33 0,0 1,0 0.53,3.2 3.2,0 0,1 -0.36,1.48 9,9 0,0 1,5.63 5.63A3.2,3.2 0,0 1,22 8.75a2.33,2.33 0,0 1,0.53 0A11.07,11.07 0,0 0,15.2 1.47Z"
+        android:strokeAlpha="0.5"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12,20L12,20A2,2 0,0 1,14 22L14,22A2,2 0,0 1,12 24L12,24A2,2 0,0 1,10 22L10,22A2,2 0,0 1,12 20z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M22,10L22,10A2,2 0,0 1,24 12L24,12A2,2 0,0 1,22 14L22,14A2,2 0,0 1,20 12L20,12A2,2 0,0 1,22 10z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12,0L12,0A2,2 0,0 1,14 2L14,2A2,2 0,0 1,12 4L12,4A2,2 0,0 1,10 2L10,2A2,2 0,0 1,12 0z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M2,10L2,10A2,2 0,0 1,4 12L4,12A2,2 0,0 1,2 14L2,14A2,2 0,0 1,0 12L0,12A2,2 0,0 1,2 10z"/>
+</vector>

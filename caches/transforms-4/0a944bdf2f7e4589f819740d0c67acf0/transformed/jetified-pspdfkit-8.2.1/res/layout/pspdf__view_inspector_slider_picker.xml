@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ pspdf__view_inspector_slider_picker.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2014-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/pspdf__inspector_padding"
+    android:paddingEnd="@dimen/pspdf__inspector_padding">
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:id="@+id/pspdf__sliderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minWidth="100dp"
+        android:paddingBottom="@dimen/pspdf__inspector_vertical_padding"
+        android:paddingTop="@dimen/pspdf__inspector_vertical_padding"
+        android:textSize="@dimen/pspdf__inspector_text_size"
+        tools:text="@string/pspdf__picker_thickness"/>
+
+    <SeekBar
+        android:id="@+id/pspdf__sliderSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:foregroundGravity="center_vertical"
+        android:maxHeight="16dp"/>
+
+    <!--
+    android:singleLine="true"
+    even if deprecated, this is set because of a known Android issue
+    http://stackoverflow.com/questions/11048007/using-androiddigits-attribute-to-restrict-characters-stops-action-next-button-w
+    -->
+    <com.pspdfkit.ui.editor.UnitSelectionEditText
+        android:id="@+id/pspdf__sliderUnitEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:digits="0123456789 "
+        android:gravity="center"
+        android:inputType="number|textNoSuggestions"
+        android:lines="1"
+        android:maxLines="1"
+        android:minWidth="50dp"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textSize="@dimen/pspdf__inspector_text_size"
+        tools:ignore="Deprecated"
+        tools:text="12 pt"/>
+
+</LinearLayout>

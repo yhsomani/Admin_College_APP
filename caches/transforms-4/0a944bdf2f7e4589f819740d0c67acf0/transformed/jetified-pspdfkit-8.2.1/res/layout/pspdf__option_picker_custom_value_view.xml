@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pspdf__custom_value_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/pspdf__inspector_padding"
+    android:paddingEnd="@dimen/pspdf__inspector_padding">
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/pspdf__inspector_padding"
+        android:text="@string/pspdf__custom_value"
+        android:textAllCaps="true"
+        android:textColor="?colorAccent"
+        android:textSize="@dimen/pspdf__inspector_text_size"
+        android:imeOptions="actionDone"/>
+
+    <com.pspdfkit.ui.LocalizedEditText
+        android:id="@+id/pspdf__custom_value_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-4dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginTop="-4dp"
+        android:hint="@string/pspdf__custom_value_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="@dimen/pspdf__inspector_item_height"
+        android:textSize="@dimen/pspdf__inspector_text_size"
+        android:imeOptions="actionDone"/>
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/pspdf__inspector_padding"
+        android:text="@string/pspdf__default_values"
+        android:textAllCaps="true"
+        android:textColor="?colorAccent"
+        android:textSize="@dimen/pspdf__inspector_text_size"/>
+
+</LinearLayout>

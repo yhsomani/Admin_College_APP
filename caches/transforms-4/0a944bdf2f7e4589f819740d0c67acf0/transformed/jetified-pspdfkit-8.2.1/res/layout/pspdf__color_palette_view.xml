@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~   Copyright © 2019-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:id="@+id/pspdf__recently_used_palette_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/pspdf__color_picker_recently_used"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+    <com.pspdfkit.internal.ui.inspector.ColorPaletteView
+        android:id="@+id/pspdf__recently_used_palette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/pspdf__color_picker_default_color_palette"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+    <com.pspdfkit.internal.ui.inspector.ColorPaletteView
+        android:id="@+id/pspdf__default_palette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/pspdf__color_picker_color_variations"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+    <com.pspdfkit.internal.ui.inspector.ColorPaletteView
+        android:id="@+id/pspdf__color_variations_palette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

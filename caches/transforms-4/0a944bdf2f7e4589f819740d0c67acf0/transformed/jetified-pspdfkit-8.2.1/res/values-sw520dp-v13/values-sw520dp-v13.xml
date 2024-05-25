@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pspdf__comparison_target_icon_height">100dp</dimen>
+    <dimen name="pspdf__comparison_target_icon_width">100dp</dimen>
+    <dimen name="pspdf__scrollable_thumbnail_height">114dp</dimen>
+    <dimen name="pspdf__scrollable_thumbnail_width">82dp</dimen>
+    <dimen name="pspdf__thumbnail_height">57dp</dimen>
+    <dimen name="pspdf__thumbnail_width">41dp</dimen>
+    <dimen name="pspdf_comparison_breadcrumbs_height">42dp</dimen>
+    <dimen name="pspdf_comparison_helper_width">400dp</dimen>
+    <dimen name="pspdf_stepper_height">70dp</dimen>
+    <dimen name="pspdf_stepper_margin_bottom">16dp</dimen>
+    <dimen name="pspdf_stepper_margin_end">40dp</dimen>
+    <dimen name="pspdf_stepper_margin_start">40dp</dimen>
+    <dimen name="pspdf_stepper_margin_top">16dp</dimen>
+</resources>

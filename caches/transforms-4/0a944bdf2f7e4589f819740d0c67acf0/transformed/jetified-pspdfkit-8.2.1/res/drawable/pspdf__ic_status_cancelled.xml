@@ -1,0 +1,31 @@
+<!--
+  ~   Copyright © 2018-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M0,0h24v24h-24z"
+        android:fillAlpha="0"
+        android:strokeAlpha="0"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12,12m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0"
+        android:fillAlpha="0.1"
+        android:strokeAlpha="0.1"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M15,16a1,1 0,0 1,-0.71 -0.29l-6,-6A1,1 0,0 1,9.71 8.29l6,6a1,1 0,0 1,0 1.42A1,1 0,0 1,15 16Z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M9,16a1,1 0,0 1,-0.71 -0.29,1 1,0 0,1 0,-1.42l6,-6a1,1 0,0 1,1.42 1.42l-6,6A1,1 0,0 1,9 16Z"/>
+</vector>

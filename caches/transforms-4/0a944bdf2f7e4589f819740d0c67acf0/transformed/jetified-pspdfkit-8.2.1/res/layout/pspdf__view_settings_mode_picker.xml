@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ pspdf__view_settings_mode_picker.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pspdf__settings_mode_picker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:background="#f0f0f0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/pspdf__settings_mode_popup_window_padding"
+            android:paddingBottom="@dimen/pspdf__settings_mode_popup_window_padding">
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__transition_header"
+                style="@style/PSPDFKit.SettingsModeSectionTitle"
+                android:text="@string/pspdf__settings_menu_page_transition"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"/>
+
+            <LinearLayout
+                android:id="@+id/pspdf__transition_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <com.pspdfkit.ui.settings.SettingsModePickerItem
+                    android:id="@+id/pspdf__transition_jump_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:pspdf__activated="true"
+                    app:pspdf__buttonIcon="@drawable/pspdf__ic_settings_jump"
+                    app:pspdf__label="@string/pspdf__settings_menu_jump"/>
+
+                <com.pspdfkit.ui.settings.SettingsModePickerItem
+                    android:id="@+id/pspdf__transition_continuous_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:pspdf__buttonIcon="@drawable/pspdf__ic_settings_continuous_horizontal"
+                    app:pspdf__label="@string/pspdf__settings_menu_continuous"/>
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/pspdf__layout_separator"
+                style="?pspdf__settingsModeLineSeparatorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__layout_header"
+                style="@style/PSPDFKit.SettingsModeSectionTitle"
+                android:text="@string/pspdf__settings_menu_page_layout"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"/>
+
+            <LinearLayout
+                android:id="@+id/pspdf__layout_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <com.pspdfkit.ui.settings.SettingsModePickerItem
+                    android:id="@+id/pspdf__layout_single_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:pspdf__activated="true"
+                    app:pspdf__buttonIcon="@drawable/pspdf__ic_settings_single_layout"
+                    app:pspdf__label="@string/pspdf__settings_menu_single"/>
+
+                <com.pspdfkit.ui.settings.SettingsModePickerItem
+                    android:id="@+id/pspdf__layout_double_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:pspdf__buttonIcon="@drawable/pspdf__ic_settings_double_layout"
+                    app:pspdf__label="@string/pspdf__settings_menu_double"/>
+
+                <com.pspdfkit.ui.settings.SettingsModePickerItem
+                    android:id="@+id/pspdf__layout_auto_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:pspdf__buttonIcon="@drawable/pspdf__ic_settings_automatic_layout"
+                    app:pspdf__label="@string/pspdf__settings_menu_auto"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/pspdf__scroll_separator"
+                style="?pspdf__settingsModeLineSeparatorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__scroll_header"
+                style="@style/PSPDFKit.SettingsModeSectionTitle"
+                android:text="@string/pspdf__settings_menu_scroll_direction"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"/>
+
+            <LinearLayout
+                android:id="@+id/pspdf__scroll_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <com.pspdfkit.ui.settings.SettingsModePickerItem
+                    android:id="@+id/pspdf__scroll_horizontal_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:pspdf__activated="true"
+                    app:pspdf__buttonIcon="@drawable/pspdf__ic_settings_horizontal"
+                    app:pspdf__label="@string/pspdf__settings_menu_horizontal"/>
+
+                <com.pspdfkit.ui.settings.SettingsModePickerItem
+                    android:id="@+id/pspdf__scroll_vertical_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:pspdf__buttonIcon="@drawable/pspdf__ic_settings_vertical"
+                    app:pspdf__label="@string/pspdf__settings_menu_vertical"/>
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/pspdf__theme_separator"
+                style="?pspdf__settingsModeLineSeparatorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__theme_header"
+                style="@style/PSPDFKit.SettingsModeSectionTitle"
+                android:text="@string/pspdf__settings_menu_theme"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"/>
+
+            <LinearLayout
+                android:id="@+id/pspdf__theme_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <com.pspdfkit.ui.settings.SettingsModePickerItem
+                    android:id="@+id/pspdf__theme_default_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:pspdf__activated="true"
+                    app:pspdf__buttonIcon="@drawable/pspdf__ic_settings_default_theme"
+                    app:pspdf__label="@string/pspdf__settings_menu_default"/>
+
+                <com.pspdfkit.ui.settings.SettingsModePickerItem
+                    android:id="@+id/pspdf__theme_night_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackgroundBorderless"
+                    app:pspdf__buttonIcon="@drawable/pspdf__ic_settings_night_theme"
+                    app:pspdf__label="@string/pspdf__settings_menu_night"/>
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/pspdf__screen_awake_separator"
+                style="?pspdf__settingsModeLineSeparatorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/pspdf__screen_awake_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <com.pspdfkit.ui.LocalizedTextView
+                    android:id="@+id/pspdf__screen_awake_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center_vertical"
+                    android:text="@string/pspdf__settings_menu_keep_screen_on"/>
+
+                <com.pspdfkit.ui.LocalizedSwitch
+                    android:id="@+id/pspdf__screen_awake_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

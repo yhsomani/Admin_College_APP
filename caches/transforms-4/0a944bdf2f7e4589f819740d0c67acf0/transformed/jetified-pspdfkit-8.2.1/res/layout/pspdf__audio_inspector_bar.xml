@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2014-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/pspdf__audio_inspector_height"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:background="?android:colorBackground"
+    tools:ignore="RtlHardcoded">
+
+    <ProgressBar
+        android:id="@+id/pspdf__audio_loading_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:indeterminate="true"
+        tools:visibility="gone" />
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:id="@+id/pspdf__audio_error"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxLines="2"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:textColor="@color/pspdf__color_error"
+        android:visibility="gone"
+        tools:text="✘ Error text"
+        tools:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/pspdf__audio_controls_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded"
+        tools:visibility="visible"> <!-- Right side is ok even for RTL. -->
+
+        <ImageButton
+            android:id="@+id/pspdf__audio_play"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="center"
+            android:contentDescription="@string/pspdf__audio_play"
+            android:src="@drawable/pspdf__ic_play" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <com.pspdfkit.internal.ui.audio.AudioVisualizerView
+                android:id="@+id/pspdf__audio_visualizer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp" />
+
+            <SeekBar
+                android:id="@+id/pspdf__audio_seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:thumbOffset="10dp"
+                android:thumbTint="?colorPrimary"
+                tools:ignore="UnusedAttribute" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp">
+
+            <TextView
+                android:id="@+id/pspdf__audio_current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                tools:text="00:00" />
+
+            <TextView
+                android:id="@+id/pspdf__audio_total_time"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                tools:text="00:04" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/pspdf__audio_stop"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:contentDescription="@string/pspdf__close"
+        android:scaleType="center"
+        android:src="@drawable/pspdf__ic_close" />
+</LinearLayout>

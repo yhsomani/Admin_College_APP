@@ -1,0 +1,25 @@
+<!--
+  ~   Copyright © 2020-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector android:autoMirrored="true" android:height="24dp"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillAlpha="0.33" android:fillColor="#000000"
+        android:pathData="M13,21H19.5C20.3284,21 21,20.3284 21,19.5V13L13,21Z" android:strokeAlpha="0.33"/>
+    <path android:fillColor="#000000" android:pathData="M19.2586,14H15.5C14.6716,14 14,14.6716 14,15.5V19.2586C14,19.3477 14.1077,19.3923 14.1707,19.3293L19.3293,14.1707C19.3923,14.1077 19.3477,14 19.2586,14Z"/>
+    <path android:fillAlpha="0.5" android:fillColor="#000000"
+        android:pathData="M7,7.5C7,7.2239 7.2239,7 7.5,7H16.5C16.7761,7 17,7.2239 17,7.5V8.5C17,8.7761 16.7761,9 16.5,9H7.5C7.2239,9 7,8.7761 7,8.5V7.5Z" android:strokeAlpha="0.5"/>
+    <path android:fillAlpha="0.5" android:fillColor="#000000"
+        android:pathData="M7,11.5C7,11.2239 7.2239,11 7.5,11H16.5C16.7761,11 17,11.2239 17,11.5V12.5C17,12.7761 16.7761,13 16.5,13H7.5C7.2239,13 7,12.7761 7,12.5V11.5Z" android:strokeAlpha="0.5"/>
+    <path android:fillAlpha="0.5" android:fillColor="#000000"
+        android:pathData="M7,15.5C7,15.2239 7.2239,15 7.5,15H14.5C14.7761,15 15,15.2239 15,15.5V16.5C15,16.7761 14.7761,17 14.5,17H7.5C7.2239,17 7,16.7761 7,16.5V15.5Z" android:strokeAlpha="0.5"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M18.5,4H5.5C4.6716,4 4,4.6716 4,5.5V18.5C4,19.3284 4.6716,20 5.5,20H13.8787C14.2765,20 14.658,19.842 14.9393,19.5607L19.5607,14.9393C19.842,14.658 20,14.2765 20,13.8787V5.5C20,4.6716 19.3284,4 18.5,4Z"
+        android:strokeColor="#000000" android:strokeWidth="2"/>
+</vector>

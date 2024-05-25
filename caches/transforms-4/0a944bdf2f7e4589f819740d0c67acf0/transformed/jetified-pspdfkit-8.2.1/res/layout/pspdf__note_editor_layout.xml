@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright © 2018-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical"
+              android:id="@+id/pspdf__note_editor_layout">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/pspdf__note_editor_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:visibility="gone"
+        app:navigationIcon="@drawable/pspdf__ic_arrow_back"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pspdf__note_editor_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/pspdf__note_editor_item_recycler_view_padding_vertical"
+        android:paddingEnd="@dimen/pspdf__note_editor_item_recycler_view_padding_horizontal"
+        android:paddingStart="@dimen/pspdf__note_editor_item_recycler_view_padding_horizontal"
+        android:paddingTop="@dimen/pspdf__note_editor_item_recycler_view_padding_vertical"
+        android:clipToPadding="false"
+        android:visibility="gone"
+        tools:layout_height="300dp"/>
+
+</LinearLayout>

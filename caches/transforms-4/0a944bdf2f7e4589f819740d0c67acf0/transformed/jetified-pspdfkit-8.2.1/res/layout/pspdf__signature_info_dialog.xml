@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ pspdf__signature_info_dialog.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/pspdf__signature_info_throbber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- TODO: Switch to pspdf__digital_signature_validating once translated. -->
+        <com.pspdfkit.ui.LocalizedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:text="@string/pspdf__loading"/>
+
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pspdf__signature_info_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__signature_info_summary"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingStart="@dimen/pspdf__dialog_padding"
+                android:paddingEnd="@dimen/pspdf__dialog_padding"
+                android:paddingTop="16dp"
+                tools:text="It was signed by John Appleseed\n\n- The signature is valid and the content of this document has not been modified since it was signed."/>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center_vertical">
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__positive_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="8dp"
+                android:background="?selectableItemBackground"
+                android:gravity="center"
+                android:minWidth="64dp"
+                android:text="@string/pspdf__ok"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="?colorAccent"/>
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__remove_signature_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/pspdf__positive_button"
+                android:layout_margin="8dp"
+                android:background="?selectableItemBackground"
+                android:gravity="center"
+                android:minWidth="64dp"
+                android:text="@string/pspdf__remove_signature"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="?colorAccent"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

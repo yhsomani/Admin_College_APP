@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  pspdf__search_view_inline.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2014-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pspdf__search_inline_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:ignore="RtlHardcoded">
+
+    <ImageButton
+        android:id="@+id/pspdf__search_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackgroundBorderless"
+        android:contentDescription="@string/abc_action_mode_done"
+        android:scaleType="fitCenter"
+        tools:ignore="PrivateResource"/>
+
+    <!-- Right side is ok even for RTL. -->
+    <com.pspdfkit.ui.LocalizedEditText
+        android:id="@+id/pspdf__search_edit_text_inline"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="@string/pspdf__search_hint"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        tools:ignore="Deprecated"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center_vertical"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/pspdf__search_btn_prev"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="?selectableItemBackgroundBorderless"
+                android:contentDescription="@string/pspdf__search_btn_previous"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pspdf__ic_chevron_left"
+                android:visibility="invisible"
+                tools:visibility="visible"/>
+
+            <com.pspdfkit.ui.LocalizedTextView
+                android:id="@+id/pspdf__search_tv_current_result"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                tools:ignore="UnusedAttribute"
+                tools:text="1 of 20"
+                tools:visibility="visible"/>
+
+            <ImageButton
+                android:id="@+id/pspdf__search_btn_next"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="?selectableItemBackgroundBorderless"
+                android:contentDescription="@string/pspdf__search_btn_next"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pspdf__ic_chevron_right"
+                android:visibility="invisible"
+                tools:visibility="visible"/>
+
+        </LinearLayout>
+
+        <!-- Right side is ok even for RTL. -->
+        <ProgressBar
+            android:id="@+id/pspdf__search_progress_inline"
+            style="?android:progressBarStyleSmallInverse"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="6dp"
+            android:indeterminate="true"
+            android:visibility="gone"
+            tools:ignore="RtlHardcoded"/>
+
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__search_tv_no_matches_found"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/pspdf__search_no_matches"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:visibility="gone"
+            tools:ignore="UnusedAttribute"/>
+
+    </FrameLayout>
+
+</LinearLayout>

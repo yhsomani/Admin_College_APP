@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ pspdf__view_inspector_font_picker.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2018-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/pspdf__inspector_padding"
+    android:paddingEnd="@dimen/pspdf__inspector_padding">
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:id="@+id/pspdf__font_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:minWidth="100dp"
+        android:paddingBottom="@dimen/pspdf__inspector_vertical_padding"
+        android:paddingTop="@dimen/pspdf__inspector_vertical_padding"
+        android:textSize="@dimen/pspdf__inspector_text_size"
+        tools:text="@string/pspdf__picker_thickness"/>
+
+    <ImageView
+        android:id="@+id/pspdf__color"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_weight="0"
+        android:contentDescription="@null"
+        android:minWidth="24dp"
+        android:scaleType="centerInside"
+        tools:src="@drawable/pspdf__ic_circle"/>
+
+    <ImageView
+        android:id="@+id/pspdf__expand_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_weight="0"
+        android:contentDescription="@null"
+        android:minWidth="24dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pspdf__ic_chevron_right"/>
+
+</LinearLayout>

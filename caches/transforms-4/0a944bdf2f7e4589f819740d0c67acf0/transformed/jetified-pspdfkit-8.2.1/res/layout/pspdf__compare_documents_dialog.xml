@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~   Copyright © 2021-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/pspdf__comparison_dialog_toolbar"
+        style="?pspdf__mainToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/pspdf__toolbar_elevation"
+        app:navigationIcon="@drawable/pspdf__ic_close"
+        app:title="@string/pspdf__align_documents"
+        app:titleTextColor="@color/pspdf__color_white" />
+
+    <androidx.cardview.widget.CardView
+        style="?attr/pspdf__cardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pspdf__linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.pspdfkit.internal.ui.comparison.ComparisonDocumentTitlesView
+                android:id="@+id/pspdf__comparison_breadcrumbs"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pspdf_comparison_breadcrumbs_height"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.pspdfkit.internal.ui.stepper.StepperView
+                android:id="@+id/pspdf__pointSelectionStepperView"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/pspdf_stepper_height"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:paddingStart="@dimen/pspdf_stepper_margin_start"
+                android:paddingEnd="@dimen/pspdf_stepper_margin_end"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/pspdf__guideline_left"
+                app:layout_constraintRight_toLeftOf="@id/pspdf__guideline_right"
+                app:layout_constraintTop_toBottomOf="@id/pspdf__comparison_breadcrumbs" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/pspdf__guideline_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.1" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/pspdf__guideline_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.9" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/pspdf__comparison_fragment_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/pspdf__cross_hair_target"
+            android:layout_width="@dimen/pspdf__comparison_target_icon_width"
+            android:layout_height="@dimen/pspdf__comparison_target_icon_height"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/pspdf__point_selection_target"
+            android:elevation="8dp"
+            android:src="@drawable/pspdf__select_point_indicator" />
+
+        <ProgressBar
+            android:id="@+id/pspdf__align_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/pspdf__select_point_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:text="@string/pspdf__select_point"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/pspdf__select_point_fab" />
+
+        <include
+            layout="@layout/pspdf__comparison_hint_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/pspdf__select_point_fab" />
+
+    </RelativeLayout>
+
+</LinearLayout>

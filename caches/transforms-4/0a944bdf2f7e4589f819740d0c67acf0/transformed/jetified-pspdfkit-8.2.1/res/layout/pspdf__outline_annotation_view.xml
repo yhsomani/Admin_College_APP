@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/pspdf__annotation_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__annotation_list_empty_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pspdf__no_annotations"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="21sp"
+            android:visibility="invisible" />
+
+        <ProgressBar
+            android:id="@+id/pspdf__annotation_list_progress_bar"
+            style="?android:progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/pspdf__annotation_list_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:clipToPadding="false"
+        android:elevation="20dp"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <com.pspdfkit.ui.LocalizedButton
+            android:id="@+id/pspdf__annotation_list_clear_all"
+            style="@style/TextAppearance.AppCompat.Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_gravity="start"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/pspdf__clear_annotations" />
+
+        <ImageButton
+            android:id="@+id/pspdf__annotation_list_edit"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="end"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/pspdf__edit" />
+
+    </FrameLayout>
+
+</LinearLayout>

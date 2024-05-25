@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright © 2018-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/pspdf__status_layout"
+              android:layout_width="match_parent"
+              android:layout_height="?android:attr/listPreferredItemHeight"
+              android:clickable="true"
+              android:focusable="true"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              android:padding="8dp"
+              android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/pspdf__status_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:drawablePadding="12dp"
+        android:focusable="false"
+        android:textColor="@color/pspdf__color_black"
+        android:textSize="18sp"
+        tools:drawableStart="@drawable/pspdf__ic_status_accepted"
+        tools:text="Accepted"/>
+
+</LinearLayout>

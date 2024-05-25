@@ -1,0 +1,2 @@
+androidmads.library.qrgenearator
+string app_name

@@ -1,0 +1,2392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <attr format="reference" name="pspdf__annotationInstantCommentIcon"/>
+    <attr format="reference" name="pspdf__annotationNoteIcon"/>
+    <attr format="color" name="pspdf__backIconColorTint"/>
+    <attr format="color" name="pspdf__backgroundColor"/>
+    <attr format="reference" name="pspdf__bookmarksAddIcon"/>
+    <attr format="reference" name="pspdf__bookmarksDeleteIcon"/>
+    <attr format="reference" name="pspdf__bookmarksDoneIcon"/>
+    <attr format="reference" name="pspdf__bookmarksEditIcon"/>
+    <attr format="color" name="pspdf__borderColor"/>
+    <attr format="dimension" name="pspdf__borderWidth"/>
+    <attr format="reference" name="pspdf__buttonIcon"/>
+    <attr format="reference" name="pspdf__cameraIcon"/>
+    <attr format="reference" name="pspdf__circleIcon"/>
+    <attr format="reference" name="pspdf__cloudyCircleIcon"/>
+    <attr format="reference" name="pspdf__cloudyPolygonIcon"/>
+    <attr format="reference" name="pspdf__cloudySquareIcon"/>
+    <attr format="reference" name="pspdf__copyIcon"/>
+    <attr format="reference" name="pspdf__cutIcon"/>
+    <attr format="reference" name="pspdf__dashedCircleIcon"/>
+    <attr format="reference" name="pspdf__dashedPolygonIcon"/>
+    <attr format="reference" name="pspdf__dashedSquareIcon"/>
+    <attr format="color" name="pspdf__defaultTextColor"/>
+    <attr format="reference" name="pspdf__deleteIcon"/>
+    <attr format="reference" name="pspdf__doneIcon"/>
+    <attr format="color" name="pspdf__dragTargetColor"/>
+    <attr format="reference" name="pspdf__duplicatePagesIcon"/>
+    <attr format="reference" name="pspdf__editAnnotationsIcon"/>
+    <attr format="reference" name="pspdf__editAnnotationsIconActivated"/>
+    <attr format="reference" name="pspdf__editIcon"/>
+    <attr format="reference" name="pspdf__editPagesIcon"/>
+    <attr format="reference" name="pspdf__eraserIcon"/>
+    <attr format="color" name="pspdf__errorColor"/>
+    <attr format="reference" name="pspdf__exportPagesIcon"/>
+    <attr format="reference" name="pspdf__freeTextCalloutIcon"/>
+    <attr format="reference" name="pspdf__freeTextIcon"/>
+    <attr format="reference" name="pspdf__gridIcon"/>
+    <attr format="reference" name="pspdf__gridIconActivated"/>
+    <attr format="color" name="pspdf__highlightBackgroundColor"/>
+    <attr format="color" name="pspdf__highlightBorderColor"/>
+    <attr format="reference" name="pspdf__highlightIcon"/>
+    <attr format="color" name="pspdf__highlightTextColor"/>
+    <attr format="color" name="pspdf__hintColor"/>
+    <attr format="color" name="pspdf__iconsColor"/>
+    <attr format="color" name="pspdf__iconsColorActivated"/>
+    <attr format="reference" name="pspdf__imageIcon"/>
+    <attr format="reference" name="pspdf__importDocumentIcon"/>
+    <attr format="reference" name="pspdf__inkHighlighterIcon"/>
+    <attr format="reference" name="pspdf__inkPenIcon"/>
+    <attr format="color" name="pspdf__inputFieldBackgroundColor"/>
+    <attr format="color" name="pspdf__inputFieldHintColor"/>
+    <attr format="color" name="pspdf__inputFieldTextColor"/>
+    <attr format="reference" name="pspdf__instantCommentIcon"/>
+    <attr format="color|reference" name="pspdf__itemTint"/>
+    <attr format="string|reference" name="pspdf__label"/>
+    <attr format="reference" name="pspdf__lineArrowIcon"/>
+    <attr format="reference" name="pspdf__lineIcon"/>
+    <attr format="color" name="pspdf__linkAnnotationBackgroundColor"/>
+    <attr format="color" name="pspdf__linkAnnotationBorderColor"/>
+    <attr format="color" name="pspdf__linkAnnotationHighlightBackgroundColor"/>
+    <attr format="color" name="pspdf__linkAnnotationHighlightBorderColor"/>
+    <attr format="reference" name="pspdf__linkIcon"/>
+    <attr format="color" name="pspdf__listItemBackgroundColor"/>
+    <attr format="reference" name="pspdf__listItemSelector"/>
+    <attr format="color" name="pspdf__listItemSubtitleColor"/>
+    <attr format="color" name="pspdf__listItemTitleColor"/>
+    <attr format="reference" name="pspdf__magicInkIcon"/>
+    <attr format="dimension" name="pspdf__maxHeight"/>
+    <attr format="dimension" name="pspdf__maxWidth"/>
+    <attr format="reference" name="pspdf__moreIcon"/>
+    <attr format="color" name="pspdf__nextIconColorTint"/>
+    <attr format="reference" name="pspdf__nextIconDrawable"/>
+    <attr format="reference" name="pspdf__noteIcon"/>
+    <attr format="reference" name="pspdf__outlineIcon"/>
+    <attr format="reference" name="pspdf__outlineIconActivated"/>
+    <attr format="reference" name="pspdf__playIcon"/>
+    <attr format="reference" name="pspdf__polygonIcon"/>
+    <attr format="reference" name="pspdf__polylineIcon"/>
+    <attr format="color" name="pspdf__prevIconColorTint"/>
+    <attr format="reference" name="pspdf__prevIconDrawable"/>
+    <attr format="reference" name="pspdf__printIcon"/>
+    <attr format="reference" name="pspdf__readerViewIcon"/>
+    <attr format="reference" name="pspdf__readerViewIconActivated"/>
+    <attr format="reference" name="pspdf__recordIcon"/>
+    <attr format="reference" name="pspdf__redactionIcon"/>
+    <attr format="reference" name="pspdf__redoIcon"/>
+    <attr format="reference" name="pspdf__removePagesIcon"/>
+    <attr format="reference" name="pspdf__rotatePagesIcon"/>
+    <attr format="reference" name="pspdf__searchIcon"/>
+    <attr format="reference" name="pspdf__searchIconActivated"/>
+    <attr format="color" name="pspdf__separatorColor"/>
+    <attr format="reference" name="pspdf__settingsIcon"/>
+    <attr format="reference" name="pspdf__settingsIconActivated"/>
+    <attr format="reference" name="pspdf__shareIcon"/>
+    <attr format="reference" name="pspdf__signatureIcon"/>
+    <attr format="reference" name="pspdf__signatureIconActivated"/>
+    <attr format="reference" name="pspdf__soundIcon"/>
+    <attr format="reference" name="pspdf__speakIcon"/>
+    <attr format="reference" name="pspdf__squareIcon"/>
+    <attr format="reference" name="pspdf__squigglyIcon"/>
+    <attr format="reference" name="pspdf__stampIcon"/>
+    <attr format="reference" name="pspdf__strikeoutIcon"/>
+    <attr format="color" name="pspdf__textColor"/>
+    <attr format="color" name="pspdf__thumbnailBorderColor"/>
+    <attr format="dimension" name="pspdf__thumbnailHeight"/>
+    <attr format="color" name="pspdf__thumbnailSelectedBorderColor"/>
+    <attr format="dimension" name="pspdf__thumbnailWidth"/>
+    <attr format="reference" name="pspdf__underlineIcon"/>
+    <attr format="reference" name="pspdf__undoIcon"/>
+    <attr format="reference|boolean" name="pspdf__usePageAspectRatio"/>
+    <bool name="pspdf__display_document_title_in_actionbar">false</bool>
+    <color name="pspdf__action_menu_fixed_items_background">#FFF4F4F4</color>
+    <color name="pspdf__action_menu_label_color">@color/pspdf__dialog_text_color</color>
+    <color name="pspdf__annotation_note_hinter_color">@color/pspdf__color_black</color>
+    <color name="pspdf__annotation_selection_border">#773F8BAC</color>
+    <color name="pspdf__annotation_selection_edithandle">#5BBBEF</color>
+    <color name="pspdf__annotation_selection_guide_line_color">@color/pspdf__dark_theme_orange</color>
+    <color name="pspdf__annotation_selection_scalehandle">#3F8BAC</color>
+    <color name="pspdf__border_color_highlight">#89000000</color>
+    <color name="pspdf__color">#3C97C9</color>
+    <color name="pspdf__color_black">#000000</color>
+    <color name="pspdf__color_dark">#306F8B</color>
+    <color name="pspdf__color_default_freetext">#FF000000</color>
+    <color name="pspdf__color_default_highlight">#FFD100</color>
+    <color name="pspdf__color_default_ink">#FF2196F3</color>
+    <color name="pspdf__color_default_redaction">#FFF44336</color>
+    <color name="pspdf__color_default_squiggle">#FFF44336</color>
+    <color name="pspdf__color_default_strikeout">#F76054</color>
+    <color name="pspdf__color_default_underline">#FF212121</color>
+    <color name="pspdf__color_electronic_signature_drawing_primary">@color/pspdf__color_black</color>
+    <color name="pspdf__color_electronic_signature_drawing_secondary">#4636E3</color>
+    <color name="pspdf__color_electronic_signature_drawing_tertiary">#2972FF</color>
+    <color name="pspdf__color_electronic_signature_saving">#14333333</color>
+    <color name="pspdf__color_electronic_signature_saving_selected">#D8E8F3</color>
+    <color name="pspdf__color_electronic_signature_select_image">#4537DE</color>
+    <color name="pspdf__color_electronic_signature_selected_border">#4537DE</color>
+    <color name="pspdf__color_error">#b71c1c</color>
+    <color name="pspdf__color_gray">#A8A8A8</color>
+    <color name="pspdf__color_gray_dark">#7E7E7E</color>
+    <color name="pspdf__color_gray_light">#E0E0E0</color>
+    <color name="pspdf__color_highlight">#FCEE7C</color>
+    <color name="pspdf__color_light">#B3E5FC</color>
+    <color name="pspdf__color_link_annotation_background">@android:color/transparent</color>
+    <color name="pspdf__color_link_annotation_border">@android:color/transparent</color>
+    <color name="pspdf__color_link_annotation_highlight_background">#5ABEBEBE</color>
+    <color name="pspdf__color_link_annotation_highlight_border">@android:color/transparent</color>
+    <color name="pspdf__color_red_light">#EF5350</color>
+    <color name="pspdf__color_signature_black">#000000</color>
+    <color name="pspdf__color_signature_blue">#0066FF</color>
+    <color name="pspdf__color_signature_green">#2E7D32</color>
+    <color name="pspdf__color_signature_red">#CC0000</color>
+    <color name="pspdf__color_signature_yellow">#FFEB3B</color>
+    <color name="pspdf__color_teal">#1DE9B6</color>
+    <color name="pspdf__color_translucent">#643C97C9</color>
+    <color name="pspdf__color_white">#FFFFFF</color>
+    <color name="pspdf__color_white_hint">#DDFFFFFF</color>
+    <color name="pspdf__comparison_accent_dark">#8F9BF4</color>
+    <color name="pspdf__dark">#1E2428</color>
+    <color name="pspdf__dark_accent">#D2ED4F</color>
+    <color name="pspdf__dark_annotation_note_hinter_color">#FFFFFF</color>
+    <color name="pspdf__dark_annotation_selection_border">#D2ED4F</color>
+    <color name="pspdf__dark_annotation_selection_edit_handle">@color/pspdf__dark_theme_orange</color>
+    <color name="pspdf__dark_annotation_selection_scale_handle">#C8E700</color>
+    <color name="pspdf__dark_background_color">#363D42</color>
+    <color name="pspdf__dark_background_color_secondary">#30363B</color>
+    <color name="pspdf__dark_document_info_item_title_text_color">@color/pspdf__color_gray</color>
+    <color name="pspdf__dark_document_info_item_value_hint_text_color">@color/pspdf__color_gray_dark</color>
+    <color name="pspdf__dark_document_info_item_value_text_color">@color/pspdf__color_gray_light</color>
+    <color name="pspdf__dark_drag_target">#D32F2F</color>
+    <color name="pspdf__dark_foreground_color">@color/pspdf__color_white</color>
+    <color name="pspdf__dark_icons_blue">#64BDDF</color>
+    <color name="pspdf__dark_input_field_blue">#6CB6D0</color>
+    <color name="pspdf__dark_page_number_blue">#64BDDF</color>
+    <color name="pspdf__dark_popup_toolbar_background_color">#616161</color>
+    <color name="pspdf__dark_popup_toolbar_item_tint">#F5F5F5</color>
+    <color name="pspdf__dark_popup_toolbar_item_tint_disabled">#9E9E9E</color>
+    <color name="pspdf__dark_scrollbars">#99D2ED4F</color>
+    <color name="pspdf__dark_selection_background">@color/pspdf__dark_accent</color>
+    <color name="pspdf__dark_selection_text">#363D42</color>
+    <color name="pspdf__dark_settings_mode_picker_item_activated">@color/pspdf__dark_icons_blue</color>
+    <color name="pspdf__dark_settings_mode_picker_item_default">@color/pspdf__color_gray_light</color>
+    <color name="pspdf__dark_settings_mode_picker_item_disabled">@color/pspdf__color_gray_dark</color>
+    <color name="pspdf__dark_settings_mode_picker_item_selected_disabled">@color/pspdf__dark_icons_blue</color>
+    <color name="pspdf__dark_status_bar">@color/pspdf__dark</color>
+    <color name="pspdf__dark_text_selection_highlight_color">#99D2EDAA</color>
+    <color name="pspdf__dark_text_selection_left_handle_color">#99D2EDAA</color>
+    <color name="pspdf__dark_text_selection_right_handle_color">#99D2EDAA</color>
+    <color name="pspdf__dark_theme_orange">#FFFCBF20</color>
+    <color name="pspdf__dialog_text_color">#FF212121</color>
+    <color name="pspdf__document_info_group_title_text_color">#407993</color>
+    <color name="pspdf__document_info_item_title_text_color">#212121</color>
+    <color name="pspdf__document_info_item_value_hint_text_color">#A3A3A3</color>
+    <color name="pspdf__document_info_item_value_text_color">#757575</color>
+    <color name="pspdf__electronic_signature_bg_color">#F0F3F9</color>
+    <color name="pspdf__electronic_signature_clear_signature_color">#4537DE</color>
+    <color name="pspdf__electronic_signature_font_select_bg_color">#E5E8F1</color>
+    <color name="pspdf__electronic_signature_ripple_background_color">#773F8BAC</color>
+    <color name="pspdf__electronic_signature_sign_here_color">#606671</color>
+    <color name="pspdf__electronic_signature_typing_color_hint">#D8DFEB</color>
+    <color name="pspdf__foreground_color">@color/pspdf__color_black</color>
+    <color name="pspdf__form_highlight_color">#330036FF</color>
+    <color name="pspdf__form_sign_here_overlay_color">#FFE75B4F</color>
+    <color name="pspdf__form_validation_error_background_color">#323232</color>
+    <color name="pspdf__inspector_text_color">#6D6D6D</color>
+    <color name="pspdf__link_annotation_border_color_highlight">#89000000</color>
+    <color name="pspdf__link_annotation_color_highlight">#FCEE7C</color>
+    <color name="pspdf__list_divider_light">#55000000</color>
+    <color name="pspdf__note_editor_content_text_color">@color/pspdf__color_gray_dark</color>
+    <color name="pspdf__note_editor_created_date_text_color">@color/pspdf__color_gray</color>
+    <color name="pspdf__note_editor_options_item_tint">@color/pspdf__color_gray</color>
+    <color name="pspdf__note_editor_style_box_chevron_tint">#534E2E</color>
+    <color name="pspdf__note_editor_style_box_icon_tint">#A0000000</color>
+    <color name="pspdf__note_editor_style_box_title_text_color">@color/pspdf__color_gray_dark</color>
+    <color name="pspdf__page_creator_color_gray_light">#f5f5f5</color>
+    <color name="pspdf__popup_toolbar_background_color">#F5F5F5</color>
+    <color name="pspdf__popup_toolbar_item_tint">#616161</color>
+    <color name="pspdf__popup_toolbar_item_tint_disabled">#BDBDBD</color>
+    <color name="pspdf__required_text_form_element_border_color">#FFFF0000</color>
+    <color name="pspdf__selected_choice_form_item_highlight_color">#339AC1D9</color>
+    <color name="pspdf__selected_text_form_element_background_color">#FFFFFB8C</color>
+    <color name="pspdf__selected_text_form_element_border_color">@color/pspdf__color_black</color>
+    <color name="pspdf__settings_mode_picker_item_activated">@color/pspdf__color</color>
+    <color name="pspdf__settings_mode_picker_item_default">@color/pspdf__color_gray_dark</color>
+    <color name="pspdf__settings_mode_picker_item_disabled">@color/pspdf__color_gray_light</color>
+    <color name="pspdf__settings_mode_picker_item_selected_disabled">@color/pspdf__color</color>
+    <color name="pspdf__sound_annotation_playback">#5BBBEF</color>
+    <color name="pspdf__sound_annotation_record">#EF5350</color>
+    <color name="pspdf__sound_annotation_selection">#5BBBEF</color>
+    <color name="pspdf__text_selection_highlight_color">#98afc7</color>
+    <color name="pspdf__text_selection_left_handle_color">#98afc7</color>
+    <color name="pspdf__text_selection_right_handle_color">#98afc7</color>
+    <color name="pspdf__touched_form_element_highlight_color">#60888888</color>
+    <dimen name="pspdf__alert_dialog_inset">16dp</dimen>
+    <dimen name="pspdf__annotation_note_hinter_height">16dp</dimen>
+    <dimen name="pspdf__annotation_note_hinter_text_markup_left_padding">10dp</dimen>
+    <dimen name="pspdf__annotation_note_hinter_width">16dp</dimen>
+    <dimen name="pspdf__annotation_selection_border_width">1dp</dimen>
+    <dimen name="pspdf__annotation_selection_guide_line_increase">60dp</dimen>
+    <dimen name="pspdf__annotation_selection_guide_line_width">2dp</dimen>
+    <dimen name="pspdf__annotation_selection_padding">16dp</dimen>
+    <dimen name="pspdf__audio_inspector_height">56dp</dimen>
+    <dimen name="pspdf__audio_view_corner_radius">4dp</dimen>
+    <dimen name="pspdf__audio_view_elevation">4dp</dimen>
+    <dimen name="pspdf__audio_view_horizontal_margin">@dimen/pspdf__floating_thumbnail_bar_margin_horizontal</dimen>
+    <dimen name="pspdf__audio_view_vertical_margin">4dp</dimen>
+    <dimen name="pspdf__bookmark_page_image_height">112dp</dimen>
+    <dimen name="pspdf__bookmark_page_image_width">80dp</dimen>
+    <dimen name="pspdf__bottom_sheet_max_width">480dp</dimen>
+    <dimen name="pspdf__color_picker_color_padding">3dp</dimen>
+    <dimen name="pspdf__color_picker_color_size">32dp</dimen>
+    <dimen name="pspdf__comparison_target_icon_height">70dp</dimen>
+    <dimen name="pspdf__comparison_target_icon_width">70dp</dimen>
+    <dimen name="pspdf__custom_color_picker_padding">16dp</dimen>
+    <dimen name="pspdf__dialog_corner_radius">2dp</dimen>
+    <dimen name="pspdf__dialog_padding">24dp</dimen>
+    <dimen name="pspdf__dialog_title_height">56dp</dimen>
+    <dimen name="pspdf__dialog_title_text_size">18sp</dimen>
+    <dimen name="pspdf__document_info_group_content_margin_start">72dp</dimen>
+    <dimen name="pspdf__document_info_group_icon_margin_start">8dp</dimen>
+    <dimen name="pspdf__document_info_group_icon_size">24dp</dimen>
+    <dimen name="pspdf__document_info_group_margin_bottom">36dp</dimen>
+    <dimen name="pspdf__document_info_group_margin_end">18dp</dimen>
+    <dimen name="pspdf__document_info_group_margin_start">18dp</dimen>
+    <dimen name="pspdf__document_info_group_margin_top">24dp</dimen>
+    <dimen name="pspdf__document_info_group_title_margin_bottom">24dp</dimen>
+    <dimen name="pspdf__document_info_group_title_text_size">14sp</dimen>
+    <dimen name="pspdf__document_info_item_spacing">16dp</dimen>
+    <dimen name="pspdf__document_info_item_title_and_value_spacing">8dp</dimen>
+    <dimen name="pspdf__document_info_item_title_text_size">16sp</dimen>
+    <dimen name="pspdf__document_info_item_value_text_size">14sp</dimen>
+    <dimen name="pspdf__document_title_overlay_elevation">2dp</dimen>
+    <dimen name="pspdf__electronic_signature_canvas_controller_picker_circles_border_width">3dp</dimen>
+    <dimen name="pspdf__electronic_signature_canvas_controller_picker_circles_inner_inset">6dp</dimen>
+    <dimen name="pspdf__electronic_signature_canvas_controller_picker_circles_inner_size">40dp</dimen>
+    <dimen name="pspdf__electronic_signature_canvas_controller_picker_circles_padding">12dp</dimen>
+    <dimen name="pspdf__electronic_signature_canvas_controller_picker_circles_size">46dp</dimen>
+    <dimen name="pspdf__electronic_signature_dialog_height">622dp</dimen>
+    <dimen name="pspdf__electronic_signature_dialog_width">638dp</dimen>
+    <dimen name="pspdf__electronic_signature_font_selection_circle_size">46dp</dimen>
+    <dimen name="pspdf__electronic_signature_layout_padding">16dp</dimen>
+    <dimen name="pspdf__electronic_signature_save_signature_chip_height">32dp</dimen>
+    <dimen name="pspdf__electronic_signature_save_signature_chip_padding">8dp</dimen>
+    <dimen name="pspdf__floating_thumbnail_bar_corner_radius">4dp</dimen>
+    <dimen name="pspdf__floating_thumbnail_bar_elevation">4dp</dimen>
+    <dimen name="pspdf__floating_thumbnail_bar_margin_above_navigation">12dp</dimen>
+    <dimen name="pspdf__floating_thumbnail_bar_margin_bottom">36dp</dimen>
+    <dimen name="pspdf__floating_thumbnail_bar_margin_horizontal">24dp</dimen>
+    <dimen name="pspdf__floating_thumbnail_bar_margin_top">0dp</dimen>
+    <dimen name="pspdf__form_editing_bar_elevation">7dp</dimen>
+    <dimen name="pspdf__form_editing_bar_height">56dp</dimen>
+    <dimen name="pspdf__highlighted_border_width" ns1:ignore="PxUsage">2px</dimen>
+    <dimen name="pspdf__highlighted_link_annotation_animation_padding">8dp</dimen>
+    <dimen name="pspdf__highlighted_link_annotation_padding">3dp</dimen>
+    <item format="float" name="pspdf__highlighted_rectangle_corner_radius_to_height_ratio" type="dimen">0.1</item>
+    <dimen name="pspdf__highlighted_rectangle_max_corner_radius">10dp</dimen>
+    <dimen name="pspdf__highlighted_rectangle_min_corner_radius">2dp</dimen>
+    <dimen name="pspdf__inspector_corner_radius">4dp</dimen>
+    <dimen name="pspdf__inspector_elevation">16dp</dimen>
+    <dimen name="pspdf__inspector_item_height">48dp</dimen>
+    <dimen name="pspdf__inspector_padding">16dp</dimen>
+    <dimen name="pspdf__inspector_preview_item_height">72dp</dimen>
+    <dimen name="pspdf__inspector_text_size">16sp</dimen>
+    <dimen name="pspdf__inspector_vertical_padding">8dp</dimen>
+    <dimen name="pspdf__min_editable_annotation_touch_size">48dp</dimen>
+    <dimen name="pspdf__min_selectable_text_size">24dp</dimen>
+    <dimen name="pspdf__navigation_bar_height">48dp</dimen>
+    <dimen name="pspdf__note_editor_item_card_author_name_text_size">16sp</dimen>
+    <dimen name="pspdf__note_editor_item_card_content_text_size">14sp</dimen>
+    <dimen name="pspdf__note_editor_item_card_content_vertical_padding">16dp</dimen>
+    <dimen name="pspdf__note_editor_item_card_corner_radius">2dp</dimen>
+    <dimen name="pspdf__note_editor_item_card_elevation">2dp</dimen>
+    <dimen name="pspdf__note_editor_item_card_margin_vertical">8dp</dimen>
+    <dimen name="pspdf__note_editor_item_card_padding">20dp</dimen>
+    <dimen name="pspdf__note_editor_item_created_date">12sp</dimen>
+    <dimen name="pspdf__note_editor_item_options_item_height">30dp</dimen>
+    <dimen name="pspdf__note_editor_item_options_item_width">20dp</dimen>
+    <dimen name="pspdf__note_editor_item_recycler_view_padding_horizontal">8dp</dimen>
+    <dimen name="pspdf__note_editor_item_recycler_view_padding_vertical">16dp</dimen>
+    <dimen name="pspdf__note_editor_item_status_count_corner_radius">2dp</dimen>
+    <dimen name="pspdf__note_editor_item_style_box_corner_radius">4dp</dimen>
+    <dimen name="pspdf__note_editor_item_style_box_details_item_spacing_dp">8dp</dimen>
+    <dimen name="pspdf__note_editor_item_style_box_item_padding">4dp</dimen>
+    <dimen name="pspdf__note_editor_item_style_box_padding">8dp</dimen>
+    <dimen name="pspdf__note_editor_status_box_authors_list_label_size">14sp</dimen>
+    <dimen name="pspdf__note_editor_status_box_authors_list_text_size">14sp</dimen>
+    <dimen name="pspdf__note_editor_status_box_item_margin">8dp</dimen>
+    <dimen name="pspdf__page_creator_dialog_width">350dp</dimen>
+    <dimen name="pspdf__password_edit_text_default_bottom_space">8dp</dimen>
+    <dimen name="pspdf__password_edit_text_default_floating_hint_text_size">12sp</dimen>
+    <dimen name="pspdf__popup_toolbar_edge_padding">8dp</dimen>
+    <dimen name="pspdf__scrollable_thumbnail_height">76dp</dimen>
+    <dimen name="pspdf__scrollable_thumbnail_width">54dp</dimen>
+    <dimen name="pspdf__search_inline_input_text_size">18sp</dimen>
+    <dimen name="pspdf__search_inline_result_text_size">12sp</dimen>
+    <dimen name="pspdf__search_result_animation_padding">8dp</dimen>
+    <dimen name="pspdf__search_result_annotation_padding">3dp</dimen>
+    <dimen name="pspdf__search_result_border_width" ns1:ignore="PxUsage">2px</dimen>
+    <item format="float" name="pspdf__search_result_corner_radius_to_height_ratio" type="dimen">0.1</item>
+    <dimen name="pspdf__search_result_max_corner_radius">10dp</dimen>
+    <dimen name="pspdf__search_result_min_corner_radius">2dp</dimen>
+    <dimen name="pspdf__search_result_padding">2dp</dimen>
+    <dimen name="pspdf__settings_mode_popup_window_padding">16dp</dimen>
+    <dimen name="pspdf__settings_mode_section_title_margin_bottom">8dp</dimen>
+    <dimen name="pspdf__signature_canvas_controller_picker_circles_padding">16dp</dimen>
+    <dimen name="pspdf__signature_canvas_controller_picker_circles_size">56dp</dimen>
+    <dimen name="pspdf__signature_dialog_height">480dp</dimen>
+    <dimen name="pspdf__signature_dialog_width">600dp</dimen>
+    <dimen name="pspdf__signature_layout_padding">16dp</dimen>
+    <dimen name="pspdf__signature_list_item_height">72dp</dimen>
+    <dimen name="pspdf__signature_signer_chip_avatar_padding">8dp</dimen>
+    <dimen name="pspdf__signature_signer_chip_height">32dp</dimen>
+    <dimen name="pspdf__signature_signer_list_selected_item_avatar_size">42dp</dimen>
+    <dimen name="pspdf__signature_signer_list_selected_item_height">72dp</dimen>
+    <dimen name="pspdf__sound_annotation_size">56dp</dimen>
+    <dimen name="pspdf__tab_bar_height">40dp</dimen>
+    <dimen name="pspdf__tab_bar_item_close_button_padding">4dp</dimen>
+    <dimen name="pspdf__tab_bar_item_horizontal_padding">16dp</dimen>
+    <dimen name="pspdf__tab_bar_maximum_width">480dp</dimen>
+    <dimen name="pspdf__tab_bar_minimum_width">120dp</dimen>
+    <dimen name="pspdf__tab_bar_text_size">14sp</dimen>
+    <dimen name="pspdf__thumbnail_bar_content_padding">12dp</dimen>
+    <dimen name="pspdf__thumbnail_bar_thumbnails_padding">4dp</dimen>
+    <dimen name="pspdf__thumbnail_height">38dp</dimen>
+    <dimen name="pspdf__thumbnail_width">27dp</dimen>
+    <dimen name="pspdf__toolbar_elevation">4dp</dimen>
+    <dimen name="pspdf__vertical_toolbar_horizontal_margin">16dp</dimen>
+    <dimen name="pspdf__vertical_toolbar_vertical_margin">32dp</dimen>
+    <dimen name="pspdf__view_annotation_size">24dp</dimen>
+    <dimen name="pspdf_comparison_breadcrumbs_height">35dp</dimen>
+    <dimen name="pspdf_comparison_helper_width">-1dp</dimen>
+    <dimen name="pspdf_stepper_height">52dp</dimen>
+    <dimen name="pspdf_stepper_margin_bottom">8dp</dimen>
+    <dimen name="pspdf_stepper_margin_end">0dp</dimen>
+    <dimen name="pspdf_stepper_margin_start">0dp</dimen>
+    <dimen name="pspdf_stepper_margin_top">16dp</dimen>
+    <dimen name="pspdf_thumbnail_grid_item_view_margin">3dp</dimen>
+    <item name="pspdf__annotation_creation_inspector" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_group_drawing" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_group_markup" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_group_multimedia" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_group_undo_redo" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_group_writing" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_camera" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_circle" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_cloudy" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_cloudy_circle" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_cloudy_polygon" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_cloudy_square" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_dashed_circle" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_dashed_polygon" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_dashed_square" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_drawing" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_eraser" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_freetext" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_freetext_callout" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_highlight" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_image" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_ink_highlighter" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_ink_pen" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_instant_comment_marker" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_instant_highlight_comment" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_line" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_line_arrow" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_magic_ink" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_markup" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_multimedia" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_note" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_picker" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_polygon" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_polyline" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_redaction" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_redo" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_signature" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_sound" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_square" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_squiggly" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_stamp" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_strikeout" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_underline" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_undo" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_undo_redo" type="id"/>
+    <item name="pspdf__annotation_creation_toolbar_item_writing" type="id"/>
+    <item name="pspdf__annotation_editing_inspector" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_group_copy_cut" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_group_edit_share" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_group_inspector" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_group_undo_redo" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_annotation_note" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_copy" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_copy_cut" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_cut" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_delete" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_edit" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_edit_share" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_inspector" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_picker" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_play" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_record" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_redo" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_share" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_undo" type="id"/>
+    <item name="pspdf__annotation_editing_toolbar_item_undo_redo" type="id"/>
+    <item name="pspdf__annotation_inspector_view_alpha_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_border_style_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_close" type="id"/>
+    <item name="pspdf__annotation_inspector_view_fill_color_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_font_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_foreground_color_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_line_end_fill_color_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_line_end_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_line_start_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_outline_color_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_overlay_text_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_repeat_overlay_text_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_text_size_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_thickness_picker" type="id"/>
+    <item name="pspdf__annotation_inspector_view_z_index_picker" type="id"/>
+    <item name="pspdf__annotation_list_view" type="id"/>
+    <item name="pspdf__bookmark_list_view" type="id"/>
+    <item name="pspdf__bottom_sheet_drag_to_resize_view" type="id"/>
+    <item name="pspdf__bottom_sheet_layout" type="id"/>
+    <item name="pspdf__compose_fragment_container" type="id"/>
+    <item name="pspdf__custom_stamp_creator_dialog_color_picker" type="id"/>
+    <item name="pspdf__custom_stamp_creator_dialog_title" type="id"/>
+    <item name="pspdf__document_editing_toolbar" type="id"/>
+    <item name="pspdf__document_editing_toolbar_group_more" type="id"/>
+    <item name="pspdf__document_editing_toolbar_item_done" type="id"/>
+    <item name="pspdf__document_editing_toolbar_item_duplicate_pages" type="id"/>
+    <item name="pspdf__document_editing_toolbar_item_export_pages" type="id"/>
+    <item name="pspdf__document_editing_toolbar_item_import_document" type="id"/>
+    <item name="pspdf__document_editing_toolbar_item_more" type="id"/>
+    <item name="pspdf__document_editing_toolbar_item_redo" type="id"/>
+    <item name="pspdf__document_editing_toolbar_item_remove_pages" type="id"/>
+    <item name="pspdf__document_editing_toolbar_item_rotate_pages" type="id"/>
+    <item name="pspdf__document_editing_toolbar_item_undo" type="id"/>
+    <item name="pspdf__document_info_dialog_toolbar" type="id"/>
+    <item name="pspdf__document_info_view" type="id"/>
+    <item name="pspdf__electronic_signature_layout_add_new_signature_container" type="id"/>
+    <item name="pspdf__electronic_signatures_back_button" type="id"/>
+    <item name="pspdf__electronic_signatures_color_option_primary" type="id"/>
+    <item name="pspdf__electronic_signatures_color_option_secondary" type="id"/>
+    <item name="pspdf__electronic_signatures_color_option_tertiary" type="id"/>
+    <item name="pspdf__electronic_signatures_draw_signature" type="id"/>
+    <item name="pspdf__electronic_signatures_fab_delete_selected_signatures" type="id"/>
+    <item name="pspdf__electronic_signatures_font_selection_spinner" type="id"/>
+    <item name="pspdf__electronic_signatures_font_selection_spinner_image" type="id"/>
+    <item name="pspdf__electronic_signatures_image_signature" type="id"/>
+    <item name="pspdf__electronic_signatures_layout_title_view" type="id"/>
+    <item name="pspdf__electronic_signatures_signature_fab_add_new_signature" type="id"/>
+    <item name="pspdf__electronic_signatures_typing_signature" type="id"/>
+    <item name="pspdf__electronic_signatures_view_pager" type="id"/>
+    <item name="pspdf__electronic_signatures_view_pager_tab_layout" type="id"/>
+    <item name="pspdf__form_editing_inspector" type="id"/>
+    <item name="pspdf__fragment_loading_view" type="id"/>
+    <item name="pspdf__fragment_password_view" type="id"/>
+    <item name="pspdf__fragment_progressbar" type="id"/>
+    <item name="pspdf__fragment_throbber" type="id"/>
+    <item name="pspdf__link_creator_dialog_edit_text" type="id"/>
+    <item name="pspdf__menu_option_edit_annotations" type="id"/>
+    <item name="pspdf__menu_option_info" type="id"/>
+    <item name="pspdf__menu_option_open" type="id"/>
+    <item name="pspdf__menu_option_outline" type="id"/>
+    <item name="pspdf__menu_option_print" type="id"/>
+    <item name="pspdf__menu_option_reader_view" type="id"/>
+    <item name="pspdf__menu_option_save_as" type="id"/>
+    <item name="pspdf__menu_option_search" type="id"/>
+    <item name="pspdf__menu_option_settings" type="id"/>
+    <item name="pspdf__menu_option_share" type="id"/>
+    <item name="pspdf__menu_option_signature" type="id"/>
+    <item name="pspdf__menu_option_thumbnail_grid" type="id"/>
+    <item name="pspdf__outline_list_search_view" type="id"/>
+    <item name="pspdf__outline_list_view" type="id"/>
+    <item name="pspdf__popup_toolbar" type="id"/>
+    <item name="pspdf__reader_container" type="id"/>
+    <item name="pspdf__reader_wev_view" type="id"/>
+    <item name="pspdf__search_view_inline" type="id"/>
+    <item name="pspdf__share_dialog_title" type="id"/>
+    <item name="pspdf__signature_fab_add_new_signature" type="id"/>
+    <item name="pspdf__signature_fab_delete_selected_signatures" type="id"/>
+    <item name="pspdf__signature_items_list" type="id"/>
+    <item name="pspdf__signature_layout" type="id"/>
+    <item name="pspdf__signature_layout_add_new_signature" type="id"/>
+    <item name="pspdf__signature_layout_title_view" type="id"/>
+    <item name="pspdf__static_thumbnail_bar" type="id"/>
+    <item name="pspdf__tabs_bar_list" type="id"/>
+    <item name="pspdf__tag_key_bitmap" type="id"/>
+    <item name="pspdf__tag_key_overlay_provider" type="id"/>
+    <item name="pspdf__tag_key_page_index" type="id"/>
+    <item name="pspdf__tag_key_thumbnail_position" type="id"/>
+    <item name="pspdf__text_selection_toolbar" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_copy" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_highlight" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_instantHighlightComment" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_link" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_paste_annotation" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_redact" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_search" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_share" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_speak" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_strikeout" type="id"/>
+    <item name="pspdf__text_selection_toolbar_item_underline" type="id"/>
+    <item name="pspdf__toolbar_back_button" type="id"/>
+    <item name="pspdf__toolbar_close_button" type="id"/>
+    <item name="pspdf__toolbar_drag_button" type="id"/>
+    <item name="pspdf__toolbar_more_items" type="id"/>
+    <integer name="pspdf__annotation_note_hinter_alpha">128</integer>
+    <plurals name="pspdf__annotations_number">
+        <item quantity="zero">No Annotations</item>
+        <item quantity="one">%d Annotation</item>
+        <item quantity="other">%d Annotations</item>
+    </plurals>
+    <plurals name="pspdf__lines_number">
+        <item quantity="one">%d Line</item>
+        <item quantity="other">%d Lines</item>
+    </plurals>
+    <plurals name="pspdf__pages_number">
+        <item quantity="one">%d Page</item>
+        <item quantity="other">%d Pages</item>
+    </plurals>
+    <plurals name="pspdf__search_results_found">
+        <item quantity="zero">No matches found</item>
+        <item quantity="one">%d match found</item>
+        <item quantity="other">%d matches found</item>
+    </plurals>
+    <string name="pspdf__action_menu_copy">Copy</string>
+    <string name="pspdf__action_menu_speak">Speak</string>
+    <string name="pspdf__activity_empty_message">No Document Set</string>
+    <string name="pspdf__activity_menu_no_outline">No Outline</string>
+    <string name="pspdf__activity_menu_outline">Outline</string>
+    <string name="pspdf__activity_menu_pagegrid">Grid</string>
+    <string name="pspdf__activity_menu_reader_view">Reader View</string>
+    <string name="pspdf__activity_menu_search">Search</string>
+    <string name="pspdf__activity_menu_settings">Settings</string>
+    <string name="pspdf__activity_title_unnamed_document">Unnamed PDF</string>
+    <string name="pspdf__add">Add</string>
+    <string name="pspdf__add_bookmark">Add Bookmark</string>
+    <string name="pspdf__add_link">Add Link</string>
+    <string name="pspdf__add_page">Add Page</string>
+    <string name="pspdf__add_signature">Add Signature</string>
+    <string name="pspdf__align">Align</string>
+    <string name="pspdf__align_documents">Align Documents</string>
+    <string name="pspdf__all">All</string>
+    <string name="pspdf__annotation_copied">Annotation copied.</string>
+    <string name="pspdf__annotation_creator_author_name">Author Name</string>
+    <string name="pspdf__annotation_creator_info_text">Please enter the author name you want to use for newly inserted annotations.</string>
+    <string name="pspdf__annotation_cut">Annotation cut.</string>
+    <string name="pspdf__annotation_editing_embed">Embed Annotations</string>
+    <string name="pspdf__annotation_editing_embed_description">Annotations will be embedded in the PDF and remain editable.</string>
+    <string name="pspdf__annotation_editing_flatten">Flatten Annotations</string>
+    <string name="pspdf__annotation_editing_flatten_description">Annotations will be rendered in the PDF and will not be editable.</string>
+    <string name="pspdf__annotation_editing_ignore">Ignore Annotations</string>
+    <string name="pspdf__annotation_editing_ignore_description">The PDF won’t contain any annotations.</string>
+    <string name="pspdf__annotation_list_page">Page %1$d</string>
+    <string name="pspdf__annotation_pasted">Annotation pasted.</string>
+    <string name="pspdf__annotation_type_camera">Camera</string>
+    <string name="pspdf__annotation_type_circle">Ellipse</string>
+    <string name="pspdf__annotation_type_cloudy">Cloud</string>
+    <string name="pspdf__annotation_type_cloudy_ellipse">Cloudy Ellipse</string>
+    <string name="pspdf__annotation_type_cloudy_polygon">Cloudy Polygon</string>
+    <string name="pspdf__annotation_type_cloudy_rectangle">Cloudy Rectangle</string>
+    <string name="pspdf__annotation_type_dashed_ellipse">Dashed Ellipse</string>
+    <string name="pspdf__annotation_type_dashed_polygon">Dashed Polygon</string>
+    <string name="pspdf__annotation_type_dashed_rectangle">Dashed Rectangle</string>
+    <string name="pspdf__annotation_type_eraser">Eraser</string>
+    <string name="pspdf__annotation_type_file">File</string>
+    <string name="pspdf__annotation_type_freetext">Text</string>
+    <string name="pspdf__annotation_type_highlight">Text Highlight</string>
+    <string name="pspdf__annotation_type_ink">Drawing</string>
+    <string name="pspdf__annotation_type_instantComments">Comments</string>
+    <string name="pspdf__annotation_type_line">Line</string>
+    <string name="pspdf__annotation_type_link">Link</string>
+    <string name="pspdf__annotation_type_note">Note</string>
+    <string name="pspdf__annotation_type_polygon">Polygon</string>
+    <string name="pspdf__annotation_type_polyline">Polyline</string>
+    <string name="pspdf__annotation_type_redaction">Redaction</string>
+    <string name="pspdf__annotation_type_rich_media">Rich Media</string>
+    <string name="pspdf__annotation_type_screen">Screen</string>
+    <string name="pspdf__annotation_type_sound">Sound</string>
+    <string name="pspdf__annotation_type_square">Rectangle</string>
+    <string name="pspdf__annotation_type_squiggly">Squiggle</string>
+    <string name="pspdf__annotation_type_stamp">Stamp</string>
+    <string name="pspdf__annotation_type_strikeout">Strikethrough</string>
+    <string name="pspdf__annotation_type_underline">Underline</string>
+    <string name="pspdf__annotations">Annotations</string>
+    <string name="pspdf__audio_error_start_playback">Couldn’t start playback.</string>
+    <string name="pspdf__audio_error_start_recording">There was a problem while trying to record audio.</string>
+    <string name="pspdf__audio_pause">Pause</string>
+    <string name="pspdf__audio_play">Play</string>
+    <string name="pspdf__audio_record">Record</string>
+    <string name="pspdf__audio_resume">Resume</string>
+    <string name="pspdf__bookmark">Bookmark</string>
+    <string name="pspdf__bookmarks">Bookmarks</string>
+    <string name="pspdf__camera_not_available">Camera not available</string>
+    <string name="pspdf__cancel">Cancel</string>
+    <string name="pspdf__certificate">Certificate</string>
+    <string name="pspdf__clear_annotations">Clear All</string>
+    <string name="pspdf__clear_annotations_confirm">Are you sure you want to clear all annotations?</string>
+    <string name="pspdf__close">Close</string>
+    <string name="pspdf__cloudy">Cloudy</string>
+    <string name="pspdf__color_blue">Blue</string>
+    <string name="pspdf__color_green">Green</string>
+    <string name="pspdf__color_orange">Orange</string>
+    <string name="pspdf__color_picker_color_variations">Color Variations</string>
+    <string name="pspdf__color_picker_default_color_palette">Default Color Palette</string>
+    <string name="pspdf__color_picker_hex">Hex</string>
+    <string name="pspdf__color_picker_hex_color_value">Hexadecimal Color Value</string>
+    <string name="pspdf__color_picker_hsl">HSL</string>
+    <string name="pspdf__color_picker_hue">Hue</string>
+    <string name="pspdf__color_picker_invalid_color_value">The specified value isn’t a valid color.</string>
+    <string name="pspdf__color_picker_lightness">Lightness</string>
+    <string name="pspdf__color_picker_palette">Palette</string>
+    <string name="pspdf__color_picker_paste_from_clipboard">Paste from Clipboard</string>
+    <string name="pspdf__color_picker_recently_used">Recently Used</string>
+    <string name="pspdf__color_picker_rgb">RGB</string>
+    <string name="pspdf__color_picker_saturation">Saturation</string>
+    <string name="pspdf__color_pink">Pink</string>
+    <string name="pspdf__color_red">Red</string>
+    <string name="pspdf__color_yellow">Yellow</string>
+    <string name="pspdf__comparison_hint_text">Select three points on both documents for manual alignment. For best results, choose points near the corners of the documents, ensuring the points are in the same order on both documents.</string>
+    <string name="pspdf__copy">Copy</string>
+    <string name="pspdf__create_link">Create Link</string>
+    <string name="pspdf__create_stamp">Create Stamp</string>
+    <string name="pspdf__current_page">Current Page (%1$d)</string>
+    <string name="pspdf__custom_stamp">Custom</string>
+    <string name="pspdf__custom_value">Custom Value</string>
+    <string name="pspdf__custom_value_hint">Type value or pick from list</string>
+    <string name="pspdf__cut">Cut</string>
+    <string name="pspdf__date_switch">Date</string>
+    <string name="pspdf__default_values">Default Values</string>
+    <string name="pspdf__delete">Delete</string>
+    <string name="pspdf__delete_comment">Delete Comment</string>
+    <string name="pspdf__delete_pages">Delete Pages</string>
+    <string name="pspdf__digital_signature_certificate_failed_retrieve_signature_contents">Couldn’t retrieve the signature contents.</string>
+    <string name="pspdf__digital_signature_certificate_general_validation_problem">Certificate problem</string>
+    <string name="pspdf__digital_signature_certificate_invalid">Signature validation failed - invalid signature</string>
+    <string name="pspdf__digital_signature_certificate_not_yet_valid">The certificate isn’t yet valid</string>
+    <string name="pspdf__digital_signature_certificate_revoked">The certificate has been revoked</string>
+    <string name="pspdf__digital_signature_certificate_status_expired">The certificate has expired.</string>
+    <string name="pspdf__digital_signature_could_not_save">Couldn’t save the signed document</string>
+    <string name="pspdf__digital_signature_error_certificate_chain_invalid">Certificate chain is invalid.</string>
+    <string name="pspdf__digital_signature_error_certificate_chain_not_provided">Certificate chain couldn’t be verified, as no trusted keys were supplied.</string>
+    <string name="pspdf__digital_signature_error_integrity_check">General failure while trying to determine document integrity.</string>
+    <string name="pspdf__digital_signature_error_validation_failed">Signature validation failed - invalid signature</string>
+    <string name="pspdf__digital_signature_explanation_invalid">Invalid signature — since signing the content of this document, the document has been modified, tampered with, or corrupted.</string>
+    <string name="pspdf__digital_signature_explanation_valid_modified">The revision covered by this signature hasn’t been modified. However, changes have been made to the document since it was signed.</string>
+    <string name="pspdf__digital_signature_explanation_valid_not_modified">The signature is valid and the content of this document hasn’t been modified since it was signed.</string>
+    <string name="pspdf__digital_signature_failed_compute_digest">Couldn’t compute the digest for the document.</string>
+    <string name="pspdf__digital_signature_failed_encryption_padding">Couldn’t understand the encryption padding.</string>
+    <string name="pspdf__digital_signature_failed_retrieve_byte_range">Couldn’t retrieve the byte range of the signature.</string>
+    <string name="pspdf__digital_signature_failed_retrieve_public_key">Couldn’t retrieve the public key from the signature.</string>
+    <string name="pspdf__digital_signature_failed_retrieve_signature_contents">Couldn’t retrieve the signature contents.</string>
+    <string name="pspdf__digital_signature_failed_retrieve_signing_certificate">Couldn’t retrieve the certificate from the signature.</string>
+    <string name="pspdf__digital_signature_general_failure">General failure while trying to determine document integrity.</string>
+    <string name="pspdf__digital_signature_integrity_self_signed">Certificate is self-signed.</string>
+    <string name="pspdf__digital_signature_invalid">Signature isn’t valid.</string>
+    <string name="pspdf__digital_signature_sign">Sign</string>
+    <string name="pspdf__digital_signature_signed">Signed</string>
+    <string name="pspdf__digital_signature_signed_by">Digitally signed by {}</string>
+    <string name="pspdf__digital_signature_signed_date">Date: </string>
+    <string name="pspdf__digital_signature_signed_location">Location: </string>
+    <string name="pspdf__digital_signature_signed_reason">Reason: </string>
+    <string name="pspdf__digital_signature_signed_with_name">It was signed by %1$s on %2$s at %3$s.</string>
+    <string name="pspdf__digital_signature_signed_with_name_invalid">It claims to have been signed by %1$s on %2$s at %3$s.</string>
+    <string name="pspdf__digital_signature_signed_without_name">It was signed on %1$s at %2$s.</string>
+    <string name="pspdf__digital_signature_signed_without_name_invalid">It claims to have been signed on %1$s at %2$s.</string>
+    <string name="pspdf__digital_signature_signing">Signing…</string>
+    <string name="pspdf__digital_signature_valid">Signature is valid.</string>
+    <string name="pspdf__digital_signature_valid_warnings">Signature is valid, but there are some warnings.</string>
+    <string name="pspdf__discard_changes">Discard Changes</string>
+    <string name="pspdf__dismiss_button">Dismiss</string>
+    <string name="pspdf__document_comparison">Comparison</string>
+    <string name="pspdf__document_could_not_be_saved">The document couldn’t be saved.</string>
+    <string name="pspdf__document_info">Document Info</string>
+    <string name="pspdf__document_info_author">Author</string>
+    <string name="pspdf__document_info_changes">Changes</string>
+    <string name="pspdf__document_info_content">Content</string>
+    <string name="pspdf__document_info_content_creator">Content Creator</string>
+    <string name="pspdf__document_info_creation_date">Created</string>
+    <string name="pspdf__document_info_file_size">File Size</string>
+    <string name="pspdf__document_info_keywords">Keywords</string>
+    <string name="pspdf__document_info_mod_date">Modified</string>
+    <string name="pspdf__document_info_not_set">Not Set</string>
+    <string name="pspdf__document_info_number_pf_pages">Number of Pages</string>
+    <string name="pspdf__document_info_producer">PDF Producer</string>
+    <string name="pspdf__document_info_subject">Subject</string>
+    <string name="pspdf__document_info_title">Title</string>
+    <string name="pspdf__document_name">Document Name</string>
+    <string name="pspdf__done">Done</string>
+    <string name="pspdf__duplicate_pages">Duplicate Pages</string>
+    <string name="pspdf__edit">Edit</string>
+    <string name="pspdf__edit_menu_callout">Callout</string>
+    <string name="pspdf__edit_menu_color">Color</string>
+    <string name="pspdf__edit_menu_fill_color">Fill Color</string>
+    <string name="pspdf__edit_menu_freetext">Text</string>
+    <string name="pspdf__edit_menu_highlight">Text Highlight</string>
+    <string name="pspdf__edit_menu_ink">Drawing</string>
+    <string name="pspdf__edit_menu_ink_highlighter">Freeform Highlight</string>
+    <string name="pspdf__edit_menu_ink_pen">Drawing</string>
+    <string name="pspdf__edit_menu_line_arrow">Arrow</string>
+    <string name="pspdf__edit_menu_magic_ink">Magic Ink</string>
+    <string name="pspdf__edit_menu_note">Note</string>
+    <string name="pspdf__edit_menu_outline_color">Outline Color</string>
+    <string name="pspdf__edit_menu_overlay_text">Overlay Text</string>
+    <string name="pspdf__edit_menu_repeat_overlay_text">Repeat Text</string>
+    <string name="pspdf__edit_menu_squiggly">Squiggle</string>
+    <string name="pspdf__edit_menu_strikeout">Strikethrough</string>
+    <string name="pspdf__edit_menu_text_color">Text Color</string>
+    <string name="pspdf__edit_menu_underline">Underline</string>
+    <string name="pspdf__electronic_signature_clear_signature">Clear Signature</string>
+    <string name="pspdf__electronic_signature_draw_tab">Draw</string>
+    <string name="pspdf__electronic_signature_image_tab">Image</string>
+    <string name="pspdf__electronic_signature_replace_image">Replace Image</string>
+    <string name="pspdf__electronic_signature_save_signature">Save Signature</string>
+    <string name="pspdf__electronic_signature_select_image">Select Image</string>
+    <string name="pspdf__electronic_signature_sign_here">Sign Here</string>
+    <string name="pspdf__electronic_signature_type_tab">Type</string>
+    <string name="pspdf__electronic_signature_type_your_signature_above">Type Your Signature Above</string>
+    <string name="pspdf__export_pages">Export Pages</string>
+    <string name="pspdf__exporting">Exporting…</string>
+    <string name="pspdf__file_not_available">An unknown error has occurred while trying to open this file.</string>
+    <string name="pspdf__file_not_found_message">“%1$s” couldn’t be found.</string>
+    <string name="pspdf__file_not_found_title">File Not Found</string>
+    <string name="pspdf__filename_redacted">%1$s - Redacted</string>
+    <string name="pspdf__font_missing">%1$s (not supported)</string>
+    <string name="pspdf__form_type_button">Button</string>
+    <string name="pspdf__form_type_choice_field">Choice Field</string>
+    <string name="pspdf__form_type_signature_field">Signature Field</string>
+    <string name="pspdf__form_type_text_field">Text Field</string>
+    <string name="pspdf__forms_clear_field">Clear Field</string>
+    <string name="pspdf__fragment_password_hint">Please enter the password.</string>
+    <string name="pspdf__gallery_item_img_desc">Image</string>
+    <string name="pspdf__hint_add_your_comment">Add your comment…</string>
+    <string name="pspdf__import_document">Import Document</string>
+    <string name="pspdf__invalid_date_time">Invalid date/time: Please ensure that the date/time exists. Field [%1$s] should match format %2$s</string>
+    <string name="pspdf__invalid_value">Invalid value [%1$s]</string>
+    <string name="pspdf__invalid_value_format">The value entered doesn’t match the format of the field [%1$s]</string>
+    <string name="pspdf__invalid_value_greater_than_and_less_than">Invalid value: must be greater than or equal to %1$s and less than or equal to %2$s.</string>
+    <string name="pspdf__invalid_value_greater_than_or_equal">Invalid value: must be greater than or equal to %1$s.</string>
+    <string name="pspdf__invalid_value_less_than_or_equal">Invalid value: must be less than or equal to %1$s.</string>
+    <string name="pspdf__landscape">Landscape</string>
+    <string name="pspdf__link_annotation_creation_failed">Link annotation creation failed.</string>
+    <string name="pspdf__link_annotation_creation_parsed_text_error">Entered text couldn’t be converted to an Integer or URL.</string>
+    <string name="pspdf__link_annotation_successfully_created">Link annotation successfully created.</string>
+    <string name="pspdf__link_destination">Link Destination</string>
+    <string name="pspdf__link_enter_page_index_or_url">Enter page index or an http:// address to link to an URL.</string>
+    <string name="pspdf__link_page_not_found">Page %1$s Not Found</string>
+    <string name="pspdf__loading">Loading</string>
+    <string name="pspdf__more_options">More options</string>
+    <string name="pspdf__name">Name</string>
+    <string name="pspdf__new_document">New</string>
+    <string name="pspdf__no_annotations">No Annotations</string>
+    <string name="pspdf__no_applications_found">There are no applications installed that can open PDF documents.</string>
+    <string name="pspdf__no_bookmarks">No Bookmarks</string>
+    <string name="pspdf__no_signatures">No Signatures</string>
+    <string name="pspdf__note_editor_style">Style</string>
+    <string name="pspdf__note_icon_checkmark">Checkmark</string>
+    <string name="pspdf__note_icon_circle">Circle</string>
+    <string name="pspdf__note_icon_comment">Comment</string>
+    <string name="pspdf__note_icon_cross">Cross</string>
+    <string name="pspdf__note_icon_help">Help</string>
+    <string name="pspdf__note_icon_insert_text">Insert Text</string>
+    <string name="pspdf__note_icon_key">Key</string>
+    <string name="pspdf__note_icon_new_paragraph">New Paragraph</string>
+    <string name="pspdf__note_icon_paragraph">Paragraph</string>
+    <string name="pspdf__note_icon_right_arrow">Right Arrow</string>
+    <string name="pspdf__note_icon_right_pointer">Right Pointer</string>
+    <string name="pspdf__note_icon_star">Star</string>
+    <string name="pspdf__note_icon_text_note">Text Note</string>
+    <string name="pspdf__ok">OK</string>
+    <string name="pspdf__old_document">Old</string>
+    <string name="pspdf__open">Open</string>
+    <string name="pspdf__open_settings">Open Settings</string>
+    <string name="pspdf__orientation">Orientation</string>
+    <string name="pspdf__page_binding">Page Binding</string>
+    <string name="pspdf__page_binding_left">Left</string>
+    <string name="pspdf__page_binding_left_edge">Left Edge</string>
+    <string name="pspdf__page_binding_right">Right</string>
+    <string name="pspdf__page_binding_right_edge">Right Edge</string>
+    <string name="pspdf__page_binding_unknown">Unknown</string>
+    <string name="pspdf__page_overlay">%1$d of %2$d</string>
+    <string name="pspdf__page_overlay_double_page">%1$d–%2$d of %3$d</string>
+    <string name="pspdf__page_overlay_with_label">%1$s (%2$d of %3$d)</string>
+    <string name="pspdf__page_pattern_dot_5mm">Dot 5mm</string>
+    <string name="pspdf__page_pattern_grid_5mm">Grid 5mm</string>
+    <string name="pspdf__page_pattern_line_5mm">Lines 5mm</string>
+    <string name="pspdf__page_pattern_line_7mm">Lines 7mm</string>
+    <string name="pspdf__page_pattern_none">None</string>
+    <string name="pspdf__page_range">Range</string>
+    <string name="pspdf__page_size_a4">A4</string>
+    <string name="pspdf__page_size_a5">A5</string>
+    <string name="pspdf__page_size_us_legal">US Legal</string>
+    <string name="pspdf__page_size_us_letter">US Letter</string>
+    <string name="pspdf__page_with_number">Page %1$d</string>
+    <string name="pspdf__pages">Pages</string>
+    <string name="pspdf__password">Password</string>
+    <string name="pspdf__paste">Paste</string>
+    <string name="pspdf__permission_rationale_local_access_denied_permanently">It seems you have permanently denied the file system access for this app. In order to view and open PDF files stored on your device, you need to manually enable the file system permission via the app settings screen.</string>
+    <string name="pspdf__permission_rationale_record_audio_denied_permanently">Audio can’t be recorded at the moment. Please grant this app permission to access your microphone.</string>
+    <string name="pspdf__picker_font">Font</string>
+    <string name="pspdf__picker_line_end">Line End</string>
+    <string name="pspdf__picker_line_ends_fill_color">Start and End Color</string>
+    <string name="pspdf__picker_line_start">Line Start</string>
+    <string name="pspdf__picker_line_style">Line Style</string>
+    <string name="pspdf__picker_opacity">Opacity</string>
+    <string name="pspdf__picker_thickness">Thickness</string>
+    <string name="pspdf__point_selection_step">Point %d</string>
+    <string name="pspdf__point_selection_target">Point selection target</string>
+    <string name="pspdf__portrait">Portrait</string>
+    <string name="pspdf__print">Print</string>
+    <string name="pspdf__print_with_annotations">Print with annotations</string>
+    <string name="pspdf__print_without_annotations">Print without annotations</string>
+    <string name="pspdf__prompt_delete_annotation">Are you sure you want to delete this annotation?</string>
+    <string name="pspdf__redaction_apply_dialog_failed">The document couldn’t be redacted.</string>
+    <string name="pspdf__redaction_apply_dialog_message">Applying redactions will permanently remove the information and can’t be undone.</string>
+    <string name="pspdf__redaction_apply_dialog_new_file">Save to new file</string>
+    <string name="pspdf__redaction_apply_dialog_overwrite_file">Redact current document</string>
+    <string name="pspdf__redaction_apply_redactions">Apply Redactions</string>
+    <string name="pspdf__redaction_clear_redactions">Clear Redactions</string>
+    <string name="pspdf__redaction_disable_preview">Disable Redaction Preview</string>
+    <string name="pspdf__redaction_editor_warning">Content marked for redaction won’t be removed when saving the document. Are you sure you want to proceed?</string>
+    <string name="pspdf__redaction_enable_preview">Enable Redaction Preview</string>
+    <string name="pspdf__redaction_redact">Redaction</string>
+    <string name="pspdf__redaction_redacting">Redacting…</string>
+    <string name="pspdf__redo">Redo</string>
+    <string name="pspdf__remove">Remove</string>
+    <string name="pspdf__remove_signature">Remove Signature</string>
+    <string name="pspdf__reply_accepted_by">Accepted by</string>
+    <string name="pspdf__reply_cancelled_by">Canceled by</string>
+    <string name="pspdf__reply_completed_by">Completed by</string>
+    <string name="pspdf__reply_rejected_by">Rejected by</string>
+    <string name="pspdf__reply_status_accepted">Accepted</string>
+    <string name="pspdf__reply_status_cancelled">Canceled</string>
+    <string name="pspdf__reply_status_completed">Completed</string>
+    <string name="pspdf__reply_status_none">None</string>
+    <string name="pspdf__reply_status_rejected">Rejected</string>
+    <string name="pspdf__rotate_pages">Rotate Pages</string>
+    <string name="pspdf__sample">Sample</string>
+    <string name="pspdf__save">Save</string>
+    <string name="pspdf__save_as">Save As…</string>
+    <string name="pspdf__saving">Saving…</string>
+    <string name="pspdf__search_btn_next">Next</string>
+    <string name="pspdf__search_btn_previous">Previous</string>
+    <string name="pspdf__search_complete">Search Completed</string>
+    <string name="pspdf__search_hint">Search</string>
+    <string name="pspdf__search_no_matches">No matches found</string>
+    <string name="pspdf__search_outline_hint">Search Outline</string>
+    <string name="pspdf__search_result_of">%1$d of %2$d</string>
+    <string name="pspdf__select_point">Select Point</string>
+    <string name="pspdf__set_reply_status">Set Status</string>
+    <string name="pspdf__settings_menu_auto">Automatic</string>
+    <string name="pspdf__settings_menu_continuous">Continuous</string>
+    <string name="pspdf__settings_menu_default">Default</string>
+    <string name="pspdf__settings_menu_double">Double</string>
+    <string name="pspdf__settings_menu_horizontal">Horizontal</string>
+    <string name="pspdf__settings_menu_jump">Jump</string>
+    <string name="pspdf__settings_menu_keep_screen_on">Keep screen on</string>
+    <string name="pspdf__settings_menu_night">Night</string>
+    <string name="pspdf__settings_menu_page_layout">Page Layout</string>
+    <string name="pspdf__settings_menu_page_transition">Page Transition</string>
+    <string name="pspdf__settings_menu_scroll_direction">Scroll Direction</string>
+    <string name="pspdf__settings_menu_single">Single</string>
+    <string name="pspdf__settings_menu_theme">Theme</string>
+    <string name="pspdf__settings_menu_vertical">Vertical</string>
+    <string name="pspdf__share">Share</string>
+    <string name="pspdf__sign">Sign</string>
+    <string name="pspdf__signature">Signature</string>
+    <string name="pspdf__signature_sign_here">Please sign here</string>
+    <string name="pspdf__signatures">Signatures</string>
+    <string name="pspdf__size">Size</string>
+    <string name="pspdf__stamp_accepted">Accepted</string>
+    <string name="pspdf__stamp_approved">Approved</string>
+    <string name="pspdf__stamp_as_is">As Is</string>
+    <string name="pspdf__stamp_completed">Completed</string>
+    <string name="pspdf__stamp_confidential">Confidential</string>
+    <string name="pspdf__stamp_departmental">Departmental</string>
+    <string name="pspdf__stamp_draft">Draft</string>
+    <string name="pspdf__stamp_experimental">Experimental</string>
+    <string name="pspdf__stamp_expired">Expired</string>
+    <string name="pspdf__stamp_final">Final</string>
+    <string name="pspdf__stamp_for_comment">For Comment</string>
+    <string name="pspdf__stamp_for_public_release">For Public Release</string>
+    <string name="pspdf__stamp_information_only">Information Only</string>
+    <string name="pspdf__stamp_initial_here">Initial Here</string>
+    <string name="pspdf__stamp_not_approved">Not Approved</string>
+    <string name="pspdf__stamp_not_for_public_release">Not For Public Release</string>
+    <string name="pspdf__stamp_preliminary_results">Preliminary Results</string>
+    <string name="pspdf__stamp_rejected">Rejected</string>
+    <string name="pspdf__stamp_revised">Revised</string>
+    <string name="pspdf__stamp_sign_here">Sign Here</string>
+    <string name="pspdf__stamp_sold">Sold</string>
+    <string name="pspdf__stamp_text">Stamp Text</string>
+    <string name="pspdf__stamp_top_secret">Top Secret</string>
+    <string name="pspdf__stamp_void">Void</string>
+    <string name="pspdf__stamp_witness">Witness</string>
+    <string name="pspdf__store_signature">Store Signature</string>
+    <string name="pspdf__text_copied_to_clipboard">Text copied to clipboard.</string>
+    <string name="pspdf__time_switch">Time</string>
+    <string name="pspdf__tts_not_available">Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-Speech engine installed and enabled on your device.</string>
+    <string name="pspdf__undo">Undo</string>
+    <string name="pspdf__unit_pt">%1$s pt</string>
+    <string name="pspdf__unknown_date">unknown date</string>
+    <string name="pspdf__unknown_time">unknown time</string>
+    <string name="pspdf__unnamed_image_document">Unnamed Image Document</string>
+    <string name="pspdf__update_required">Update Required</string>
+    <string name="pspdf__update_required_description">An update for %1$s is required to access the document and sync annotations.</string>
+    <string name="pspdf__use_document_size">Use Document Size</string>
+    <string name="pspdf__z_index_back">Back</string>
+    <string name="pspdf__z_index_backward">Backward</string>
+    <string name="pspdf__z_index_forward">Forward</string>
+    <string name="pspdf__z_index_front">Front</string>
+    <string name="pspdf__z_index_order">Order</string>
+    <style name="PSPDFKit"/>
+    <style name="PSPDFKit.ActionBarIcons">
+        <!-- Icons normal. -->
+        <item name="pspdf__iconsColor">@color/pspdf__color_light</item>
+        <item name="pspdf__outlineIcon">@drawable/pspdf__ic_outline</item>
+        <item name="pspdf__searchIcon">@drawable/pspdf__ic_search</item>
+        <item name="pspdf__gridIcon">@drawable/pspdf__ic_thumbnails</item>
+        <item name="pspdf__editAnnotationsIcon">@drawable/pspdf__ic_edit_annotations</item>
+        <item name="pspdf__signatureIcon">@drawable/pspdf__ic_signature</item>
+        <item name="pspdf__settingsIcon">@drawable/pspdf__ic_settings</item>
+        <item name="pspdf__readerViewIcon">@drawable/pspdf__ic_reader_view</item>
+
+        <!-- Icons activated. -->
+        <item name="pspdf__iconsColorActivated">@color/pspdf__color_white</item>
+        <item name="pspdf__outlineIconActivated">@drawable/pspdf__ic_outline</item>
+        <item name="pspdf__searchIconActivated">@drawable/pspdf__ic_search</item>
+        <item name="pspdf__gridIconActivated">@drawable/pspdf__ic_thumbnails_active</item>
+        <item name="pspdf__editAnnotationsIconActivated">@drawable/pspdf__ic_edit_annotations</item>
+        <item name="pspdf__signatureIconActivated">@drawable/pspdf__ic_signature</item>
+        <item name="pspdf__shareIcon">@drawable/pspdf__ic_share</item>
+        <item name="pspdf__settingsIconActivated">@drawable/pspdf__ic_settings</item>
+        <item name="pspdf__readerViewIconActivated">@drawable/pspdf__ic_reader_view</item>
+    </style>
+    <style name="PSPDFKit.ActionBarIcons.Dark">
+        <item name="pspdf__iconsColorActivated">?colorAccent</item>
+    </style>
+    <style name="PSPDFKit.ActionMenu">
+        <item name="pspdf__maxWidth">@dimen/pspdf__bottom_sheet_max_width</item>
+        <item name="pspdf__backgroundColor">?android:colorBackground</item>
+        <item name="pspdf__labelColor">?android:colorForeground</item>
+        <item name="pspdf__fixedActionsPanelBackgroundColor">@color/pspdf__action_menu_fixed_items_background</item>
+        <item name="pspdf__fixedActionsIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__fixedActionsIconBackground">?colorPrimary</item>
+    </style>
+    <style name="PSPDFKit.ActionMenu.Dark">
+        <item name="pspdf__fixedActionsPanelBackgroundColor">@color/pspdf__dark_background_color_secondary</item>
+        <item name="pspdf__fixedActionsIconColor">?colorPrimaryDark</item>
+        <item name="pspdf__fixedActionsIconBackground">?colorAccent</item>
+    </style>
+    <style name="PSPDFKit.AlertDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert"/>
+    <style name="PSPDFKit.Animation">
+        <item name="android:windowEnterAnimation">@anim/pspdf__fade_in</item>
+        <item name="android:windowExitAnimation">@anim/pspdf__fade_out</item>
+    </style>
+    <style name="PSPDFKit.Annotation">
+        <item name="pspdf__linkAnnotationBackgroundColor">@color/pspdf__color_link_annotation_background</item>
+        <item name="pspdf__linkAnnotationBorderColor">@color/pspdf__color_link_annotation_border</item>
+        <item name="pspdf__linkAnnotationHighlightBackgroundColor">@color/pspdf__color_link_annotation_highlight_background</item>
+        <item name="pspdf__linkAnnotationHighlightBorderColor">@color/pspdf__color_link_annotation_highlight_border</item>
+    </style>
+    <style name="PSPDFKit.AnnotationCreationToolbarIcons">
+        <!-- Icon colors default to colors set in pspdf__contextualToolbarStyle -->
+        <!--<item name="pspdf__iconsColor">@color/pspdf__color_white</item>-->
+        <!--<item name="pspdf__iconsColorActivated">@color/pspdf__color_white</item>-->
+
+        <item name="pspdf__highlightIcon">@drawable/pspdf__ic_highlight</item>
+        <item name="pspdf__underlineIcon">@drawable/pspdf__ic_underline</item>
+        <item name="pspdf__strikeoutIcon">@drawable/pspdf__ic_strikeout</item>
+        <item name="pspdf__squigglyIcon">@drawable/pspdf__ic_squiggly</item>
+        <item name="pspdf__noteIcon">@drawable/pspdf__ic_note</item>
+        <item name="pspdf__soundIcon">@drawable/pspdf__ic_sound</item>
+        <item name="pspdf__inkPenIcon">@drawable/pspdf__ic_stylus</item>
+        <item name="pspdf__inkHighlighterIcon">@drawable/pspdf__ic_ink_highlighter</item>
+        <item name="pspdf__lineIcon">@drawable/pspdf__ic_line</item>
+        <item name="pspdf__lineArrowIcon">@drawable/pspdf__ic_line_arrow</item>
+        <item name="pspdf__magicInkIcon">@drawable/pspdf__ic_magic_ink</item>
+        <item name="pspdf__freeTextIcon">@drawable/pspdf__ic_freetext</item>
+        <item name="pspdf__freeTextCalloutIcon">@drawable/pspdf__ic_freetext_callout</item>
+        <item name="pspdf__imageIcon">@drawable/pspdf__ic_image</item>
+        <item name="pspdf__instantCommentIcon">@drawable/pspdf__ic_instant_comment</item>
+    </style>
+    <style name="PSPDFKit.AnnotationEditingToolbarIcons">
+        <!-- Icon colors default to colors set in pspdf__contextualToolbarStyle -->
+        <!--<item name="pspdf__iconsColor">@color/pspdf__color_white</item>-->
+        <!--<item name="pspdf__iconsColorActivated">@color/pspdf__color_white</item>-->
+
+        <item name="pspdf__editIcon">@drawable/pspdf__ic_edit</item>
+        <item name="pspdf__shareIcon">@drawable/pspdf__ic_share</item>
+        <item name="pspdf__deleteIcon">@drawable/pspdf__ic_delete</item>
+        <item name="pspdf__copyIcon">@drawable/pspdf__ic_content_copy</item>
+        <item name="pspdf__cutIcon">@drawable/pspdf__ic_content_cut</item>
+    </style>
+    <style name="PSPDFKit.AnnotationNoteHinter">
+        <item name="pspdf__useNoteHinterIntrinsicSize">false</item>
+        <item name="pspdf__noteHinterWidth">@dimen/pspdf__annotation_note_hinter_height</item>
+        <item name="pspdf__noteHinterHeight">@dimen/pspdf__annotation_note_hinter_height</item>
+        <item name="pspdf__noteHinterTextMarkupLeftPadding">@dimen/pspdf__annotation_note_hinter_text_markup_left_padding</item>
+        <item name="pspdf__noteHinterColor">@color/pspdf__annotation_note_hinter_color</item>
+        <item name="pspdf__noteHinterAlpha">@integer/pspdf__annotation_note_hinter_alpha</item>
+        <item name="pspdf__noteHinterIcon">@drawable/pspdf__ic_replies</item>
+        <item name="pspdf__noteHinterInstantCommentIcon">@drawable/pspdf__ic_instant_comment</item>
+    </style>
+    <style name="PSPDFKit.AnnotationNoteHinter.Dark">
+        <item name="pspdf__noteHinterColor">@color/pspdf__dark_annotation_note_hinter_color</item>
+    </style>
+    <style name="PSPDFKit.AnnotationSelection">
+        <item name="pspdf__borderColor">@color/pspdf__annotation_selection_border</item>
+        <item name="pspdf__borderWidth">@dimen/pspdf__annotation_selection_border_width</item>
+        <item name="pspdf__scaleHandleColor">@color/pspdf__annotation_selection_scalehandle</item>
+        <item name="pspdf__editHandleColor">@color/pspdf__annotation_selection_edithandle</item>
+        <item name="pspdf__padding">@dimen/pspdf__annotation_selection_padding</item>
+        <item name="pspdf__guideLineWidth">@dimen/pspdf__annotation_selection_guide_line_width</item>
+        <item name="pspdf__guideLineColor">@color/pspdf__annotation_selection_guide_line_color</item>
+        <item name="pspdf__guideLineIncrease">@dimen/pspdf__annotation_selection_guide_line_increase</item>
+    </style>
+    <style name="PSPDFKit.AnnotationSelection.Dark">
+        <item name="pspdf__borderColor">@color/pspdf__dark_annotation_selection_border</item>
+        <item name="pspdf__scaleHandleColor">@color/pspdf__dark_annotation_selection_scale_handle</item>
+        <item name="pspdf__editHandleColor">@color/pspdf__dark_annotation_selection_edit_handle</item>
+    </style>
+    <style name="PSPDFKit.AudioInspector">
+        <item name="pspdf__backgroundColor">?android:colorBackground</item>
+        <item name="pspdf__iconsColor">?colorAccent</item>
+        <item name="pspdf__recordingIconColor">@color/pspdf__sound_annotation_record</item>
+    </style>
+    <style name="PSPDFKit.BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="bottomSheetStyle">@style/PSPDFKit.BottomSheetStyle</item>
+    </style>
+    <style name="PSPDFKit.BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="PSPDFKit.BreadCrumbsView">
+        <item name="pspdf__titleColor">@color/pspdf__color_light</item>
+        <item name="pspdf__selectedTitleColor">@color/pspdf__color_white</item>
+        <item name="pspdf__dividerColor">@color/pspdf__color_light</item>
+        <item name="pspdf__textSize">14sp</item>
+        <item name="pspdf__backgroundColor">?colorPrimary</item>
+    </style>
+    <style name="PSPDFKit.BreadCrumbsView.Dark">
+        <item name="pspdf__titleColor">@color/pspdf__color_gray_light</item>
+        <item name="pspdf__selectedTitleColor">@color/pspdf__color_white</item>
+        <item name="pspdf__dividerColor">@color/pspdf__color_gray_light</item>
+        <item name="pspdf__backgroundColor">?colorPrimary</item>
+    </style>
+    <style name="PSPDFKit.CardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/pspdf__color_white</item>
+    </style>
+    <style name="PSPDFKit.CardView.Dark">
+        <item name="cardBackgroundColor">@color/pspdf__dark_background_color</item>
+    </style>
+    <style name="PSPDFKit.ContextualToolbar">
+        <item name="pspdf__backgroundColor">?colorPrimaryDark</item>
+        <item name="pspdf__submenuBackgroundColor">?colorPrimary</item>
+        <item name="pspdf__iconsColor">@color/pspdf__color_white</item>
+        <item name="pspdf__iconsColorActivated">@color/pspdf__color_white</item>
+    </style>
+    <style name="PSPDFKit.ContextualToolbar.Dark"/>
+    <style name="PSPDFKit.DefaultStyles">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="pspdf__documentViewStyle">@style/PSPDFKit.DocumentView</item>
+        <item name="pspdf__navigationHistoryIconColor">@color/pspdf__foreground_color</item>
+
+        <item name="pspdf__mainToolbarStyle">@style/PSPDFKit.MainToolbar</item>
+        <item name="pspdf__contextualToolbarStyle">@style/PSPDFKit.ContextualToolbar</item>
+    </style>
+    <style name="PSPDFKit.Dialog.Light" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">?colorAccent</item>
+    </style>
+    <style name="PSPDFKit.Dialog.Light.Panel" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="PSPDFKit.Dialog.Light.Panel.Dim" parent="PSPDFKit.Dialog.Light.Panel">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="PSPDFKit.Dialog.Light.Panel.FullScreen" parent="PSPDFKit.Dialog.Light.Panel">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="PSPDFKit.DocumentEditingToolbarIcons">
+        <!-- Icon colors default to colors set in pspdf__contextualToolbarStyle -->
+        <!--<item name="pspdf__iconsColor">@color/pspdf__color_white</item>-->
+        <!--<item name="pspdf__iconsColorActivated">@color/pspdf__color_white</item>-->
+
+        <item name="pspdf__undoIcon">@drawable/pspdf__ic_undo</item>
+        <item name="pspdf__redoIcon">@drawable/pspdf__ic_redo</item>
+        <item name="pspdf__rotatePagesIcon">@drawable/pspdf__ic_rotate_page</item>
+        <item name="pspdf__removePagesIcon">@drawable/pspdf__ic_delete</item>
+        <item name="pspdf__exportPagesIcon">@drawable/pspdf__ic_export_pages</item>
+        <item name="pspdf__importDocumentIcon">@drawable/pspdf__ic_import_document</item>
+        <item name="pspdf__duplicatePagesIcon">@drawable/pspdf__ic_duplicate_page</item>
+        <item name="pspdf__editPagesIcon">@drawable/pspdf__ic_edit</item>
+        <item name="pspdf__doneIcon">@drawable/pspdf__ic_done</item>
+    </style>
+    <style name="PSPDFKit.DocumentView">
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:scrollbars">horizontal|vertical</item>
+        <item name="android:scrollbarSize">4dp</item>
+    </style>
+    <style name="PSPDFKit.DocumentView.Dark">
+        <item name="android:scrollbarSize">6dp</item>
+        <item name="android:scrollbarThumbVertical">@color/pspdf__dark_scrollbars</item>
+        <item name="android:scrollbarThumbHorizontal">@color/pspdf__dark_scrollbars</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:scrollbars">horizontal|vertical</item>
+    </style>
+    <style name="PSPDFKit.EditTextStyle.Dark" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/pspdf__color_white</item>
+        <item name="android:textColorHint">@color/pspdf__color_white_hint</item>
+    </style>
+    <style name="PSPDFKit.EraserTool">
+        <item name="pspdf__eraserOutlineColor">@color/pspdf__color_gray_dark</item>
+    </style>
+    <style name="PSPDFKit.ExtendedFloatingActionButtonStyle" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">
+        <item name="android:iconTint" ns1:targetApi="o">@color/pspdf__color_white</item>
+        <item name="backgroundColor">?colorPrimary</item>
+        <item name="backgroundTint">?colorPrimary</item>
+        <item name="android:textColor">@color/pspdf__color_white</item>
+        <item name="iconTint">@color/pspdf__color_white</item>
+    </style>
+    <style name="PSPDFKit.ExtendedFloatingActionButtonStyle.Dark">
+        <item name="backgroundTint">@color/pspdf__comparison_accent_dark</item>
+        <item name="backgroundColor">@color/pspdf__comparison_accent_dark</item>
+        <item name="android:textColor">@color/pspdf__dark</item>
+        <item name="iconTint">@color/pspdf__dark</item>
+    </style>
+    <style name="PSPDFKit.FloatingActionButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:iconTint" ns1:targetApi="o">@color/pspdf__color_white</item>
+        <item name="backgroundColor">?colorPrimary</item>
+    </style>
+    <style name="PSPDFKit.FormEditingBar">
+        <item name="pspdf__backgroundColor">?android:colorBackground</item>
+        <item name="pspdf__textColor">?colorAccent</item>
+        <item name="pspdf__iconsColor">?colorAccent</item>
+        <item name="pspdf__prevIconDrawable">@drawable/pspdf__ic_chevron_left</item>
+        <item name="pspdf__nextIconDrawable">@drawable/pspdf__ic_chevron_right</item>
+        <item name="pspdf__validationErrorBackgroundColor">@color/pspdf__form_validation_error_background_color</item>
+        <item name="pspdf__validationErrorTextColor">@color/pspdf__color_white</item>
+    </style>
+    <style name="PSPDFKit.FormSelection">
+        <item name="pspdf__highlightColor">@color/pspdf__form_highlight_color</item>
+        <item name="pspdf__requiredTextElementBorderColor">@color/pspdf__required_text_form_element_border_color</item>
+        <item name="pspdf__selectedTextElementBackgroundColor">@color/pspdf__selected_text_form_element_background_color</item>
+        <item name="pspdf__selectedTextElementBorderColor">@color/pspdf__selected_text_form_element_border_color</item>
+        <item name="pspdf__touchedFormElementHighlightColor">@color/pspdf__touched_form_element_highlight_color</item>
+        <item name="pspdf__signHereOverlayBackgroundColor">@color/pspdf__form_sign_here_overlay_color</item>
+    </style>
+    <style name="PSPDFKit.FormSelection.Dark">
+        <item name="pspdf__selectedTextElementBackgroundColor">@color/pspdf__dark_selection_background</item>
+        <item name="pspdf__touchedFormElementHighlightColor">#6064BDDF</item>
+    </style>
+    <style name="PSPDFKit.FullScreenDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="PSPDFKit.FullScreenDialog.Dark" parent="PSPDFKit.Theme.Dark">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="PSPDFKit.LinkAnnotationHighlighter">
+        <item name="pspdf__highlightedBackgroundColor">@color/pspdf__link_annotation_color_highlight</item>
+        <item name="pspdf__highlightedBorderColor">@color/pspdf__link_annotation_border_color_highlight</item>
+        <item name="pspdf__highlightedBorderWidth">@dimen/pspdf__highlighted_border_width</item>
+        <item name="pspdf__highlightedLinkAnnotationPadding">@dimen/pspdf__highlighted_link_annotation_padding</item>
+        <item name="pspdf__highlightedLinkAnnotationAnimationPadding">@dimen/pspdf__highlighted_link_annotation_animation_padding</item>
+        <item name="pspdf__highlightedRectangleCornerRadiusToHeightRatio">
+            @dimen/pspdf__highlighted_rectangle_corner_radius_to_height_ratio
+        </item>
+        <item name="pspdf__highlightedRectangleMinCornerRadius">@dimen/pspdf__highlighted_rectangle_min_corner_radius</item>
+        <item name="pspdf__highlightedRectangleMaxCornerRadius">@dimen/pspdf__highlighted_rectangle_max_corner_radius</item>
+    </style>
+    <style name="PSPDFKit.MainToolbar">
+        <item name="titleTextColor">@color/pspdf__color_white</item>
+        <item name="android:background">?colorPrimary</item>
+        <item name="pspdf__backgroundColor">?colorPrimary</item>
+        <item name="pspdf__textColor">@color/pspdf__color_white</item>
+
+        <item name="pspdf__toolbarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="pspdf__toolbarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+    <style name="PSPDFKit.MainToolbar.Dark">
+        <item name="pspdf__toolbarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+    <style name="PSPDFKit.ModalDialog">
+        <item name="pspdf__titleBackground">?colorPrimary</item>
+        <item name="pspdf__titleTextColor">@color/pspdf__color_white</item>
+        <item name="pspdf__titleIconsColor">@color/pspdf__color_white</item>
+        <item name="pspdf__titleHeight">@dimen/pspdf__dialog_title_height</item>
+        <item name="pspdf__titleTextSize">@dimen/pspdf__dialog_title_text_size</item>
+        <item name="pspdf__titlePadding">@dimen/pspdf__dialog_padding</item>
+        <item name="pspdf__cornerRadius">@dimen/pspdf__dialog_corner_radius</item>
+    </style>
+    <style name="PSPDFKit.ModalDialog.Dark" parent="PSPDFKit.ModalDialog.PropertyInspector"/>
+    <style name="PSPDFKit.ModalDialog.PropertyInspector">
+        <item name="pspdf__titleBackground">?colorPrimaryDark</item>
+        <item name="pspdf__cornerRadius">@dimen/pspdf__inspector_corner_radius</item>
+        <item name="pspdf__titlePadding">@dimen/pspdf__inspector_padding</item>
+    </style>
+    <style name="PSPDFKit.NewPageDialog">
+        <item name="pspdf__backgroundColor">?android:colorBackground</item>
+    </style>
+    <style name="PSPDFKit.NewPageDialog.Dark" parent="ThemeOverlay.AppCompat"/>
+    <style name="PSPDFKit.OutlineView">
+        <item name="pspdf__backgroundColor">?android:colorBackground</item>
+        <item name="pspdf__defaultTextColor">?android:colorForeground</item>
+
+        <item name="pspdf__listItemSelector">@null</item>
+
+        <item name="pspdf__bookmarksBarBackgroundColor">?colorPrimary</item>
+        <item name="pspdf__bookmarksBarIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__bookmarksCurrentPageColor">?colorAccent</item>
+        <item name="pspdf__bookmarksAddIcon">@drawable/pspdf__ic_add</item>
+        <item name="pspdf__bookmarksEditIcon">@drawable/pspdf__ic_edit</item>
+        <item name="pspdf__bookmarksDoneIcon">@drawable/pspdf__ic_done</item>
+        <item name="pspdf__bookmarksDeleteIcon">@drawable/pspdf__ic_delete</item>
+        <item name="pspdf__bookmarksDeleteIconColor">@android:color/white</item>
+        <item name="pspdf__bookmarksDeleteBackgroundColor">@color/pspdf__color_error</item>
+        <item name="pspdf__bookmarksDragHandleIcon">@drawable/pspdf__ic_drag_handle</item>
+        <item name="pspdf__bookmarksDragHandleIconColor">?android:attr/textColorSecondary</item>
+
+        <item name="pspdf__annotationsBarBackgroundColor">?colorPrimary</item>
+        <item name="pspdf__annotationsBarIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__annotationsDeleteIcon">@drawable/pspdf__ic_delete</item>
+        <item name="pspdf__annotationsDeleteIconColor">@color/pspdf__color_gray_dark</item>
+        <item name="pspdf__annotationsEditIcon">@drawable/pspdf__ic_edit</item>
+        <item name="pspdf__annotationsDoneIcon">@drawable/pspdf__ic_done</item>
+        <item name="pspdf__annotationsDragHandleIcon">@drawable/pspdf__ic_drag_handle</item>
+        <item name="pspdf__annotationsDragHandleIconColor">?android:attr/textColorSecondary</item>
+
+        <item name="pspdf__navigationTabOutlineIcon">@drawable/pspdf__ic_outline_view_outline</item>
+        <item name="pspdf__navigationTabBookmarksIcon">@drawable/pspdf__ic_outline_view_bookmarks</item>
+        <item name="pspdf__navigationTabAnnotationsIcon">@drawable/pspdf__ic_outline_view_annotations</item>
+        <item name="pspdf__navigationTabDocumentInfoIcon">@drawable/pspdf__ic_outline_view_information</item>
+        <item name="pspdf__navigationTabIconsColor">@color/pspdf__color_gray</item>
+        <item name="pspdf__navigationTabIconsColorSelected">?colorAccent</item>
+        <item name="pspdf__navigationTabBackgroundColor">?android:colorBackground</item>
+
+        <item name="pspdf__documentInfoGroupTitleTextColor">?colorAccent</item>
+        <item name="pspdf__documentInfoItemTitleTextColor">@color/pspdf__document_info_item_title_text_color</item>
+        <item name="pspdf__documentInfoItemValueTextColor">@color/pspdf__document_info_item_value_text_color</item>
+        <item name="pspdf__documentInfoItemValueHintTextColor">@color/pspdf__document_info_item_value_hint_text_color</item>
+        <item name="pspdf__documentInfoGroupIconColor">@color/pspdf__color_gray</item>
+        <item name="pspdf__documentInfoContentIcon">@drawable/pspdf__ic_outline</item>
+        <item name="pspdf__documentInfoChangesIcon">@drawable/pspdf__ic_info</item>
+        <item name="pspdf__documentInfoSizeIcon">@drawable/pspdf__ic_size</item>
+        <item name="pspdf__documentInfoFabBackgroundColor">?colorAccent</item>
+        <item name="pspdf__documentInfoFabIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__documentInfoFabEditIcon">@drawable/pspdf__ic_edit</item>
+        <item name="pspdf__documentInfoFabDoneIcon">@drawable/pspdf__ic_done</item>
+    </style>
+    <style name="PSPDFKit.OutlineView.Dark">
+        <item name="pspdf__backgroundColor">@color/pspdf__dark_status_bar</item>
+        <item name="pspdf__documentInfoItemTitleTextColor">@color/pspdf__dark_document_info_item_title_text_color</item>
+        <item name="pspdf__documentInfoItemValueTextColor">@color/pspdf__dark_document_info_item_value_text_color</item>
+        <item name="pspdf__documentInfoItemValueHintTextColor">@color/pspdf__dark_document_info_item_value_hint_text_color</item>
+        <item name="pspdf__documentInfoGroupIconColor">?colorAccent</item>
+    </style>
+    <style name="PSPDFKit.PasswordView">
+        <item name="pspdf__color">@color/pspdf__color_dark</item>
+        <item name="pspdf__hintColor">@color/pspdf__color_gray_dark</item>
+        <item name="pspdf__floatingHintColor">@color/pspdf__color_dark</item>
+        <item name="pspdf__errorColor">@color/pspdf__color_error</item>
+        <item name="pspdf__icon">@drawable/pspdf__ic_lock</item>
+        <item name="pspdf__iconTintingEnabled">true</item>
+    </style>
+    <style name="PSPDFKit.PopupToolbar">
+        <item name="pspdf__backgroundColor">@color/pspdf__popup_toolbar_background_color</item>
+        <item name="pspdf__itemTint">@color/pspdf__popup_toolbar_item_tint</item>
+        <item name="pspdf__itemTintDisabled">@color/pspdf__popup_toolbar_item_tint_disabled</item>
+    </style>
+    <style name="PSPDFKit.PopupToolbar.Dark">
+        <item name="pspdf__backgroundColor">@color/pspdf__dark_popup_toolbar_background_color</item>
+        <item name="pspdf__itemTint">@color/pspdf__dark_popup_toolbar_item_tint</item>
+        <item name="pspdf__itemTintDisabled">@color/pspdf__dark_popup_toolbar_item_tint_disabled</item>
+    </style>
+    <style name="PSPDFKit.PropertyInspector">
+        <item name="pspdf__minHeight">100dp</item>
+        <item name="pspdf__maxHeight">700dp</item>
+        <item name="pspdf__maxWidth">@dimen/pspdf__bottom_sheet_max_width</item>
+        <item name="pspdf__backgroundColor">?android:colorBackground</item>
+        <item name="pspdf__textColor">@color/pspdf__inspector_text_color</item>
+        <item name="pspdf__itemHeight">@dimen/pspdf__inspector_item_height</item>
+        <item name="pspdf__searchVisible">true</item>
+        <item name="pspdf__modalDialogStyle">@style/PSPDFKit.ModalDialog.PropertyInspector</item>
+    </style>
+    <style name="PSPDFKit.PropertyInspector.Dark">
+        <item name="pspdf__textColor">?android:colorForeground</item>
+        <item name="pspdf__modalDialogStyle">@style/PSPDFKit.ModalDialog.Dark</item>
+    </style>
+    <style name="PSPDFKit.ScrollableThumbnailBar">
+        <item name="pspdf__backgroundColor">@android:color/transparent</item>
+        <item name="pspdf__thumbnailWidth">@dimen/pspdf__scrollable_thumbnail_width</item>
+        <item name="pspdf__thumbnailHeight">@dimen/pspdf__scrollable_thumbnail_height</item>
+        <item name="pspdf__thumbnailBorderColor">@color/pspdf__color_black</item>
+        <item name="pspdf__thumbnailSelectedBorderColor">@color/pspdf__color</item>
+        <item name="pspdf__usePageAspectRatio">true</item>
+    </style>
+    <style name="PSPDFKit.SearchResultHighlighter">
+        <item name="pspdf__searchResultBackgroundColor">@color/pspdf__color_highlight</item>
+        <item name="pspdf__searchResultBorderColor">@color/pspdf__border_color_highlight</item>
+        <item name="pspdf__searchResultBorderWidth">@dimen/pspdf__search_result_border_width</item>
+        <item name="pspdf__searchResultPadding">@dimen/pspdf__search_result_padding</item>
+        <item name="pspdf__searchResultAnnotationPadding">@dimen/pspdf__search_result_annotation_padding</item>
+        <item name="pspdf__searchResultAnimationPadding">@dimen/pspdf__search_result_animation_padding</item>
+        <item name="pspdf__searchResultCornerRadiusToHeightRatio">@dimen/pspdf__search_result_corner_radius_to_height_ratio</item>
+        <item name="pspdf__searchResultCornerRadiusMin">@dimen/pspdf__search_result_min_corner_radius</item>
+        <item name="pspdf__searchResultCornerRadiusMax">@dimen/pspdf__search_result_max_corner_radius</item>
+    </style>
+    <style name="PSPDFKit.SearchResultHighlighter.Dark">
+        <item name="pspdf__searchResultBackgroundColor">@color/pspdf__dark_selection_background</item>
+        <item name="pspdf__searchResultBorderColor">@color/pspdf__border_color_highlight</item>
+    </style>
+    <style name="PSPDFKit.SearchViewInline">
+        <item name="pspdf__backgroundColor">@android:color/transparent</item>
+
+        <item name="pspdf__borderColor">@color/pspdf__color_white</item>
+        <item name="pspdf__borderWidth">1dp</item>
+
+        <item name="pspdf__inputFieldTextAppearance">@style/PSPDFKit.SearchViewInline.InputFieldTextAppearance</item>
+        <item name="pspdf__resultTextAppearance">@style/PSPDFKit.SearchViewInline.ResultTextAppearance</item>
+
+        <item name="pspdf__throbberColor">@color/pspdf__color_white</item>
+
+        <item name="pspdf__prevIconDrawable">@drawable/pspdf__ic_chevron_left</item>
+        <item name="pspdf__nextIconDrawable">@drawable/pspdf__ic_chevron_right</item>
+        <item name="pspdf__prevIconColorTint">@color/pspdf__color_white</item>
+        <item name="pspdf__nextIconColorTint">@color/pspdf__color_white</item>
+        <item name="pspdf__backIconColorTint">@color/pspdf__color_white</item>
+    </style>
+    <style name="PSPDFKit.SearchViewInline.Dark">
+        <item name="pspdf__borderColor">@color/pspdf__dark_input_field_blue</item>
+        <item name="pspdf__borderWidth">1dp</item>
+    </style>
+    <style name="PSPDFKit.SearchViewInline.InputFieldTextAppearance" parent="android:TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/pspdf__search_inline_input_text_size</item>
+        <item name="android:textColor">@color/pspdf__color_white</item>
+        <item name="android:textColorHint">@color/pspdf__color_white_hint</item>
+    </style>
+    <style name="PSPDFKit.SearchViewInline.ResultTextAppearance" parent="android:TextAppearance">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/pspdf__search_inline_result_text_size</item>
+        <item name="android:textColor">@color/pspdf__color_white</item>
+    </style>
+    <style name="PSPDFKit.SearchViewModular">
+        <item name="pspdf__backgroundColor">?android:colorBackground</item>
+        <item name="pspdf__inputFieldTextColor">@color/pspdf__color_gray_dark</item>
+        <item name="pspdf__inputFieldHintColor">@color/pspdf__color_gray</item>
+        <item name="pspdf__inputFieldBackgroundColor">@android:color/transparent</item>
+        <item name="pspdf__separatorColor">@color/pspdf__color_gray_light</item>
+        <item name="pspdf__listItemBackgroundColor">@android:color/transparent</item>
+        <item name="pspdf__listItemTitleColor">@color/pspdf__color_gray</item>
+        <item name="pspdf__listItemSubtitleColor">@color/pspdf__color_gray_dark</item>
+        <item name="pspdf__listItemSelector">@null</item>
+        <item name="pspdf__highlightBackgroundColor">@color/pspdf__color_highlight</item>
+        <item name="pspdf__highlightTextColor">@color/pspdf__color_black</item>
+    </style>
+    <style name="PSPDFKit.SearchViewModular.Dark">
+        <item name="pspdf__inputFieldTextColor">@color/pspdf__dark_background_color</item>
+        <item name="pspdf__inputFieldHintColor">@color/pspdf__color_white</item>
+        <item name="pspdf__inputFieldBackgroundColor">@color/pspdf__dark_input_field_blue</item>
+        <item name="pspdf__separatorColor">@android:color/transparent</item>
+        <!--item name="pspdf__listItemBackgroundColor"></item-->
+        <item name="pspdf__listItemTitleColor">@color/pspdf__dark_page_number_blue</item>
+        <item name="pspdf__listItemSubtitleColor">@color/pspdf__color_white</item>
+        <!--item name="pspdf__listItemSelector"></item-->
+        <item name="pspdf__highlightBackgroundColor">@color/pspdf__dark_selection_background</item>
+        <item name="pspdf__highlightTextColor">@color/pspdf__dark_selection_text</item>
+        <item name="pspdf__highlightBorderColor">@color/pspdf__color_black</item>
+    </style>
+    <style name="PSPDFKit.SettingsModeLineSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">#dbdbdb</item>
+    </style>
+    <style name="PSPDFKit.SettingsModeLineSeparator.Dark">
+        <item name="android:background">@color/pspdf__color_gray_dark</item>
+    </style>
+    <style name="PSPDFKit.SettingsModePickerItem">
+        <item name="pspdf__itemTint">@color/pspdf__settings_mode_picker_item</item>
+    </style>
+    <style name="PSPDFKit.SettingsModePickerItem.Dark">
+        <item name="pspdf__itemTint">@color/pspdf__dark_settings_mode_picker_item</item>
+    </style>
+    <style name="PSPDFKit.SettingsModeSectionTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/pspdf__settings_mode_popup_window_padding</item>
+        <item name="android:layout_marginEnd">@dimen/pspdf__settings_mode_popup_window_padding</item>
+        <item name="android:layout_marginBottom">@dimen/pspdf__settings_mode_section_title_margin_bottom</item>
+    </style>
+    <style name="PSPDFKit.SharingDialog">
+        <item name="pspdf__backgroundColor">?android:colorBackground</item>
+        <item name="pspdf__errorColor">@color/pspdf__color_error</item>
+    </style>
+    <style name="PSPDFKit.SharingDialog.Dark">
+        <item name="pspdf__backgroundColor">?colorPrimary</item>
+        <item name="pspdf__errorColor">@color/pspdf__color_error</item>
+        <item name="android:colorBackground">?colorPrimary</item>
+    </style>
+    <style name="PSPDFKit.SignatureLayout">
+        <item name="pspdf__addSignatureIcon">@drawable/pspdf__ic_add</item>
+        <item name="pspdf__addSignatureIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__addSignatureIconBackgroundColor">?colorAccent</item>
+        <item name="pspdf__acceptSignatureIcon">@drawable/pspdf__ic_done</item>
+        <item name="pspdf__acceptSignatureIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__acceptSignatureIconBackgroundColor">@color/pspdf__color_teal</item>
+        <item name="pspdf__deleteSelectedSignaturesIcon">@drawable/pspdf__ic_delete</item>
+        <item name="pspdf__deleteSelectedSignaturesIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__deleteSelectedSignaturesIconBackgroundColor">@color/pspdf__color_red_light</item>
+        <item name="pspdf__clearSignatureCanvasIcon">@drawable/pspdf__ic_delete</item>
+        <item name="pspdf__clearSignatureCanvasIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__clearSignatureCanvasIconBackgroundColor">@color/pspdf__color_gray</item>
+        <item name="pspdf__signatureInkColorPrimary">@color/pspdf__color_signature_black</item>
+        <item name="pspdf__signatureInkColorSecondary">@color/pspdf__color_signature_blue</item>
+        <item name="pspdf__signatureInkColorTertiary">@color/pspdf__color_signature_red</item>
+        <item name="pspdf__backgroundColor">@color/pspdf__color_white</item>
+        <item name="pspdf__textColor">@color/pspdf__color_gray_dark</item>
+
+        <item name="pspdf__signerChipIconRes">@drawable/pspdf__signature_signer_chip_avatar_icon</item>
+        <item name="pspdf__signerChipIconTint">@color/pspdf__color_white</item>
+        <item name="pspdf__signerChipIconBackground">@color/pspdf__signature_signer_chip_avatar_background</item>
+        <item name="pspdf__signerListSelectedItemBackground">?colorPrimary</item>
+        <item name="pspdf__signerListSelectedItemForeground">@color/pspdf__color_white</item>
+
+        <item name="pspdf__signatureListSelectedItemBackground">@color/pspdf__color_translucent</item>
+    </style>
+    <style name="PSPDFKit.SignatureLayout.Dark">
+        <item name="pspdf__addSignatureIcon">@drawable/pspdf__ic_add</item>
+        <item name="pspdf__addSignatureIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__addSignatureIconBackgroundColor">?colorAccent</item>
+        <item name="pspdf__acceptSignatureIcon">@drawable/pspdf__ic_done</item>
+        <item name="pspdf__acceptSignatureIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__acceptSignatureIconBackgroundColor">@color/pspdf__color_teal</item>
+        <item name="pspdf__deleteSelectedSignaturesIcon">@drawable/pspdf__ic_delete</item>
+        <item name="pspdf__deleteSelectedSignaturesIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__deleteSelectedSignaturesIconBackgroundColor">@color/pspdf__color_red_light</item>
+        <item name="pspdf__clearSignatureCanvasIcon">@drawable/pspdf__ic_delete</item>
+        <item name="pspdf__clearSignatureCanvasIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__clearSignatureCanvasIconBackgroundColor">@color/pspdf__color_gray</item>
+        <item name="pspdf__signatureInkColorPrimary">@color/pspdf__color_signature_black</item>
+        <item name="pspdf__signatureInkColorSecondary">@color/pspdf__color_signature_blue</item>
+        <item name="pspdf__signatureInkColorTertiary">@color/pspdf__color_signature_red</item>
+        <item name="pspdf__backgroundColor">@color/pspdf__color_white</item>
+        <item name="pspdf__textColor">@color/pspdf__color_gray_dark</item>
+        <item name="pspdf__signerChipIconRes">@drawable/pspdf__signature_signer_chip_avatar_icon</item>
+        <item name="pspdf__signerChipIconTint">@color/pspdf__signature_signer_chip_avatar_tint_dark</item>
+        <item name="pspdf__signerChipIconBackground">@color/pspdf__signature_signer_chip_avatar_background_dark</item>
+        <item name="android:listDivider">@drawable/pspdf__list_divider_light</item>
+    </style>
+    <style name="PSPDFKit.SoundAnnotationIcon">
+        <item name="pspdf__backgroundColor">@color/pspdf__color_white</item>
+        <item name="pspdf__iconColor">@color/pspdf__color_black</item>
+        <item name="pspdf__playbackColor">@color/pspdf__sound_annotation_playback</item>
+        <item name="pspdf__recordColor">@color/pspdf__sound_annotation_record</item>
+        <item name="pspdf__selectionColor">@color/pspdf__sound_annotation_selection</item>
+    </style>
+    <style name="PSPDFKit.StampPicker">
+        <item name="pspdf__maxHeight">560dp</item>
+        <item name="pspdf__maxWidth">@dimen/pspdf__bottom_sheet_max_width</item>
+        <item name="pspdf__backgroundColor">@color/pspdf__color_white</item>
+        <item name="pspdf__textColor">@color/pspdf__dialog_text_color</item>
+        <item name="pspdf__hintColor">@color/pspdf__color_gray</item>
+        <item name="pspdf__acceptCustomStampIcon">@drawable/pspdf__ic_done</item>
+        <item name="pspdf__acceptCustomStampIconColor">@color/pspdf__color_white</item>
+        <item name="pspdf__acceptCustomStampIconBackgroundColor">?colorAccent</item>
+    </style>
+    <style name="PSPDFKit.StampPicker.Dark">
+        <item name="pspdf__backgroundColor">@color/pspdf__color_white</item>
+        <item name="pspdf__textColor">@color/pspdf__dialog_text_color</item>
+        <item name="pspdf__hintColor">@color/pspdf__color_gray</item>
+    </style>
+    <style name="PSPDFKit.StepView">
+        <item name="pspdf__selectedStepColor">?colorPrimary</item>
+        <item name="pspdf__selectedTextColor">@color/pspdf__color_white</item>
+        <item name="pspdf__unselectedTextColor">@color/pspdf__dialog_text_color</item>
+        <item name="pspdf__unselectedStepColor">@color/pspdf__color_gray_light</item>
+        <item name="pspdf__selectedDividerColor">?colorPrimary</item>
+        <item name="pspdf__unselectedDividerColor">@color/pspdf__color_gray_light</item>
+        <item name="pspdf__labelTextColor">@color/pspdf__color_gray_dark</item>
+        <item name="pspdf__backgroundColor">@color/pspdf__color_translucent</item>
+        <item name="pspdf__stepNumberTextSize">14sp</item>
+        <item name="pspdf__stepLabelTextSize">12sp</item>
+        <item name="pspdf__stepRadius">12dp</item>
+        <item name="pspdf__stepPadding">16dp</item>
+        <item name="pspdf__labelTopPadding">8dp</item>
+        <item name="pspdf__stepNumberPadding">8dp</item>
+    </style>
+    <style name="PSPDFKit.StepView.Dark">
+        <item name="pspdf__selectedStepColor">@color/pspdf__comparison_accent_dark</item>
+        <item name="pspdf__selectedTextColor">@color/pspdf__dark</item>
+        <item name="pspdf__unselectedTextColor">@color/pspdf__dark_document_info_item_title_text_color</item>
+        <item name="pspdf__unselectedStepColor">@color/pspdf__color_gray_dark</item>
+        <item name="pspdf__selectedDividerColor">@color/pspdf__comparison_accent_dark</item>
+        <item name="pspdf__unselectedDividerColor">@color/pspdf__color_gray_dark</item>
+        <item name="pspdf__labelTextColor">@color/pspdf__dark_document_info_item_title_text_color</item>
+    </style>
+    <style name="PSPDFKit.TabBar">
+        <item name="pspdf__backgroundColor">?colorPrimary</item>
+        <item name="pspdf__tabColor">@android:color/transparent</item>
+        <item name="pspdf__tabIndicatorColor">@color/pspdf__color_white</item>
+        <item name="pspdf__tabTextColorSelected">@color/pspdf__color_white</item>
+        <item name="pspdf__tabTextColor">@color/pspdf__color_gray_light</item>
+        <item name="pspdf__tabIconColorSelected">@color/pspdf__color_white</item>
+        <item name="pspdf__tabIconColor">@color/pspdf__color_gray_light</item>
+        <item name="pspdf__tabBarHeight">@dimen/pspdf__tab_bar_height</item>
+        <item name="pspdf__tabBarMinimumWidth">@dimen/pspdf__tab_bar_minimum_width</item>
+        <item name="pspdf__tabBarMaximumWidth">@dimen/pspdf__tab_bar_maximum_width</item>
+        <item name="pspdf__tabBarTextSize">@dimen/pspdf__tab_bar_text_size</item>
+    </style>
+    <style name="PSPDFKit.TextSelection">
+        <item name="pspdf__highlightColor">@color/pspdf__text_selection_highlight_color</item>
+        <item name="pspdf__leftHandleColor">@color/pspdf__text_selection_left_handle_color</item>
+        <item name="pspdf__rightHandleColor">@color/pspdf__text_selection_right_handle_color</item>
+    </style>
+    <style name="PSPDFKit.TextSelection.Dark">
+        <item name="pspdf__highlightColor">@color/pspdf__dark_text_selection_highlight_color</item>
+        <item name="pspdf__leftHandleColor">@color/pspdf__dark_text_selection_left_handle_color</item>
+        <item name="pspdf__rightHandleColor">@color/pspdf__dark_text_selection_right_handle_color</item>
+    </style>
+    <style name="PSPDFKit.TextSelectionToolbarIcons">
+        <!-- Icon colors default to colors set in pspdf__contextualToolbarStyle -->
+        <!--<item name="pspdf__iconsColor">@color/pspdf__color_white</item>-->
+        <!--<item name="pspdf__iconsColorActivated">@color/pspdf__color_white</item>-->
+
+        <item name="pspdf__shareIcon">@drawable/pspdf__ic_share</item>
+        <item name="pspdf__copyIcon">@drawable/pspdf__ic_content_copy</item>
+        <item name="pspdf__speakIcon">@drawable/pspdf__ic_hearing</item>
+        <item name="pspdf__highlightIcon">@drawable/pspdf__ic_highlight</item>
+        <item name="pspdf__searchIcon">@drawable/pspdf__ic_search</item>
+        <item name="pspdf__linkIcon">@drawable/pspdf__ic_link</item>
+    </style>
+    <style name="PSPDFKit.Theme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/pspdf__color</item>
+        <item name="colorPrimaryDark">@color/pspdf__color_dark</item>
+        <item name="colorAccent">@color/pspdf__color_dark</item>
+        <item name="colorSecondary">@color/pspdf__color</item>
+
+        <!-- Default background color of PSPDFKit Views. PDF view background is controlled by a separate property pspdf__backgroundColor -->
+        <item name="android:colorBackground">@color/pspdf__color_white</item>
+        <!-- Default foreground color of PSPDFKit Views. -->
+        <item name="android:colorForeground">@color/pspdf__color_black</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="toolbarNavigationButtonStyle">@style/PSPDFKit.ToolbarNavigationStyle</item>
+
+        <item name="alertDialogTheme">@style/PSPDFKit.AlertDialog</item>
+
+        <item name="pspdf__navigationHistoryIconColor">@color/pspdf__foreground_color</item>
+
+        <item name="pspdf__backgroundColor">@color/pspdf__color_gray_light</item>
+        <item name="pspdf__mainToolbarStyle">@style/PSPDFKit.MainToolbar</item>
+        <item name="pspdf__documentViewStyle">@style/PSPDFKit.DocumentView</item>
+        <item name="pspdf__contextualToolbarStyle">@style/PSPDFKit.ContextualToolbar</item>
+        <item name="pspdf__actionBarIconsStyle">@style/PSPDFKit.ActionBarIcons</item>
+        <item name="pspdf__outlineViewStyle">@style/PSPDFKit.OutlineView</item>
+        <item name="pspdf__inlineSearchStyle">@style/PSPDFKit.SearchViewInline</item>
+        <item name="pspdf__modularSearchStyle">@style/PSPDFKit.SearchViewModular</item>
+        <item name="pspdf__thumbnailBarStyle">@style/PSPDFKit.ThumbnailBar</item>
+        <item name="pspdf__thumbnailGridStyle">@style/PSPDFKit.ThumbnailGrid</item>
+        <item name="pspdf__searchResultHighlighterStyle">@style/PSPDFKit.SearchResultHighlighter</item>
+        <item name="pspdf__annotationNoteHinterStyle">@style/PSPDFKit.AnnotationNoteHinter</item>
+        <item name="pspdf__annotationStyle">@style/PSPDFKit.Annotation</item>
+        <item name="pspdf__annotationSelectionStyle">@style/PSPDFKit.AnnotationSelection</item>
+        <item name="pspdf__textSelectionStyle">@style/PSPDFKit.TextSelection</item>
+        <item name="pspdf__annotationCreationToolbarIconsStyle">@style/PSPDFKit.AnnotationCreationToolbarIcons</item>
+        <item name="pspdf__annotationEditingToolbarIconsStyle">@style/PSPDFKit.AnnotationEditingToolbarIcons</item>
+        <item name="pspdf__textSelectionToolbarIconsStyle">@style/PSPDFKit.TextSelectionToolbarIcons</item>
+        <item name="pspdf__documentEditingToolbarIconsStyle">@style/PSPDFKit.DocumentEditingToolbarIcons</item>
+        <item name="pspdf__toolbarCoordinatorLayoutStyle">@style/PSPDFKit.ToolbarCoordinatorLayout</item>
+        <item name="pspdf__signatureLayoutStyle">@style/PSPDFKit.SignatureLayout</item>
+        <item name="pspdf__passwordViewStyle">@style/PSPDFKit.PasswordView</item>
+        <item name="pspdf__propertyInspectorStyle">@style/PSPDFKit.PropertyInspector</item>
+        <item name="pspdf__actionMenuStyle">@style/PSPDFKit.ActionMenu</item>
+        <item name="pspdf__sharingDialogStyle">@style/PSPDFKit.SharingDialog</item>
+        <item name="pspdf__stampPickerStyle">@style/PSPDFKit.StampPicker</item>
+        <item name="pspdf__newPageDialogStyle">@style/PSPDFKit.NewPageDialog</item>
+        <item name="pspdf__modalDialogStyle">@style/PSPDFKit.ModalDialog</item>
+        <item name="pspdf__formSelectionStyle">@style/PSPDFKit.FormSelection</item>
+        <item name="pspdf__formEditingBarStyle">@style/PSPDFKit.FormEditingBar</item>
+        <item name="pspdf__settingsModePickerItemStyle">@style/PSPDFKit.SettingsModePickerItem</item>
+        <item name="pspdf__settingsModeLineSeparatorStyle">@style/PSPDFKit.SettingsModeLineSeparator</item>
+        <item name="pspdf__popupToolbarStyle">@style/PSPDFKit.PopupToolbar</item>
+        <item name="pspdf__soundAnnotationIconStyle">@style/PSPDFKit.SoundAnnotationIcon</item>
+        <item name="pspdf__tabBarStyle">@style/PSPDFKit.TabBar</item>
+        <item name="pspdf__eraserStyle">@style/PSPDFKit.EraserTool</item>
+        <item name="pspdf__stepperViewStyle">@style/PSPDFKit.StepView</item>
+        <item name="pspdf__breadCrumbsViewStyle">@style/PSPDFKit.BreadCrumbsView</item>
+        <item name="floatingActionButtonStyle">@style/PSPDFKit.FloatingActionButtonStyle</item>
+        <item name="extendedFloatingActionButtonStyle">@style/PSPDFKit.ExtendedFloatingActionButtonStyle</item>
+        <item name="pspdf__cardViewStyle">@style/PSPDFKit.CardView</item>
+    </style>
+    <style name="PSPDFKit.Theme.Base.Dark" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/pspdf__dark_background_color</item>
+        <item name="colorPrimaryDark">@color/pspdf__dark_status_bar</item>
+        <item name="colorAccent">@color/pspdf__dark_input_field_blue</item>
+        <item name="colorSecondary">@color/pspdf__color_light</item>
+
+
+        <!-- Default background color of PSPDFKit Views. PDF view background is controlled by a separate property pspdf__backgroundColor -->
+        <item name="android:colorBackground">?colorPrimary</item>
+        <!-- Default foreground color of PSPDFKit Views. -->
+        <item name="android:colorForeground">@color/pspdf__color_white</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="toolbarNavigationButtonStyle">@style/PSPDFKit.ToolbarNavigationStyle</item>
+
+        <item name="alertDialogTheme">@style/PSPDFKit.AlertDialog</item>
+        <item name="android:editTextStyle">@style/PSPDFKit.EditTextStyle.Dark</item>
+        <item name="android:listDivider">@android:drawable/divider_horizontal_dark</item>
+
+        <item name="pspdf__navigationHistoryIconColor">@color/pspdf__dark_foreground_color</item>
+
+        <item name="pspdf__backgroundColor">@color/pspdf__dark_background_color</item>
+        <item name="pspdf__mainToolbarStyle">@style/PSPDFKit.MainToolbar.Dark</item>
+        <item name="pspdf__contextualToolbarStyle">@style/PSPDFKit.ContextualToolbar.Dark</item>
+        <item name="pspdf__actionBarIconsStyle">@style/PSPDFKit.ActionBarIcons.Dark</item>
+        <item name="pspdf__annotationCreationToolbarIconsStyle">@style/PSPDFKit.AnnotationCreationToolbarIcons</item>
+        <item name="pspdf__annotationEditingToolbarIconsStyle">@style/PSPDFKit.AnnotationEditingToolbarIcons</item>
+        <item name="pspdf__textSelectionToolbarIconsStyle">@style/PSPDFKit.TextSelectionToolbarIcons</item>
+        <item name="pspdf__documentEditingToolbarIconsStyle">@style/PSPDFKit.DocumentEditingToolbarIcons</item>
+        <item name="pspdf__inlineSearchStyle">@style/PSPDFKit.SearchViewInline.Dark</item>
+        <item name="pspdf__modularSearchStyle">@style/PSPDFKit.SearchViewModular.Dark</item>
+        <item name="pspdf__thumbnailBarStyle">@style/PSPDFKit.ThumbnailBar.Dark</item>
+        <item name="pspdf__outlineViewStyle">@style/PSPDFKit.OutlineView.Dark</item>
+        <item name="pspdf__thumbnailGridStyle">@style/PSPDFKit.ThumbnailGrid.Dark</item>
+        <item name="pspdf__toolbarCoordinatorLayoutStyle">@style/PSPDFKit.ToolbarCoordinatorLayout.Dark</item>
+        <item name="pspdf__searchResultHighlighterStyle">@style/PSPDFKit.SearchResultHighlighter.Dark</item>
+        <item name="pspdf__annotationNoteHinterStyle">@style/PSPDFKit.AnnotationNoteHinter.Dark</item>
+        <item name="pspdf__annotationSelectionStyle">@style/PSPDFKit.AnnotationSelection.Dark</item>
+        <item name="pspdf__textSelectionStyle">@style/PSPDFKit.TextSelection.Dark</item>
+        <item name="pspdf__propertyInspectorStyle">@style/PSPDFKit.PropertyInspector.Dark</item>
+        <item name="pspdf__actionMenuStyle">@style/PSPDFKit.ActionMenu.Dark</item>
+        <item name="pspdf__stampPickerStyle">@style/PSPDFKit.StampPicker.Dark</item>
+        <item name="pspdf__signatureLayoutStyle">@style/PSPDFKit.SignatureLayout.Dark</item>
+        <item name="pspdf__documentViewStyle">@style/PSPDFKit.DocumentView.Dark</item>
+        <item name="pspdf__sharingDialogStyle">@style/PSPDFKit.SharingDialog.Dark</item>
+        <item name="pspdf__newPageDialogStyle">@style/PSPDFKit.NewPageDialog.Dark</item>
+        <item name="pspdf__modalDialogStyle">@style/PSPDFKit.ModalDialog.Dark</item>
+        <item name="pspdf__formSelectionStyle">@style/PSPDFKit.FormSelection.Dark</item>
+        <item name="pspdf__settingsModePickerItemStyle">@style/PSPDFKit.SettingsModePickerItem.Dark</item>
+        <item name="pspdf__settingsModeLineSeparatorStyle">@style/PSPDFKit.SettingsModeLineSeparator.Dark</item>
+        <item name="pspdf__popupToolbarStyle">@style/PSPDFKit.PopupToolbar.Dark</item>
+        <item name="pspdf__stepperViewStyle">@style/PSPDFKit.StepView.Dark</item>
+        <item name="pspdf__breadCrumbsViewStyle">@style/PSPDFKit.BreadCrumbsView.Dark</item>
+        <item name="extendedFloatingActionButtonStyle">@style/PSPDFKit.ExtendedFloatingActionButtonStyle.Dark</item>
+        <item name="pspdf__cardViewStyle">@style/PSPDFKit.CardView.Dark</item>
+    </style>
+    <style name="PSPDFKit.Theme.ComparisonDialogTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="PSPDFKit.Theme.ComparisonDialogTheme.Dark">
+        <item name="colorPrimary">@color/pspdf__dark</item>
+        <item name="colorPrimaryDark">@color/pspdf__dark_status_bar</item>
+        <item name="colorAccent">@color/pspdf__color_light</item>
+    </style>
+    <style name="PSPDFKit.Theme.Dark" parent="PSPDFKit.Theme.Base.Dark">
+        <item name="android:navigationBarColor">@color/pspdf__dark_status_bar</item>
+    </style>
+    <style name="PSPDFKit.Theme.Default"/>
+    <style name="PSPDFKit.Theme.MediaView">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/pspdf__color_black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="PSPDFKit.ThumbnailBar">
+        <item name="pspdf__backgroundColor">?colorPrimary</item>
+        <item name="pspdf__thumbnailWidth">@dimen/pspdf__thumbnail_width</item>
+        <item name="pspdf__thumbnailHeight">@dimen/pspdf__thumbnail_height</item>
+        <item name="pspdf__thumbnailBorderColor">@color/pspdf__color_black</item>
+        <item name="pspdf__usePageAspectRatio">true</item>
+    </style>
+    <style name="PSPDFKit.ThumbnailBar.Dark">
+        <item name="pspdf__thumbnailBorderColor">@color/pspdf__dark_input_field_blue</item>
+    </style>
+    <style name="PSPDFKit.ThumbnailGrid">
+        <item name="pspdf__backgroundColor">@color/pspdf__color_gray_light</item>
+        <item name="pspdf__itemLabelTextStyle">@style/PSPDFKit.ThumbnailGridItemLabelDefStyle</item>
+        <item name="pspdf__itemLabelBackground">@drawable/pspdf__grid_list_label_background</item>
+        <item name="pspdf__selectionCheckBackgroundColor">?colorPrimary</item>
+        <item name="pspdf__itemRippleBackgroundColor">@color/pspdf__annotation_selection_border</item>
+    </style>
+    <style name="PSPDFKit.ThumbnailGrid.Dark">
+        <item name="pspdf__backgroundColor">@color/pspdf__dark_status_bar</item>
+    </style>
+    <style name="PSPDFKit.ThumbnailGridItemLabelDefStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="PSPDFKit.ToolbarCoordinatorLayout">
+        <item name="pspdf__dragTargetColor">?colorPrimary</item>
+    </style>
+    <style name="PSPDFKit.ToolbarCoordinatorLayout.Dark">
+        <item name="pspdf__dragTargetColor">@color/pspdf__dark_drag_target</item>
+    </style>
+    <style name="PSPDFKit.ToolbarNavigationStyle" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">@color/pspdf__color_white</item>
+    </style>
+    <style name="PSPDFKit.ToolbarNavigationStyle.Dark">
+        <item name="tint">@color/pspdf__color_white</item>
+    </style>
+    <declare-styleable name="pspdf__ActionBarIcons">
+        <attr name="pspdf__iconsColor"/>
+        <attr name="pspdf__iconsColorActivated"/>
+        <attr name="pspdf__outlineIcon"/>
+        <attr name="pspdf__searchIcon"/>
+        <attr name="pspdf__gridIcon"/>
+        <attr name="pspdf__editAnnotationsIcon"/>
+        <attr name="pspdf__outlineIconActivated"/>
+        <attr name="pspdf__searchIconActivated"/>
+        <attr name="pspdf__gridIconActivated"/>
+        <attr name="pspdf__editAnnotationsIconActivated"/>
+        <attr name="pspdf__signatureIcon"/>
+        <attr name="pspdf__signatureIconActivated"/>
+        <attr name="pspdf__shareIcon"/>
+        <attr name="pspdf__printIcon"/>
+        <attr name="pspdf__settingsIcon"/>
+        <attr name="pspdf__settingsIconActivated"/>
+        <attr name="pspdf__readerViewIcon"/>
+        <attr name="pspdf__readerViewIconActivated"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__ActionMenu">
+        <!-- Max width of the action menu. -->
+        <attr name="pspdf__maxWidth"/>
+
+        <!-- Action menu background color. -->
+        <attr name="pspdf__backgroundColor"/>
+        <!-- Action label text color. -->
+        <attr format="color" name="pspdf__labelColor"/>
+
+        <!-- Background for fixed actions panel. -->
+        <attr format="color" name="pspdf__fixedActionsPanelBackgroundColor"/>
+        <!-- Fixed action icon color. -->
+        <attr format="color" name="pspdf__fixedActionsIconColor"/>
+        <!-- Fixed action circular background color. -->
+        <attr format="color" name="pspdf__fixedActionsIconBackground"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__Annotation">
+        <attr name="pspdf__linkAnnotationBackgroundColor"/>
+        <attr name="pspdf__linkAnnotationBorderColor"/>
+        <attr name="pspdf__linkAnnotationHighlightBackgroundColor"/>
+        <attr name="pspdf__linkAnnotationHighlightBorderColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__AnnotationCreationToolbarIcons">
+        <attr name="pspdf__iconsColor"/>
+        <attr name="pspdf__iconsColorActivated"/>
+        <attr name="pspdf__highlightIcon"/>
+        <attr name="pspdf__underlineIcon"/>
+        <attr name="pspdf__strikeoutIcon"/>
+        <attr name="pspdf__squigglyIcon"/>
+        <attr name="pspdf__noteIcon"/>
+        <attr name="pspdf__soundIcon"/>
+        <attr name="pspdf__inkHighlighterIcon"/>
+        <attr name="pspdf__inkPenIcon"/>
+        <attr name="pspdf__magicInkIcon"/>
+        <attr name="pspdf__freeTextIcon"/>
+        <attr name="pspdf__freeTextCalloutIcon"/>
+        <attr name="pspdf__imageIcon"/>
+        <attr name="pspdf__stampIcon"/>
+        <attr name="pspdf__cameraIcon"/>
+        <attr name="pspdf__signatureIcon"/>
+        <attr name="pspdf__lineIcon"/>
+        <attr name="pspdf__lineArrowIcon"/>
+        <attr name="pspdf__squareIcon"/>
+        <attr name="pspdf__dashedSquareIcon"/>
+        <attr name="pspdf__cloudySquareIcon"/>
+        <attr name="pspdf__circleIcon"/>
+        <attr name="pspdf__dashedCircleIcon"/>
+        <attr name="pspdf__cloudyCircleIcon"/>
+        <attr name="pspdf__polygonIcon"/>
+        <attr name="pspdf__dashedPolygonIcon"/>
+        <attr name="pspdf__cloudyPolygonIcon"/>
+        <attr name="pspdf__polylineIcon"/>
+        <attr name="pspdf__eraserIcon"/>
+        <attr name="pspdf__redactionIcon"/>
+        <attr name="pspdf__undoIcon"/>
+        <attr name="pspdf__redoIcon"/>
+        <attr name="pspdf__instantCommentIcon"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__AnnotationEditingToolbarIcons">
+        <attr name="pspdf__iconsColor"/>
+        <attr name="pspdf__iconsColorActivated"/>
+        <attr name="pspdf__editIcon"/>
+        <attr name="pspdf__shareIcon"/>
+        <attr name="pspdf__deleteIcon"/>
+        <attr name="pspdf__annotationNoteIcon"/>
+        <attr name="pspdf__annotationInstantCommentIcon"/>
+        <attr name="pspdf__copyIcon"/>
+        <attr name="pspdf__cutIcon"/>
+        <attr name="pspdf__undoIcon"/>
+        <attr name="pspdf__redoIcon"/>
+        <attr name="pspdf__playIcon"/>
+        <attr name="pspdf__recordIcon"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__AnnotationNoteHinter">
+        <attr format="boolean" name="pspdf__useNoteHinterIntrinsicSize"/>
+        <attr format="dimension" name="pspdf__noteHinterWidth"/>
+        <attr format="dimension" name="pspdf__noteHinterTextMarkupLeftPadding"/>
+        <attr format="dimension" name="pspdf__noteHinterHeight"/>
+        <attr format="color" name="pspdf__noteHinterColor"/>
+        <attr format="integer" name="pspdf__noteHinterAlpha"/>
+        <attr format="reference" name="pspdf__noteHinterIcon"/>
+        <attr format="reference" name="pspdf__noteHinterInstantCommentIcon"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__AnnotationSelection">
+        <!-- Border color of the annotation selection layout. -->
+        <attr name="pspdf__borderColor"/>
+        <!-- Border width of the annotation selection layout. -->
+        <attr name="pspdf__borderWidth"/>
+        <!-- Scale handle color of the annotation selection layout (rotation handle included). -->
+        <attr format="color" name="pspdf__scaleHandleColor"/>
+        <!-- Edit handle color of the annotation selection layout. -->
+        <attr format="color" name="pspdf__editHandleColor"/>
+        <!-- Padding of the annotation selection layout. -->
+        <attr format="dimension" name="pspdf__padding"/>
+        <!-- Guide line width of the annotation selection layout. -->
+        <attr format="dimension" name="pspdf__guideLineWidth"/>
+        <!-- Guide line color of the annotation selection layout. -->
+        <attr format="color" name="pspdf__guideLineColor"/>
+        <!-- Guide line dimension increase over the annotation selection layout. -->
+        <attr format="dimension" name="pspdf__guideLineIncrease"/>
+
+        <!-- Scale handle drawable in the top left part of the annotation selection layout. -->
+        <attr format="reference" name="pspdf__topLeftScaleHandleDrawable"/>
+        <!-- Scale handle drawable in the top center part of the annotation selection layout. -->
+        <attr format="reference" name="pspdf__topCenterScaleHandleDrawable"/>
+        <!-- Scale handle drawable in the top right part of the annotation selection layout. -->
+        <attr format="reference" name="pspdf__topRightScaleHandleDrawable"/>
+        <!-- Scale handle drawable in the center left part of the annotation selection layout. -->
+        <attr format="reference" name="pspdf__centerLeftScaleHandleDrawable"/>
+        <!-- Scale handle drawable in the center right part of the annotation selection layout. -->
+        <attr format="reference" name="pspdf__centerRightScaleHandleDrawable"/>
+        <!-- Scale handle drawable in the bottom left part of the annotation selection layout. -->
+        <attr format="reference" name="pspdf__bottomLeftScaleHandleDrawable"/>
+        <!-- Scale handle drawable in the bottom center part of the annotation selection layout. -->
+        <attr format="reference" name="pspdf__bottomCenterScaleHandleDrawable"/>
+        <!-- Scale handle drawable in the bottom right part of the annotation selection layout. -->
+        <attr format="reference" name="pspdf__bottomRightScaleHandleDrawable"/>
+        <!-- Scale handle drawable of the annotation selection layout for the rotation. -->
+        <attr format="reference" name="pspdf__rotationHandleDrawable"/>
+
+        <!-- Background drawable for the annotation selection layout. -->
+        <attr format="reference" name="pspdf__backgroundDrawable"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__AppCompatTextViewTint">
+        <attr format="reference|color" name="pspdf__drawableTint"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__AudioInspector">
+        <!-- Background color. -->
+        <attr name="pspdf__backgroundColor"/>
+        <!-- Tint color for icons. -->
+        <attr name="pspdf__iconsColor"/>
+        <!-- Tint color for recording icon. -->
+        <attr format="color|reference" name="pspdf__recordingIconColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__BreadCrumbsView">
+        <attr format="color|reference" name="pspdf__titleColor"/>
+        <attr format="color|reference" name="pspdf__selectedTitleColor"/>
+        <attr format="color|reference" name="pspdf__dividerColor"/>
+        <attr format="dimension" name="pspdf__textSize"/>
+        <attr name="pspdf__backgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__ContextualToolbar">
+        <!-- Background color of the contextual toolbar. Defaults to ?colorPrimaryDark -->
+        <attr name="pspdf__backgroundColor"/>
+        <!-- Background color of the contextual toolbar submenus. Defaults to ?colorPrimary -->
+        <attr format="color" name="pspdf__submenuBackgroundColor"/>
+        <!-- Color for icons in the contextual toolbar. Defaults to @color/pspdf__color_white -->
+        <attr name="pspdf__iconsColor"/>
+        <!-- Color for activated icons in the contextual toolbar. Defaults to @color/pspdf__color_white -->
+        <attr name="pspdf__iconsColorActivated"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__DocumentEditingToolbarIcons">
+        <attr name="pspdf__iconsColor"/>
+        <attr name="pspdf__iconsColorActivated"/>
+        <attr name="pspdf__undoIcon"/>
+        <attr name="pspdf__redoIcon"/>
+        <attr name="pspdf__rotatePagesIcon"/>
+        <attr name="pspdf__removePagesIcon"/>
+        <attr name="pspdf__exportPagesIcon"/>
+        <attr name="pspdf__importDocumentIcon"/>
+        <attr name="pspdf__duplicatePagesIcon"/>
+        <attr name="pspdf__moreIcon"/>
+        <attr name="pspdf__doneIcon"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__ElectronicSignatureControllerView">
+        <attr format="boolean" name="pspdf__fontSelectionVisible"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__EraserTool">
+        <!-- Color of the circle drawn to highlight the eraser. -->
+        <attr format="color|reference" name="pspdf__eraserOutlineColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__FormEditingBar">
+        <!-- Background color. -->
+        <attr name="pspdf__backgroundColor"/>
+        <!-- Text color used in editing bar. -->
+        <attr name="pspdf__textColor"/>
+        <!-- Tint color of editing bar icons. -->
+        <attr name="pspdf__iconsColor"/>
+        <!-- Drawable used for previous icon. -->
+        <attr name="pspdf__prevIconDrawable"/>
+        <!-- Drawable used for next icon. -->
+        <attr name="pspdf__nextIconDrawable"/>
+
+        <!-- Background color of the form validation error message. -->
+        <attr format="color" name="pspdf__validationErrorBackgroundColor"/>
+        <!-- Text color of the form validation error message. -->
+        <attr format="color" name="pspdf__validationErrorTextColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__FormSelection">
+        <!-- Highlight color of all form elements. -->
+        <attr format="color" name="pspdf__highlightColor"/>
+        <!-- Highlight color of selected items inside lists, combo boxes and others. -->
+        <attr format="color" name="pspdf__itemHighlightColor"/>
+        <!-- Background color of the selected text element. -->
+        <attr format="color" name="pspdf__selectedTextElementBackgroundColor"/>
+        <!-- Border color of the selected text element. -->
+        <attr format="color" name="pspdf__selectedTextElementBorderColor"/>
+        <!-- Border color of the required text element. -->
+        <attr format="color" name="pspdf__requiredTextElementBorderColor"/>
+        <!-- Color used for touched form element highlight. -->
+        <attr format="color" name="pspdf__touchedFormElementHighlightColor"/>
+        <!-- Color used for the background of the sign here overlay. -->
+        <attr format="color" name="pspdf__signHereOverlayBackgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__LinkAnnotationHighlighter">
+        <attr format="color" name="pspdf__highlightedBackgroundColor"/>
+        <attr format="color" name="pspdf__highlightedBorderColor"/>
+        <attr format="dimension" name="pspdf__highlightedBorderWidth"/>
+        <attr format="dimension" name="pspdf__highlightedLinkAnnotationPadding"/>
+        <attr format="dimension" name="pspdf__highlightedLinkAnnotationAnimationPadding"/>
+        <attr format="float" name="pspdf__highlightedRectangleCornerRadiusToHeightRatio"/>
+        <attr format="dimension" name="pspdf__highlightedRectangleMinCornerRadius"/>
+        <attr format="dimension" name="pspdf__highlightedRectangleMaxCornerRadius"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__MainToolbar">
+        <!-- Background color of the toolbar. Defaults to ?colorPrimary -->
+        <attr name="pspdf__backgroundColor"/>
+        <!-- Toolbar title color. Defaults to @color/pspdf__color_white -->
+        <attr name="pspdf__textColor"/>
+
+        <!-- Toolbar theme (set via `android:theme` on the Toolbar widget). Defaults to ThemeOverlay.AppCompat.Dark.ActionBar -->
+        <attr format="reference" name="pspdf__toolbarTheme"/>
+        <!-- Toolbar popup theme (set via `app:popupTheme` on the Toolbar widget). Defaults to ThemeOverlay.AppCompat.Light -->
+        <attr format="reference" name="pspdf__toolbarPopupTheme"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__ModalDialog">
+        <!-- Dialog title background color. -->
+        <attr format="color" name="pspdf__titleBackground"/>
+        <!-- Text color used in dialog title. -->
+        <attr format="color" name="pspdf__titleTextColor"/>
+        <!-- Signature layout title icons tint color. -->
+        <attr format="color" name="pspdf__titleIconsColor"/>
+
+        <!-- Dialog title height. -->
+        <attr format="dimension" name="pspdf__titleHeight"/>
+        <!-- Dialog title text size. -->
+        <attr format="dimension" name="pspdf__titleTextSize"/>
+        <!-- Dialog title padding. -->
+        <attr format="dimension" name="pspdf__titlePadding"/>
+
+        <!-- Dialog corner radius. -->
+        <attr format="dimension" name="pspdf__cornerRadius"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__NewPageDialog">
+        <!-- Dialog background color. -->
+        <attr name="pspdf__backgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__OutlineView">
+        <attr name="pspdf__backgroundColor"/>
+        <attr name="pspdf__listItemSelector"/>
+        <attr name="pspdf__defaultTextColor"/>
+        <attr format="reference|color" name="pspdf__bookmarksBarBackgroundColor"/>
+        <attr format="reference|color" name="pspdf__bookmarksBarIconColor"/>
+        <attr format="reference|color" name="pspdf__bookmarksCurrentPageColor"/>
+        <attr name="pspdf__bookmarksAddIcon"/>
+        <attr name="pspdf__bookmarksEditIcon"/>
+        <attr name="pspdf__bookmarksDoneIcon"/>
+        <attr name="pspdf__bookmarksDeleteIcon"/>
+        <attr format="reference|color" name="pspdf__bookmarksDeleteIconColor"/>
+        <attr format="reference|color" name="pspdf__bookmarksDeleteBackgroundColor"/>
+        <attr format="reference|color" name="pspdf__bookmarksGroupIndicatorIconColor"/>
+        <attr format="reference" name="pspdf__bookmarksDragHandleIcon"/>
+        <attr format="reference|color" name="pspdf__bookmarksDragHandleIconColor"/>
+        <attr format="reference|color" name="pspdf__annotationsBarBackgroundColor"/>
+        <attr format="reference|color" name="pspdf__annotationsBarIconColor"/>
+        <attr format="reference" name="pspdf__annotationsDeleteIcon"/>
+        <attr format="reference|color" name="pspdf__annotationsDeleteIconColor"/>
+        <attr format="reference" name="pspdf__annotationsEditIcon"/>
+        <attr format="reference" name="pspdf__annotationsDoneIcon"/>
+        <attr format="reference" name="pspdf__annotationsDragHandleIcon"/>
+        <attr format="reference|color" name="pspdf__annotationsDragHandleIconColor"/>
+        <attr format="reference" name="pspdf__navigationTabOutlineIcon"/>
+        <attr format="reference" name="pspdf__navigationTabBookmarksIcon"/>
+        <attr format="reference" name="pspdf__navigationTabAnnotationsIcon"/>
+        <attr format="reference" name="pspdf__navigationTabDocumentInfoIcon"/>
+        <attr format="color" name="pspdf__navigationTabIconsColor"/>
+        <attr format="color" name="pspdf__navigationTabIconsColorSelected"/>
+        <attr format="color" name="pspdf__navigationTabBackgroundColor"/>
+        <attr format="color" name="pspdf__documentInfoGroupTitleTextColor"/>
+        <attr format="color" name="pspdf__documentInfoItemTitleTextColor"/>
+        <attr format="color" name="pspdf__documentInfoItemValueTextColor"/>
+        <attr format="color" name="pspdf__documentInfoItemValueHintTextColor"/>
+        <attr format="color" name="pspdf__documentInfoGroupIconColor"/>
+        <attr format="reference" name="pspdf__documentInfoContentIcon"/>
+        <attr format="reference" name="pspdf__documentInfoChangesIcon"/>
+        <attr format="reference" name="pspdf__documentInfoSizeIcon"/>
+        <attr format="color" name="pspdf__documentInfoFabBackgroundColor"/>
+        <attr format="color" name="pspdf__documentInfoFabIconColor"/>
+        <attr format="reference" name="pspdf__documentInfoFabEditIcon"/>
+        <attr format="reference" name="pspdf__documentInfoFabDoneIcon"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__PasswordView">
+        <attr format="color" name="pspdf__color"/>
+        <attr name="pspdf__hintColor"/>
+        <attr format="color" name="pspdf__floatingHintColor"/>
+        <attr name="pspdf__errorColor"/>
+        <attr format="reference" name="pspdf__icon"/>
+        <attr format="reference|boolean" name="pspdf__iconTintingEnabled"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__PopupToolbar">
+        <attr name="pspdf__backgroundColor"/>
+        <attr name="pspdf__itemTint"/>
+        <attr format="color|reference" name="pspdf__itemTintDisabled"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__PropertyInspector">
+        <!-- Minimal height of the inspector. -->
+        <attr format="dimension" name="pspdf__minHeight"/>
+        <!-- Maximal height of the inspector. -->
+        <attr name="pspdf__maxHeight"/>
+        <!-- Max width of the inspector. -->
+        <attr name="pspdf__maxWidth"/>
+
+        <!-- Inspector background color. -->
+        <attr name="pspdf__backgroundColor"/>
+        <!-- Inspector foreground color. -->
+        <attr name="pspdf__textColor"/>
+
+        <!-- Height of the single inspector view. -->
+        <attr format="dimension" name="pspdf__itemHeight"/>
+
+        <!-- If there should be a search bar added to dropdown lists. -->
+        <attr format="boolean" name="pspdf__searchVisible"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__ScrollableThumbnailBar">
+        <attr name="pspdf__thumbnailWidth"/>
+        <attr name="pspdf__thumbnailHeight"/>
+        <attr name="pspdf__thumbnailBorderColor"/>
+        <attr name="pspdf__thumbnailSelectedBorderColor"/>
+        <attr name="pspdf__usePageAspectRatio"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__SearchResultHighlighter">
+        <attr format="color" name="pspdf__searchResultBackgroundColor"/>
+        <attr format="color" name="pspdf__searchResultBorderColor"/>
+        <attr format="dimension" name="pspdf__searchResultBorderWidth"/>
+        <attr format="dimension" name="pspdf__searchResultPadding"/>
+        <attr format="dimension" name="pspdf__searchResultAnnotationPadding"/>
+        <attr format="dimension" name="pspdf__searchResultAnimationPadding"/>
+        <attr format="float" name="pspdf__searchResultCornerRadiusToHeightRatio"/>
+        <attr format="dimension" name="pspdf__searchResultCornerRadiusMin"/>
+        <attr format="dimension" name="pspdf__searchResultCornerRadiusMax"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__SearchViewInline">
+        <attr format="reference" name="pspdf__inputFieldTextAppearance"/>
+        <attr format="reference" name="pspdf__resultTextAppearance"/>
+        <attr format="color" name="pspdf__throbberColor"/>
+        <attr name="pspdf__prevIconDrawable"/>
+        <attr name="pspdf__nextIconDrawable"/>
+        <attr name="pspdf__prevIconColorTint"/>
+        <attr name="pspdf__nextIconColorTint"/>
+        <attr name="pspdf__backIconColorTint"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__SearchViewModular">
+        <attr name="pspdf__backgroundColor"/>
+        <attr name="pspdf__inputFieldTextColor"/>
+        <attr name="pspdf__inputFieldHintColor"/>
+        <attr name="pspdf__inputFieldBackgroundColor"/>
+        <attr name="pspdf__separatorColor"/>
+        <attr name="pspdf__listItemBackgroundColor"/>
+        <attr name="pspdf__listItemTitleColor"/>
+        <attr name="pspdf__listItemSubtitleColor"/>
+        <attr name="pspdf__listItemSelector"/>
+        <attr name="pspdf__highlightBackgroundColor"/>
+        <attr name="pspdf__highlightTextColor"/>
+        <attr name="pspdf__highlightBorderColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__SettingsModePickerItem">
+        <attr name="pspdf__label"/>
+        <attr format="boolean" name="pspdf__activated"/>
+        <attr name="pspdf__buttonIcon"/>
+        <attr name="pspdf__itemTint"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__SharingDialog">
+        <!-- Sharing dialog background color. -->
+        <attr name="pspdf__backgroundColor"/>
+
+        <!-- Edit text error color. -->
+        <attr name="pspdf__errorColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__SignatureLayout">
+        <!-- Icon for adding signature (displayed in FAB by default.) -->
+        <attr format="reference" name="pspdf__addSignatureIcon"/>
+        <!-- Color for the `Add Signature` icon. -->
+        <attr format="color" name="pspdf__addSignatureIconColor"/>
+        <!-- Background color for the `Add Signature` icon, the background of the FAB. -->
+        <attr format="color" name="pspdf__addSignatureIconBackgroundColor"/>
+
+        <!-- Icon for accepting signature when editing it, will be displayed inside the FAB. Check mark by default. -->
+        <attr format="reference" name="pspdf__acceptSignatureIcon"/>
+        <!-- Color for signature acceptance icon. -->
+        <attr format="color" name="pspdf__acceptSignatureIconColor"/>
+        <!-- Color for signature acceptance icon background. -->
+        <attr format="color" name="pspdf__acceptSignatureIconBackgroundColor"/>
+
+        <!-- Icon for deleting selected signature, will be displayed inside the FAB. Trash icon by default. -->
+        <attr format="reference" name="pspdf__deleteSelectedSignaturesIcon"/>
+        <!-- Color for signature deletion icon. -->
+        <attr format="color" name="pspdf__deleteSelectedSignaturesIconColor"/>
+        <!-- Background color for signature deletion icon. -->
+        <attr format="color" name="pspdf__deleteSelectedSignaturesIconBackgroundColor"/>
+
+        <!-- Signature layout icon for clearing signature canvas. -->
+        <attr format="reference" name="pspdf__clearSignatureCanvasIcon"/>
+        <!-- Color of the clear canvas icon. -->
+        <attr format="color" name="pspdf__clearSignatureCanvasIconColor"/>
+        <!-- Color of the clear canvas icon. -->
+        <attr format="color" name="pspdf__clearSignatureCanvasIconBackgroundColor"/>
+
+        <!-- First color offered in signature ink color picker. -->
+        <attr format="color" name="pspdf__signatureInkColorPrimary"/>
+        <!-- Second color offered in signature ink color picker. -->
+        <attr format="color" name="pspdf__signatureInkColorSecondary"/>
+        <!-- Third color offered in signature ink color picker. -->
+        <attr format="color" name="pspdf__signatureInkColorTertiary"/>
+
+        <!-- Signature layout background color. -->
+        <attr name="pspdf__backgroundColor"/>
+        <!-- Signature layout foreground color. -->
+        <attr name="pspdf__textColor"/>
+
+        <!-- Signer chip icon. This should be a state-list providing icons for normal and selected state. -->
+        <attr format="reference" name="pspdf__signerChipIconRes"/>
+        <!-- Signer chip icon tint color. This should be a color state-list providing colors for normal and selected state. -->
+        <attr format="color" name="pspdf__signerChipIconTint"/>
+        <!-- Background color of the signer icon. This should be a color state-list providing colors for normal and selected state. -->
+        <attr format="color" name="pspdf__signerChipIconBackground"/>
+        <!-- Background color of the selected signer item in the signer list. -->
+        <attr format="color" name="pspdf__signerListSelectedItemBackground"/>
+        <attr format="color" name="pspdf__signerListSelectedItemForeground"/>
+        <!-- Selection background for signature list item. -->
+        <attr format="color" name="pspdf__signatureListSelectedItemBackground"/>
+
+        <attr format="color" name="pspdf__signatureAddingContainerRippleBackgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__SoundAnnotationIcon">
+        <!-- Icon circle background color. -->
+        <attr name="pspdf__backgroundColor"/>
+        <!-- Color of the sound icon. -->
+        <attr format="color" name="pspdf__iconColor"/>
+
+        <!-- Color of the ring indicator when playback is active. -->
+        <attr format="color" name="pspdf__playbackColor"/>
+        <!-- Color of the ring indicator when recording is active. -->
+        <attr format="color" name="pspdf__recordColor"/>
+        <!-- Color of the ring indicator when sound annotation is selected. -->
+        <attr format="color" name="pspdf__selectionColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__StampPicker">
+        <!-- Maximal height of the stamp picker dialog. -->
+        <attr name="pspdf__maxHeight"/>
+        <!-- Maximal width of the stamp picker dialog. -->
+        <attr name="pspdf__maxWidth"/>
+
+        <!-- Dialog background color. -->
+        <attr name="pspdf__backgroundColor"/>
+
+        <!-- Icon for accepting custom stamp when editing it, will be displayed inside the FAB. Check mark by default. -->
+        <attr format="reference" name="pspdf__acceptCustomStampIcon"/>
+        <!-- Color for custom stamp acceptance icon. -->
+        <attr format="color" name="pspdf__acceptCustomStampIconColor"/>
+        <!-- Color for custom stamp acceptance icon background. -->
+        <attr format="color" name="pspdf__acceptCustomStampIconBackgroundColor"/>
+
+        <!-- Stamp picker layout foreground color. -->
+        <attr name="pspdf__textColor"/>
+        <!-- Stamp picker edit text hint color. -->
+        <attr name="pspdf__hintColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__StateTintImageView">
+        <attr format="reference|color" name="pspdf__tint"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__StepperView">
+        <attr format="color|reference" name="pspdf__selectedStepColor"/>
+        <attr format="color|reference" name="pspdf__selectedTextColor"/>
+        <attr format="color|reference" name="pspdf__unselectedTextColor"/>
+        <attr format="color|reference" name="pspdf__unselectedStepColor"/>
+        <attr format="color|reference" name="pspdf__selectedDividerColor"/>
+        <attr format="color|reference" name="pspdf__unselectedDividerColor"/>
+        <attr format="color|reference" name="pspdf__labelTextColor"/>
+        <attr format="dimension" name="pspdf__stepNumberTextSize"/>
+        <attr format="dimension" name="pspdf__stepLabelTextSize"/>
+        <attr format="dimension" name="pspdf__stepRadius"/>
+        <attr format="dimension" name="pspdf__stepPadding"/>
+        <attr format="dimension" name="pspdf__labelTopPadding"/>
+        <attr format="dimension" name="pspdf__stepNumberPadding"/>
+        <attr name="pspdf__backgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__TabBar">
+        <!-- Background color of the tab bar. -->
+        <attr name="pspdf__backgroundColor"/>
+        <!-- Color of the tab itself. -->
+        <attr format="color|reference" name="pspdf__tabColor"/>
+        <!-- Color of the indicator line of the selected tab. -->
+        <attr format="color|reference" name="pspdf__tabIndicatorColor"/>
+        <!-- Color of the tab text. -->
+        <attr format="color|reference" name="pspdf__tabTextColor"/>
+        <!-- Color of the tab text when selected. -->
+        <attr format="color|reference" name="pspdf__tabTextColorSelected"/>
+        <!-- Color of the tab icon. -->
+        <attr format="color|reference" name="pspdf__tabIconColor"/>
+        <!-- Color of the tab icon when selected. -->
+        <attr format="color|reference" name="pspdf__tabIconColorSelected"/>
+        <!-- Height of the tab bar. -->
+        <attr format="dimension|reference" name="pspdf__tabBarHeight"/>
+        <!-- The minimum width of a single tab item. -->
+        <attr format="dimension|reference" name="pspdf__tabBarMinimumWidth"/>
+        <!-- The maximum width of a single tab item. -->
+        <attr format="dimension|reference" name="pspdf__tabBarMaximumWidth"/>
+        <!-- The size of the tab title text. -->
+        <attr format="dimension|reference" name="pspdf__tabBarTextSize"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__TextSelection">
+        <attr name="pspdf__highlightColor"/>
+        <attr format="color" name="pspdf__leftHandleColor"/>
+        <attr format="color" name="pspdf__rightHandleColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__TextSelectionToolbarIcons">
+        <attr name="pspdf__iconsColor"/>
+        <attr name="pspdf__iconsColorActivated"/>
+        <attr name="pspdf__shareIcon"/>
+        <attr name="pspdf__copyIcon"/>
+        <attr name="pspdf__speakIcon"/>
+        <attr name="pspdf__highlightIcon"/>
+        <attr name="pspdf__searchIcon"/>
+        <attr name="pspdf__linkIcon"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__Theme">
+        <attr name="pspdf__backgroundColor"/>
+
+        <attr format="color" name="pspdf__navigationHistoryIconColor"/>
+
+        <attr format="reference" name="pspdf__actionBarIconsStyle"/>
+        <attr format="reference" name="pspdf__inlineSearchStyle"/>
+        <attr format="reference" name="pspdf__modularSearchStyle"/>
+        <attr format="reference" name="pspdf__thumbnailBarStyle"/>
+        <attr format="reference" name="pspdf__scrollableThumbnailBarStyle"/>
+        <attr format="reference" name="pspdf__outlineViewStyle"/>
+        <attr format="reference" name="pspdf__thumbnailGridStyle"/>
+        <attr format="reference" name="pspdf__searchResultHighlighterStyle"/>
+        <attr format="reference" name="pspdf__annotationNoteHinterStyle"/>
+        <attr format="reference" name="pspdf__linkAnnotationHighlighterStyle"/>
+        <attr format="reference" name="pspdf__annotationStyle"/>
+        <attr format="reference" name="pspdf__annotationCreationToolbarIconsStyle"/>
+        <attr format="reference" name="pspdf__annotationEditingToolbarIconsStyle"/>
+        <attr format="reference" name="pspdf__textSelectionToolbarIconsStyle"/>
+        <attr format="reference" name="pspdf__toolbarCoordinatorLayoutStyle"/>
+        <attr format="reference" name="pspdf__documentEditingToolbarIconsStyle"/>
+        <attr format="reference" name="pspdf__annotationSelectionStyle"/>
+        <attr format="reference" name="pspdf__textSelectionStyle"/>
+        <attr format="reference" name="pspdf__passwordViewStyle"/>
+        <attr format="reference" name="pspdf__signatureLayoutStyle"/>
+        <attr format="reference" name="pspdf__propertyInspectorStyle"/>
+        <attr format="reference" name="pspdf__actionMenuStyle"/>
+        <attr format="reference" name="pspdf__stampPickerStyle"/>
+        <attr format="reference" name="pspdf__sharingDialogStyle"/>
+        <attr format="reference" name="pspdf__newPageDialogStyle"/>
+        <attr format="reference" name="pspdf__modalDialogStyle"/>
+        <attr format="reference" name="pspdf__settingsModePickerItemStyle"/>
+        <attr format="reference" name="pspdf__settingsModeLineSeparatorStyle"/>
+        <attr format="reference" name="pspdf__popupToolbarStyle"/>
+
+        <!-- Style for sound annotation icons. -->
+        <attr format="reference" name="pspdf__soundAnnotationIconStyle"/>
+        <!-- Style for sound inspector. -->
+        <attr format="reference" name="pspdf__audioInspectorStyle"/>
+
+        <!-- This style is applied to the DocumentView. It allows modifying View attributes (like scrollbars). -->
+        <attr format="reference" name="pspdf__documentViewStyle"/>
+
+        <attr format="reference" name="pspdf__formSelectionStyle"/>
+        <attr format="reference" name="pspdf__formEditingBarStyle"/>
+
+        <!-- This theme attribute allows specifying a style that is applied to the main toolbar. This attribute uses the pspdf__MainToolbar styleable. -->
+        <attr format="reference" name="pspdf__mainToolbarStyle"/>
+        <!-- This theme attribute allows specifying a shared style for all contextual toolbars. This attribute uses the pspdf__ContextualToolbar styleable. -->
+        <attr format="reference" name="pspdf__contextualToolbarStyle"/>
+        <!-- Controls the appearance of the tab bar. -->
+        <attr format="reference" name="pspdf__tabBarStyle"/>
+        <!-- Controls the appearance of the eraser tool. -->
+        <attr format="reference" name="pspdf__eraserStyle"/>
+        <attr format="reference" name="pspdf__stepperViewStyle"/>
+        <attr format="reference" name="pspdf__breadCrumbsViewStyle"/>
+        <attr format="reference" name="pspdf_floatingActionbarStyle"/>
+        <attr format="reference" name="pspdf__cardViewStyle"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__ThumbnailBar">
+        <attr name="pspdf__backgroundColor"/>
+        <attr name="pspdf__thumbnailWidth"/>
+        <attr name="pspdf__thumbnailHeight"/>
+        <attr name="pspdf__thumbnailBorderColor"/>
+        <attr name="pspdf__usePageAspectRatio"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__ThumbnailGrid">
+        <attr name="pspdf__backgroundColor"/>
+        <attr format="reference" name="pspdf__itemLabelTextStyle"/>
+        <attr format="reference" name="pspdf__itemLabelBackground"/>
+        <attr format="color" name="pspdf__selectionCheckBackgroundColor"/>
+        <attr format="color" name="pspdf_fabIconColor"/>
+        <attr format="color" name="pspdf__itemRippleBackgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="pspdf__ToolbarCoordinatorLayout">
+        <attr name="pspdf__dragTargetColor"/>
+    </declare-styleable>
+</resources>

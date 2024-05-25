@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright © 2018-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pspdf__note_editor_option_delete_reply"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title="@string/pspdf__delete_comment" />
+
+    <item
+        android:id="@+id/pspdf__note_editor_option_share"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title="@string/pspdf__share" />
+
+    <item
+        android:id="@+id/pspdf__note_editor_option_set_reply_status"
+        android:orderInCategory="101"
+        android:visible="false"
+        android:title="@string/pspdf__set_reply_status" />
+
+</menu>

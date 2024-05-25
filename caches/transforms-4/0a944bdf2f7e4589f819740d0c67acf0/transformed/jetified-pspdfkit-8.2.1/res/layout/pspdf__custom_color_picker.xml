@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~   Copyright © 2019-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/pspdf__slider_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.pspdfkit.internal.ui.views.ValueSliderView
+                android:id="@+id/pspdf__custom_color_slider_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.pspdfkit.internal.ui.views.ValueSliderView
+                android:id="@+id/pspdf__custom_color_slider_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.pspdfkit.internal.ui.views.ValueSliderView
+                android:id="@+id/pspdf__custom_color_slider_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/pspdf__hex_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/pspdf__custom_color_picker_padding"
+            app:columnCount="3"
+            app:rowCount="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:text="@string/pspdf__color_picker_hex_color_value"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                app:layout_column="0"
+                app:layout_row="0" />
+
+            <!-- No need to translate the #. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:gravity="end"
+                android:text="#"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_row="0"
+                tools:ignore="HardcodedText" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/pspdf__hex_entry_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="8dp"
+                app:errorEnabled="true"
+                app:layout_column="2"
+                app:layout_row="0">
+
+                <com.pspdfkit.ui.editor.ScreenAdjustingTextInputEditText
+                    android:id="@+id/pspdf__hex_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789abcdefABCDEF"
+                    android:inputType="textCapCharacters|textNoSuggestions|textVisiblePassword"
+                    android:maxLength="6"
+                    android:minEms="4" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:id="@+id/pspdf__paste_hex_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pspdf__color_picker_paste_from_clipboard"
+                app:layout_columnSpan="3"
+                app:layout_gravity="end|top"
+                app:layout_row="1" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/pspdf__custom_color_picker_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/pspdf__custom_color_picker_hex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pspdf__color_picker_hex" />
+
+        <RadioButton
+            android:id="@+id/pspdf__custom_color_picker_hsl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pspdf__color_picker_hsl" />
+
+        <RadioButton
+            android:id="@+id/pspdf__custom_color_picker_rgb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pspdf__color_picker_rgb" />
+
+    </RadioGroup>
+
+</merge>

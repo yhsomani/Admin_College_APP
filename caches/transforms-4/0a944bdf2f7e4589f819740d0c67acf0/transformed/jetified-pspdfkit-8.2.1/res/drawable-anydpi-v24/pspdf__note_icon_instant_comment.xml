@@ -1,0 +1,27 @@
+<!--
+  ~   Copyright © 2021-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:pathData="M2.71,20.043C2.2356,20.1867 1.9381,20.6563 2.0108,21.1466C2.0835,21.6369 2.5043,22 3,22H5C8.6763,22 11.6648,20.3659 13.3387,18H15C19.3523,18 23,14.3523 23,10C23,5.5384 19.343,2 15,2H9C4.657,2 1,5.5384 1,10C1,13.2744 3.0365,16.1385 5.9331,17.3722C5.8561,17.7339 5.7055,18.0896 5.4454,18.4272C5.0195,18.9799 4.2225,19.5846 2.71,20.043Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="2"
+      android:fillColor="#FAD40C"
+      android:strokeColor="#000000"/>
+  <path
+      android:pathData="M8.5,10C8.5,10.8284 7.8284,11.5 7,11.5C6.1716,11.5 5.5,10.8284 5.5,10C5.5,9.1716 6.1716,8.5 7,8.5C7.8284,8.5 8.5,9.1716 8.5,10ZM13.5,10C13.5,10.8284 12.8284,11.5 12,11.5C11.1716,11.5 10.5,10.8284 10.5,10C10.5,9.1716 11.1716,8.5 12,8.5C12.8284,8.5 13.5,9.1716 13.5,10ZM18.5,10C18.5,10.8284 17.8284,11.5 17,11.5C16.1716,11.5 15.5,10.8284 15.5,10C15.5,9.1716 16.1716,8.5 17,8.5C17.8284,8.5 18.5,9.1716 18.5,10Z"
+      android:strokeAlpha="0.5"
+      android:fillColor="#000000"
+      android:fillType="evenOdd"
+      android:fillAlpha="0.5"/>
+</vector>

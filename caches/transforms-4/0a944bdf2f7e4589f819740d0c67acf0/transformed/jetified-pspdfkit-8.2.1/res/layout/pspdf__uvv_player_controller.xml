@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ pspdf__uvv_player_controller.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2017-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:id="@+id/pspdf__loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include layout="@layout/pspdf__uvv_on_loading_layout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pspdf__error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include layout="@layout/pspdf__uvv_on_error_layout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pspdf__title_part"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#7F000000"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/pspdf__back_btn"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/pspdf__ic_arrow_back"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/pspdf__title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="50dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/pspdf__center_play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/pspdf__uvv_itv_player_play"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/pspdf__control_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#7F000000"
+        android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/pspdf__turn_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="3dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pspdf__uvv_player_player_btn" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/pspdf__scale_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="3dp"
+            android:background="#00000000"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pspdf__uvv_player_scale_btn"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_toStartOf="@id/pspdf__scale_button"
+            android:layout_toEndOf="@id/pspdf__turn_button"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pspdf__has_played"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                tools:text="00:00"
+                android:textColor="#FFF0F0F0" />
+
+            <SeekBar
+                android:id="@+id/pspdf__seekbar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:indeterminateDrawable="@drawable/pspdf__uvv_star_play_progress_seek"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:progressDrawable="@drawable/pspdf__uvv_star_play_progress_seek"
+                android:thumbOffset="10dip"
+                android:thumbTint="?colorPrimary"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/pspdf__duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="10dp"
+                tools:text="00:00"
+                android:textColor="#FFF0F0F0" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

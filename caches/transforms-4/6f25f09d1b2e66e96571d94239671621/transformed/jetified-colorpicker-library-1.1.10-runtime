@@ -1,0 +1,14 @@
+petrov.kristiyan.colorpicker.BuildConfig
+petrov.kristiyan.colorpicker.ColorPal
+petrov.kristiyan.colorpicker.ColorPicker
+petrov.kristiyan.colorpicker.ColorPicker$1
+petrov.kristiyan.colorpicker.ColorPicker$2
+petrov.kristiyan.colorpicker.ColorPicker$3
+petrov.kristiyan.colorpicker.ColorPicker$4
+petrov.kristiyan.colorpicker.ColorPicker$OnButtonListener
+petrov.kristiyan.colorpicker.ColorPicker$OnChooseColorListener
+petrov.kristiyan.colorpicker.ColorPicker$OnFastChooseColorListener
+petrov.kristiyan.colorpicker.ColorUtils
+petrov.kristiyan.colorpicker.ColorViewAdapter
+petrov.kristiyan.colorpicker.ColorViewAdapter$ViewHolder
+petrov.kristiyan.colorpicker.CustomDialog

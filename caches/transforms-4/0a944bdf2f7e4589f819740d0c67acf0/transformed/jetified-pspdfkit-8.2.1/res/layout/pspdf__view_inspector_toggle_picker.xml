@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~   Copyright © 2018-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/pspdf__inspector_padding"
+    android:paddingTop="@dimen/pspdf__inspector_vertical_padding"
+    android:paddingEnd="@dimen/pspdf__inspector_padding"
+    android:paddingBottom="@dimen/pspdf__inspector_vertical_padding">
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:id="@+id/pspdf__label"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:minWidth="100dp"
+        android:singleLine="true"
+        android:textSize="@dimen/pspdf__inspector_text_size"
+        tools:text="Toggle" />
+
+    <com.pspdfkit.ui.LocalizedTextView
+        android:id="@+id/pspdf__value"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|end"
+        android:maxLines="1"
+        android:paddingStart="@dimen/pspdf__inspector_padding"
+        android:paddingEnd="@dimen/pspdf__inspector_padding"
+        android:singleLine="true"
+        android:textSize="@dimen/pspdf__inspector_text_size"
+        tools:text="Off" />
+
+    <CheckBox
+        android:id="@+id/pspdf__toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

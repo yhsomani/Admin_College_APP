@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ pspdf__view_options_picker_item.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2016-2022 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  -->
+<ImageButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="42dp"
+    android:layout_height="42dp"
+    android:layout_weight="0"
+    android:background="?selectableItemBackgroundBorderless"
+    android:contentDescription="@null"
+    android:scaleType="centerInside"
+    tools:src="@drawable/pspdf__ic_add"/>

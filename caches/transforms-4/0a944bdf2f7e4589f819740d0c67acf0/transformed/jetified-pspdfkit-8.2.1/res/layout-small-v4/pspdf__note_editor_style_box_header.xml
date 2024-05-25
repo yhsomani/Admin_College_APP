@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pspdf__note_item_style_box_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/pspdf__note_editor_style_box_card_layout">
+
+    <LinearLayout
+        android:id="@+id/pspsdf__style_header_container"
+        android:layout_marginStart="58dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true">
+
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__note_item_style_box_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/pspdf__note_editor_style"
+            android:textColor="@color/pspdf__note_editor_style_box_title_text_color"
+            android:textSize="18sp"
+            tools:textColor="#5F5221"/>
+
+        <com.pspdfkit.ui.LocalizedTextView
+            android:id="@+id/pspdf__note_item_style_box_current_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Right Arrow, Yellow"
+            tools:textColor="rgba(0, 0, 0, 0.5438)"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/pspdf__note_item_style_box_preview_image"
+        android:layout_width="48dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/pspsdf__style_header_container"
+        android:layout_marginEnd="14dp"
+        android:padding="12dp"
+        tools:background="#F9D757"
+        tools:src="@drawable/pspdf__note_icon_right_arrow"
+        tools:tint="#5F5221"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/pspdf__note_item_style_box_chevron"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="4dp"
+        android:src="@drawable/pspdf__ic_chevron_up"
+        android:contentDescription="@string/pspdf__note_editor_style"
+        app:tint="@color/pspdf__note_editor_style_box_chevron_tint" />
+
+
+</RelativeLayout>
