@@ -1,14 +1,13 @@
 {
   "project_info": {
-    "project_number": "12782664071",
-    "firebase_url": "https://study-26dc1-default-rtdb.firebaseio.com",
-    "project_id": "study-26dc1",
-    "storage_bucket": "study-26dc1.appspot.com"
+    "project_number": "991287748870",
+    "project_id": "study-6d739",
+    "storage_bucket": "study-6d739.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:12782664071:android:89e9c14722d9d495e5bb22",
+        "mobilesdk_app_id": "1:991287748870:android:06f21a825c3aa4549e1687",
         "android_client_info": {
           "package_name": "com.example.admincollegeapp"
         }
@@ -16,26 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCzSRpUKyu4ooR31y4DWvtKp6Y-eeVXAqQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:12782664071:android:4661536da77789fce5bb22",
-        "android_client_info": {
-          "package_name": "com.example.study"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCzSRpUKyu4ooR31y4DWvtKp6Y-eeVXAqQ"
+          "current_key": "AIzaSyDbAaZqp9ja9zm56yYKs6CzNWd8C56u4s8"
         }
       ],
       "services": {
