@@ -55,8 +55,6 @@ public class UploadPdfActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upload_pdf);
 
-        PSPDFKit.initialize(this, "YOUR_LICENSE_KEY_GOES_HERE");
-
         databaseReference = FirebaseDatabase.getInstance().getReference();
         storageReference = FirebaseStorage.getInstance().getReference();
 
