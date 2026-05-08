@@ -55,13 +55,6 @@ public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherV
             holder.imageView.setImageResource(R.drawable.man_user_icon); // Set a default image
         }
 
-        // Click listener for delete button
-        holder.deleteData.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                displayConfirmationDialog(item);
-            }
-        });
     }
 
     @Override
@@ -69,7 +62,7 @@ public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherV
         return list.size();
     }
 
-    public static class TeacherViewHolder extends RecyclerView.ViewHolder {
+    public class TeacherViewHolder extends RecyclerView.ViewHolder {
         TextView nameTextView, emailTextView, postTextView;
         Button deleteData;
         ImageView imageView;
@@ -82,6 +75,16 @@ public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherV
             postTextView = itemView.findViewById(R.id.teacherPost);
             deleteData = itemView.findViewById(R.id.deleteData);
             imageView = itemView.findViewById(R.id.teacherProfileImage);
+
+            deleteData.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int position = getAdapterPosition();
+                    if (position != RecyclerView.NO_POSITION) {
+                        displayConfirmationDialog(list.get(position));
+                    }
+                }
+            });
         }
     }
 
