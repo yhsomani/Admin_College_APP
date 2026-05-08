@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "943305791541",
-    "project_id": "study-b078a",
-    "storage_bucket": "study-b078a.appspot.com"
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "YOUR_PROJECT_ID",
+    "storage_bucket": "YOUR_STORAGE_BUCKET"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:943305791541:android:921726e0d70412f674797c",
+        "mobilesdk_app_id": "YOUR_MOBILESDK_APP_ID_1",
         "android_client_info": {
           "package_name": "com.example.admincollegeapp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCY8WGLSVBxQMD8zqR_PtvRxAuu_M7eLGQ"
+          "current_key": "YOUR_API_KEY"
         }
       ],
       "services": {
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:943305791541:android:7fa52b76defe068474797c",
+        "mobilesdk_app_id": "YOUR_MOBILESDK_APP_ID_2",
         "android_client_info": {
           "package_name": "com.example.study"
         }
@@ -34,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCY8WGLSVBxQMD8zqR_PtvRxAuu_M7eLGQ"
+          "current_key": "YOUR_API_KEY"
         }
       ],
       "services": {
