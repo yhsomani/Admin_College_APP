@@ -1,0 +1,4 @@
+# This file is a template for local.properties.
+# Copy this file to local.properties and fill in your actual license key.
+# Do NOT check your local.properties file into version control.
+pspdfkit.license.key=YOUR_ACTUAL_LICENSE_KEY_HERE
