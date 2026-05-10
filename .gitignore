@@ -1,1 +1,9 @@
+app/google-services.json
+.idea/
+.tmp/
+daemon/
+wrapper/
+build/
+*.iml
 .gradle/
+local.properties

@@ -26,12 +26,14 @@ import java.util.List;
 public class FacultyActivity extends AppCompatActivity {
     FloatingActionButton floatingActionButton;
     DatabaseReference databaseReference;
+    private LinearLayout parentLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faculty);
 
+        parentLayout = findViewById(R.id.parentLayout);
         floatingActionButton = findViewById(R.id.floatingActionButton);
         databaseReference = FirebaseDatabase.getInstance().getReference().child("teacher");
 
@@ -49,7 +51,6 @@ public class FacultyActivity extends AppCompatActivity {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                LinearLayout parentLayout = findViewById(R.id.parentLayout);
                 parentLayout.removeAllViews(); // Clear previous views
 
                 for (DataSnapshot departmentSnapshot : dataSnapshot.getChildren()) {
