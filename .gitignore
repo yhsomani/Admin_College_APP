@@ -1,19 +1,9 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration
-local.properties
-
-# Android Studio files
+app/google-services.json
 .idea/
+.tmp/
+daemon/
+wrapper/
+build/
 *.iml
-captures/
-externalNativeBuild/
-
-# Built artifacts
-*.apk
-*.aar
-
-# System files
-.DS_Store
+.gradle/
+local.properties
